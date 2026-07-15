@@ -56,9 +56,9 @@ body {
 .hero-header {
     width: 100%;
     height: 80px;
-    padding: 0 40px;
+    padding: 32px 40px 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     position: relative;
     z-index: 10;
@@ -66,13 +66,14 @@ body {
 
 
 /* Language + Contact */
-.language-selector,
-.contact-button {
+.language-selector {
     height: 40px;
     padding: 0 16px;
+    padding-right: 190px;
     border-radius: 8px;
     background: #00500D;
     color: #F6FEFF;
+    border: 1px solid #568360;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -159,8 +160,16 @@ body {
 
 /* Contact Button */
 .contact-button {
-    border: none;
+    height: 40px;
+    padding: 0 16px;
+    border-radius: 8px;
+    background: #00500D;
+    color: #F6FEFF;
+    border: 1px solid #568360;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .contact-button img {
