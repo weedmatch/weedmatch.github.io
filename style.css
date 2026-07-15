@@ -79,9 +79,24 @@ body {
 }
 
 
-.brand img {
-    width: 160px;
+.brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.brand-logo img {
+    width: 45px;
     height: auto;
+}
+
+
+.brand-logo span {
+    font-family: 'Italianno', cursive;
+    color: #F6FEFF;
+    font-size: 50px;
 }
 
 
