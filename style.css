@@ -15,15 +15,10 @@ body {
     position: fixed;
     top: 0;
     left: 50%;
-    width: auto;
     height: 100vh;
-    min-height: 100vh;
+    width: auto;
     transform: translateX(-50%);
-    background: none;
-    background-image: url("assets/images/weed-bg.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    object-fit: contain;
     z-index: -2;
 }
 
