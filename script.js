@@ -7,19 +7,33 @@ let autoPlay;
 
 function showSlide(index) {
 
-    slides.forEach(slide => {
+    const direction = index > currentSlide ? 1 : -1;
+
+    slides.forEach((slide, i) => {
+
         slide.classList.remove("active");
+
+        if (i === index) {
+            slide.style.transform = direction === 1 
+                ? "translateX(100%)" 
+                : "translateX(-100%)";
+
+            setTimeout(() => {
+                slide.classList.add("active");
+            }, 50);
+        }
+
     });
+
 
     dots.forEach(dot => {
         dot.classList.remove("active");
     });
 
-
-    slides[index].classList.add("active");
     dots[index].classList.add("active");
 
     currentSlide = index;
+
 }
 
 
