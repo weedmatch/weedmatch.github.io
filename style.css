@@ -444,3 +444,56 @@ body {
 .language-wrapper.open .language-chevron {
     transform: rotate(180deg);
 }
+
+
+/* Responsive Tablet */
+
+@media (max-width: 900px) {
+
+    .hero-header {
+        left: 20px;
+        right: 20px;
+    }
+
+
+    .brand-logo span {
+        font-size: 40px;
+    }
+
+
+    .brand-logo img {
+        width: 60px;
+    }
+
+
+    .brand p {
+        font-size: 20px;
+    }
+
+
+    .weed-carousel {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+
+    .carousel-image img {
+        width: 150px;
+    }
+
+
+    .carousel-content {
+        width: 350px;
+    }
+
+
+    .carousel-content h1 {
+        font-size: 20px;
+    }
+
+
+    .carousel-content p {
+        font-size: 14px;
+    }
+
+}
