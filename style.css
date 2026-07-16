@@ -251,7 +251,8 @@ body {
     padding: 10px 14px;
     border-radius: 8px;
 
-    background: rgba(246, 254, 255, 0.25);
+    background: rgba(246, 254, 255, 0.6);
+    z-index: 20;
 }
 
 
