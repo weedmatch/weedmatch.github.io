@@ -74,3 +74,34 @@ dots.forEach((dot, index) => {
 
 showSlide(0);
 startCarousel();
+
+const languageWrapper = document.querySelector(".language-wrapper");
+const languageSelector = document.querySelector(".language-selector");
+const selectedLanguage = document.querySelector(".selected-language");
+const languageOption = document.querySelector(".language-option");
+
+
+languageSelector.addEventListener("click", () => {
+
+    languageWrapper.classList.toggle("open");
+
+});
+
+
+languageOption.addEventListener("click", () => {
+
+    if(selectedLanguage.textContent === "English") {
+
+        selectedLanguage.textContent = "Deutsch";
+        languageOption.textContent = "English";
+
+    } else {
+
+        selectedLanguage.textContent = "English";
+        languageOption.textContent = "Deutsch";
+
+    }
+
+    languageWrapper.classList.remove("open");
+
+});
