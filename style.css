@@ -239,7 +239,7 @@ body {
 
 .carousel-controls {
     position: absolute;
-    top: calc(50% + 150px);
+    top: calc(50% + 50px);
     left: 50%;
     transform: translateX(-50%);
 
@@ -250,6 +250,8 @@ body {
 
     padding: 10px 14px;
     border-radius: 8px;
+
+    background: rgba(246, 254, 255, 0.25);
 }
 
 
@@ -260,7 +262,6 @@ body {
     background: #F6FEFF;
     opacity: 0.5;
     cursor: pointer;
-    transition: opacity 0.3s ease;
 }
 
 
