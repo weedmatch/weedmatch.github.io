@@ -201,14 +201,19 @@ body {
 
 /* Hover Effects */
 
+.language-selector {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 .language-selector:hover,
 .contact-button:hover {
-    transform: scale(1.08);
+    transform: scale(1.0);
 }
 
 
 .icon-frame:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 
