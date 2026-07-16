@@ -148,6 +148,18 @@ body {
     margin-top: 16px;
 }
 
+.brand-name {
+    transform: translateY(6px);
+}
+
+.brand-name span {
+    font-family: 'Italianno', cursive;
+    color: #F6FEFF;
+    font-size: 50px;
+    margin-left: -8px;
+}
+
+
 /* Right Actions */
 .header-actions {
     display: flex;
