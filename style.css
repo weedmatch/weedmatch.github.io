@@ -308,7 +308,7 @@ body {
 
 .language-selector:hover,
 .contact-button:hover {
-    transform: scale(1.06);
+    transform: scale(1.04);
 }
 
 
@@ -319,5 +319,5 @@ body {
 }
 
 .icon-frame:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
 }
