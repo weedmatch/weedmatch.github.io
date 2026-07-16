@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+/* Main Content Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
 html,
 body {
     width: 100%;
