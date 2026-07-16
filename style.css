@@ -201,19 +201,33 @@ body {
 
 /* Hover Effects */
 
+/* Language */
 .language-selector {
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.3s ease;
+}
+
+.language-wrapper:hover .language-selector {
+    transform: scale(1.04);
 }
 
 
-.language-selector:hover,
+/* Contact */
+.contact-button {
+    transition: transform 0.3s ease;
+}
+
 .contact-button:hover {
-    transform: scale(1.0);
+    transform: scale(1.04);
 }
 
+
+/* Social Icons */
+.icon-frame {
+    transition: transform 0.3s ease;
+}
 
 .icon-frame:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 
