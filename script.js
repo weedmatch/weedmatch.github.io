@@ -7,35 +7,43 @@ let autoPlay;
 
 function showSlide(index) {
 
+    if (index === currentSlide) return;
+
+
+    const current = slides[currentSlide];
+    const next = slides[index];
+
+
     const direction = index > currentSlide ? 1 : -1;
 
 
-    slides.forEach((slide, i) => {
-
-        slide.classList.remove("active");
-
-        if (i === index) {
-
-            slide.style.transform = direction === 1 
-                ? "translateX(100%)" 
-                : "translateX(-100%)";
+    // Move current slide out
+    current.classList.remove("active");
+    current.style.transform = direction === 1
+        ? "translateX(-100%)"
+        : "translateX(100%)";
 
 
-            setTimeout(() => {
-                slide.classList.add("active");
-            }, 20);
+    // Position next slide
+    next.style.transform = direction === 1
+        ? "translateX(100%)"
+        : "translateX(-100%)";
 
-        }
 
-    });
+    setTimeout(() => {
+
+        next.classList.add("active");
+
+    }, 20);
+
 
 
     dots.forEach(dot => {
         dot.classList.remove("active");
     });
 
-
     dots[index].classList.add("active");
+
 
     currentSlide = index;
 
@@ -79,5 +87,7 @@ dots.forEach((dot, index) => {
 });
 
 
-showSlide(0);
+slides[0].classList.add("active");
+dots[0].classList.add("active");
+
 startCarousel();
