@@ -122,12 +122,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0;
+    gap: -8px;
 }
 
 
 .brand-logo img {
-    width: 80px;
+    margin-right: -8px;
+    transform: translateY(6px);
 }
 
 
@@ -142,6 +143,7 @@ body {
     font-family: 'Sancreek', cursive;
     color: #F6FEFF;
     font-size: 25px;
+    margin-top: 12px;
 }
 
 
