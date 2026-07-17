@@ -295,7 +295,7 @@ body {
 /* Carousel Images */
 
 .carousel-image img {
-    width: 220px;
+    width: clamp(120px, 15vw, 200px);
     height: auto;
     object-fit: contain;
 }
