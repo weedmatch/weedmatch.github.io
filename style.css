@@ -204,20 +204,19 @@ body {
 .contact-button {
     height: 40px;
     padding: 0 16px;
-
     border-radius: 8px;
     background: #00500D;
     color: #F6FEFF;
-
     border: 1px solid #568360;
-
     cursor: pointer;
 
     display: flex;
     align-items: center;
     gap: 10px;
 
-    transition: transform 0.3s ease;
+    width: max-content;
+    flex-shrink: 0;
+    white-space: nowrap;
 }
 
 
@@ -305,9 +304,24 @@ body {
 /* Carousel Images */
 
 .carousel-image img {
-    width: clamp(120px, 18vw, 220px);
+    width: clamp(90px, 15vw, 220px);
     height: auto;
     object-fit: contain;
+}
+
+
+.carousel-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.carousel-content {
+    width: 500px;
+    max-width: 40%;
+    padding: 0 20px;
+    text-align: left;
 }
 
 
