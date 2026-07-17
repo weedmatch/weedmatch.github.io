@@ -555,7 +555,7 @@ body {
 
 /* Contact Dropdown Responsive */
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
     .social-icons,
     .header-actions > .contact-button {
