@@ -572,27 +572,32 @@ body {
 @media (max-width: 500px) {
 
     .hero-header {
-        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
+    .brand {
+        position: absolute;
+        top: 32px;
+        bottom: auto;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
 
     .language-wrapper {
         position: absolute;
-        top: 140px;
+        top: 150px;
         left: 40px;
     }
 
 
-    .contact-wrapper {
+    .header-actions {
         position: absolute;
-        top: 140px;
+        top: 150px;
         right: 40px;
-    }
-
-
-    .brand {
-        top: 32px;
-        bottom: auto;
     }
 
 }
