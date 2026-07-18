@@ -763,12 +763,14 @@ body {
     margin-top: 30px;
 }
 
-
 .swipe-decoration img {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: auto;
 }
 
+.swipe-decoration .ios-icon {
+    width: 64px;
+}
 
 
 /* Right Video */
@@ -814,7 +816,7 @@ body {
     position: relative;
     width: 90%;
     height: auto;
-    transform: scaleY(0.8);
+    transform: scaleY(1);
     transform-origin: center;
     z-index: 2;
 }
