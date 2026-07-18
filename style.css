@@ -14,16 +14,17 @@
     padding: 0 40px;
 }
 
-
 html {
-    width: 100%;
-    overflow-x: hidden;
     background: #00500D;
 }
 
+html,
 body {
     width: 100%;
     overflow-x: hidden;
+}
+
+body {
     font-family: 'Inder';
     background: #F6FEFF;
 }
