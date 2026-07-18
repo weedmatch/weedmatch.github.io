@@ -621,6 +621,7 @@ body {
     gap: 10px;
     left: 26px;
     right: 26px;
+    justify-content: center;
 }
 
     
