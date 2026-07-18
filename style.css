@@ -66,7 +66,7 @@ body {
 /* Header */
 .hero-header {
     position: absolute;
-    top: 32px;
+    top: 24px;
     left: 50%;
 
     transform: translateX(-50%);
@@ -579,7 +579,10 @@ body {
         order: 1;
         margin-top: 0;
     }
-
+    
+.hero-header {
+        top: 16px;
+    }
 
     .header-buttons {
     order: 2;
@@ -611,7 +614,7 @@ body {
 }
 
     .brand-name span {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .brand p {
