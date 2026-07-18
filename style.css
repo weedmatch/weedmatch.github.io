@@ -698,6 +698,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0;
 }
 
 
@@ -720,14 +721,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     max-width: 420px;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
 }
 
 
 .ios-icon {
     width: 64px;
     height: auto;
-    margin: 20px 0;
     filter: drop-shadow(0 0 0 #F6FEFF);
 }
 
@@ -760,8 +760,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 48px;
-
-    margin-top: 8px;
 }
 
 .swipe-decoration img {
