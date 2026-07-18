@@ -607,6 +607,14 @@ body {
     width: 50px;
 }
     
+   .weed-carousel {
+    width: 100%;
+    padding: 0 20px;
+}
+    .carousel-content {
+    width: 100%;
+}
+    
 .language-wrapper,
 .header-actions {
     display: flex;
