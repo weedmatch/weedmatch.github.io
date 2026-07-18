@@ -578,10 +578,11 @@ body {
 @media (max-width: 900px) {
 
     .hero-header {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 0;
+}
 
 
     .brand {
@@ -602,11 +603,11 @@ body {
     width: 100%;
     padding: 0 40px;
 
-    margin-top: 32px;
+    margin-top: 10px;
 }
 
 
-    .language-wrapper,
+.language-wrapper,
 .header-actions {
     display: flex;
     align-items: center;
