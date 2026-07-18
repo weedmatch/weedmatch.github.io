@@ -120,3 +120,20 @@ if (contactToggle) {
     });
 
 }
+
+document.addEventListener("click", function(event) {
+
+    const language = document.querySelector(".language-wrapper");
+    const contact = document.querySelector(".contact-wrapper");
+
+
+    if (!event.target.closest(".language-wrapper")) {
+        language.classList.remove("open");
+    }
+
+
+    if (!event.target.closest(".contact-wrapper")) {
+        contact.classList.remove("open");
+    }
+
+});
