@@ -402,19 +402,13 @@ body {
 
     top: 100%;
     left: 0;
-
-    width: 100%;
-
+    width: max-content;
+    min-width: 100%;
     background: #00500D;
-
     border: 1px solid #568360;
-
     border-radius: 8px;
-
     margin-top: 8px;
-
     overflow: hidden;
-
     max-height: 0;
     opacity: 0;
 
@@ -613,8 +607,9 @@ body {
 
 
     .language-wrapper,
-    .header-actions {
-        position: static;
-    }
+.header-actions {
+    display: flex;
+    align-items: center;
+}
 
 }
