@@ -710,7 +710,7 @@ body {
 
 .swipe-title {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 
 
@@ -724,8 +724,8 @@ body {
 }
 
 
-.weed-icon {
-    width: 40px;
+.ios-icon {
+    width: 64px;
     height: auto;
     margin: 20px 0;
 }
@@ -735,14 +735,21 @@ body {
     display: flex;
     gap: 12px;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 
 .store-buttons img {
     height: 45px;
     width: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
+
+.store-buttons img:hover {
+    transform: scale(1.05);
+}
 
 
 /* Decoration */
