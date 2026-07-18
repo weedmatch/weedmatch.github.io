@@ -467,15 +467,11 @@ body {
 
 .contact-toggle {
     display: none;
-
     height: 40px;
     padding: 0 16px;
-
     border-radius: 8px;
-
     background: #00500D;
     color: #F6FEFF;
-
     border: 1px solid #F6FEFF;
 
     align-items: center;
@@ -483,9 +479,7 @@ body {
 
     font-family: 'Inder', sans-serif;
     font-size: 14px;
-
     cursor: pointer;
-
     width: max-content;
     flex-shrink: 0;
 
@@ -607,7 +601,7 @@ body {
 }
 
     .brand-logo img {
-    width: 42px;
+    width: 50px;
 }
     
 .language-wrapper,
