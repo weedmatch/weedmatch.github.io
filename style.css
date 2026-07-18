@@ -320,7 +320,7 @@ body {
 .carousel-content {
     width: 550px;
     max-width: 100%;
-    padding: 0 10px;
+    padding: 0 16px;
     text-align: left;
     flex-shrink: 1;
 }
@@ -609,10 +609,11 @@ body {
     
    .weed-carousel {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 26px;
 }
     .carousel-content {
     width: 100%;
+    padding: 0 4;
 }
     
 .language-wrapper,
