@@ -573,7 +573,17 @@ body {
 @media (max-width: 500px) {
 
     .hero-header {
-        padding-top: 180px;
+        align-items: center;
+    }
+
+
+    .language-wrapper {
+        transform: translateY(120px);
+    }
+
+
+    .header-actions {
+        transform: translateY(120px);
     }
 
 }
