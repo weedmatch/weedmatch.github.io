@@ -15,14 +15,15 @@
 }
 
 
-html,
+html {
+    width: 100%;
+    overflow-x: hidden;
+    background: #00500D;
+}
+
 body {
     width: 100%;
     overflow-x: hidden;
-}
-
-
-body {
     font-family: 'Inder';
     background: #F6FEFF;
 }
