@@ -577,19 +577,44 @@ body {
 
 @media (max-width: 900px) {
 
-    .language-wrapper {
-        position: absolute;
-        top: 116px;
-        left: 50%;
-        transform: translateX(-150%);
+    .hero-header {
+        display: grid;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+
+        justify-items: center;
+        align-items: start;
+
+        row-gap: 40px;
+
+        height: auto;
     }
 
+    .language-wrapper,
+    .header-actions,
+    .brand {
+        position: static;
+        transform: none;
+    }
 
+    .brand {
+        grid-row: 1;
+    }
+
+    .language-wrapper,
     .header-actions {
-        position: absolute;
-        top: 116px;
-        left: 50%;
-        transform: translateX(50%);
+        grid-row: 2;
+    }
+
+    .hero-header {
+        grid-template-columns: auto auto;
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+    .brand {
+        grid-column: 1 / 3;
     }
 
 }
