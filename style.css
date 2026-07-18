@@ -575,46 +575,47 @@ body {
 }
 
 
+/* Header Buttons Wrapper */
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
 @media (max-width: 900px) {
 
     .hero-header {
-        display: grid;
-
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-
-        justify-items: center;
-        align-items: start;
-
-        row-gap: 40px;
-
+        flex-direction: column;
+        align-items: center;
         height: auto;
     }
 
-    .language-wrapper,
-    .header-actions,
+
     .brand {
         position: static;
         transform: none;
+        order: 1;
+        margin-top: 0;
     }
 
-    .brand {
-        grid-row: 1;
+
+    .header-buttons {
+        order: 2;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 20px;
+
+        margin-top: 40px;
     }
+
 
     .language-wrapper,
     .header-actions {
-        grid-row: 2;
-    }
-
-    .hero-header {
-        grid-template-columns: auto auto;
-        justify-content: center;
-        column-gap: 20px;
-    }
-
-    .brand {
-        grid-column: 1 / 3;
+        position: static;
     }
 
 }
