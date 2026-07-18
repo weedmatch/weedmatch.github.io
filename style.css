@@ -619,6 +619,8 @@ body {
 }
     .carousel-slide {
     gap: 10px;
+    left: 26px;
+    right: 26px;
 }
 
     
