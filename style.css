@@ -578,9 +578,7 @@ body {
 /* Header Buttons Wrapper */
 
 .header-buttons {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+    display: contents;
 }
 
 @media (max-width: 900px) {
