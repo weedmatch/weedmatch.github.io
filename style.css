@@ -295,7 +295,7 @@ body {
 /* Carousel Images */
 
 .carousel-image img {
-    width: clamp(120px, 15vw, 200px);
+    width: clamp(100px, 14vw, 180px);
     height: auto;
     object-fit: contain;
 }
@@ -618,9 +618,7 @@ body {
     .carousel-slide {
     gap: 10px;
 }
-    .carousel-image img {
-    width: 80px;
-}
+
     
 .language-wrapper,
 .header-actions {
