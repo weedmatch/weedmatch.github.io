@@ -577,17 +577,11 @@ body {
 
 @media (max-width: 900px) {
 
-    .hero-header {
-        flex-direction: column;
-        align-items: center;
-    }
-
-
     .language-wrapper {
         position: absolute;
         top: 180px;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-110%);
     }
 
 
@@ -595,7 +589,7 @@ body {
         position: absolute;
         top: 180px;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(10%);
     }
 
 }
