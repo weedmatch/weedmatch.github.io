@@ -581,7 +581,7 @@ body {
         position: absolute;
         top: 180px;
         left: 50%;
-        transform: translateX(-110%);
+        transform: translateX(-90%);
     }
 
 
@@ -589,7 +589,7 @@ body {
         position: absolute;
         top: 180px;
         left: 50%;
-        transform: translateX(10%);
+        transform: translateX(5%);
     }
 
 }
