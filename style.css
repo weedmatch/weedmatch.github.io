@@ -986,7 +986,7 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: clamp(16px, 2.5vw, 42px);
+    border-radius: clamp(14px, 2vw, 24px);
 }
 
 
