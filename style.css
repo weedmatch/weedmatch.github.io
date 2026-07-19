@@ -866,12 +866,12 @@ body {
 
 
     .phone-mockup {
-        width: 150px;
+        width: 320px;
     }
 
 
     .video-title-image {
-        width: 220px;
+        width: 320px;
     }
 
 
@@ -883,13 +883,13 @@ body {
 
 
     .swipe-image img {
-        max-width: 240px;
+        max-width: 320px;
     }
 
 
     .swipe-description {
         max-width: 90%;
-        font-size: 15px;
+        font-size: 16px;
     }
 
 }
