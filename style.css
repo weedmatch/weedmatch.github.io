@@ -792,3 +792,25 @@ body {
     border-radius: 32px;
 }
 
+
+@media (max-width: 1100px) {
+
+    .swipe-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 60px;
+    }
+
+    .swipe-video-container {
+        order: 1;
+    }
+
+    .swipe-content {
+        order: 2;
+    }
+
+    .swipe-image {
+        order: 3;
+    }
+
+}
