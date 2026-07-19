@@ -824,7 +824,7 @@ body {
 
 
     .phone-mockup {
-        width: clamp(200px, 18vw, 250px);
+        width: clamp(200px, 18vw, 240px);
     }
 
 
@@ -910,7 +910,7 @@ body {
 
 
     .phone-mockup {
-        width: 250px;
+        width: 220px;
     }
 
 
