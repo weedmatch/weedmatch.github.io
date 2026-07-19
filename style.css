@@ -779,8 +779,9 @@ body {
     position: relative;
     width: clamp(180px, 18vw, 240px);
     border: 6px solid #000000;
-    bborder-radius: clamp(28px, 4vw, 48px);
+    border-radius: clamp(20px, 3vw, 36px);
     overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
 }
 
 
