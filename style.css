@@ -944,6 +944,11 @@ body {
 
 
 .unique-features-container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 40px;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
@@ -968,7 +973,7 @@ body {
 .video-mockup {
     width: clamp(180px, 18vw, 240px);
     border: 6px solid #000000;
-    border-radius: clamp(20px, 3vw, 38px);
+    border-radius: clamp(20px, 3vw, 36px);
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.35);
 }
