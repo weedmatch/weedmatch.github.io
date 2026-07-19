@@ -857,6 +857,24 @@ body {
         width: 100%;
     }
 
+    .store-buttons img {
+    height: 50px;
+}
+
+
+.swipe-decoration {
+    gap: 40px;
+}
+
+
+.swipe-decoration img {
+    width: 44px;
+}
+
+
+.swipe-decoration .ios-icon {
+    width: 70px;
+}
 
     /* 3. Video second */
     .swipe-video-container {
