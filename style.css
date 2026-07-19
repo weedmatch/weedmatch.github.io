@@ -793,43 +793,46 @@ body {
 }
 
 
+
+
 @media (max-width: 1100px) {
 
     .swipe-container {
         grid-template-columns: 1fr;
         gap: 50px;
-        justify-items: center;
+        padding: 60px 40px;
     }
 
     .swipe-video-container {
         order: 1;
-        width: 100%;
     }
-
-    .phone-mockup {
-        width: 220px;
-    }
-
-    .video-title {
-        font-size: 20px;
-    }
-
 
     .swipe-content {
         order: 2;
         width: 100%;
     }
 
+    .swipe-image {
+        order: 3;
+    }
+
+
+    .phone-mockup {
+        width: 220px;
+    }
+
+
+    .video-title {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+
     .swipe-description {
         max-width: 450px;
         margin-bottom: 60px;
     }
 
-
-    .swipe-image {
-        order: 3;
-        width: 100%;
-    }
 
     .swipe-image img {
         max-width: 320px;
