@@ -840,3 +840,56 @@ body {
     }
 
 }
+
+
+@media (max-width: 700px) {
+
+    .swipe-container {
+        grid-template-columns: 1fr;
+        gap: 64px;
+        padding: 40px 20px;
+    }
+
+
+    /* 2. Middle Content first */
+    .swipe-content {
+        order: 1;
+        width: 100%;
+    }
+
+
+    /* 3. Video second */
+    .swipe-video-container {
+        order: 2;
+        width: 100%;
+    }
+
+
+    .phone-mockup {
+        width: 150px;
+    }
+
+
+    .video-title-image {
+        width: 220px;
+    }
+
+
+    /* 1. Image last */
+    .swipe-image {
+        order: 3;
+        width: 100%;
+    }
+
+
+    .swipe-image img {
+        max-width: 240px;
+    }
+
+
+    .swipe-description {
+        max-width: 90%;
+        font-size: 15px;
+    }
+
+}
