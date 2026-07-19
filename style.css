@@ -797,28 +797,35 @@ body {
 @media (max-width: 1100px) {
 
     .swipe-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 40px;
         padding: 50px 30px;
     }
 
 
-    /* 3. Video first */
     .swipe-video-container {
         order: 1;
         width: 100%;
     }
 
-    .phone-mockup {
-        width: clamp(150px, 18vw, 200px);
-    }
 
-
-    /* 2. Middle content */
     .swipe-content {
         order: 2;
         width: 100%;
     }
+
+
+    .swipe-image {
+        order: 3;
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+
+
+    .phone-mockup {
+        width: clamp(150px, 18vw, 200px);
+    }
+
 
     .swipe-description {
         width: 100%;
@@ -826,12 +833,6 @@ body {
         font-size: 15px;
     }
 
-
-    /* 1. Image last */
-    .swipe-image {
-        order: 3;
-        width: 100%;
-    }
 
     .swipe-image img {
         max-width: clamp(240px, 30vw, 350px);
