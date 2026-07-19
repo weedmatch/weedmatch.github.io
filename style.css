@@ -1019,7 +1019,8 @@ body {
     padding: 20px 24px;
 
     width: fit-content;
-    
+
+    background: #F6FEFF;
     border: 2px solid #00500D;
     border-radius: 16px;
 
@@ -1027,7 +1028,7 @@ body {
     flex-direction: column;
     gap: 14px;
 
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
 
