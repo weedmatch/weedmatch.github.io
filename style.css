@@ -779,7 +779,7 @@ body {
     position: relative;
     width: clamp(180px, 18vw, 240px);
     border: 6px solid #000000;
-    border-radius: clamp(20px, 3vw, 36px);
+    bborder-radius: clamp(28px, 4vw, 48px);
     overflow: hidden;
 }
 
