@@ -797,20 +797,42 @@ body {
 
     .swipe-container {
         grid-template-columns: 1fr;
+        gap: 50px;
         justify-items: center;
-        gap: 60px;
     }
 
     .swipe-video-container {
         order: 1;
+        width: 100%;
     }
+
+    .phone-mockup {
+        width: 220px;
+    }
+
+    .video-title {
+        font-size: 20px;
+    }
+
 
     .swipe-content {
         order: 2;
+        width: 100%;
     }
+
+    .swipe-description {
+        max-width: 450px;
+        margin-bottom: 60px;
+    }
+
 
     .swipe-image {
         order: 3;
+        width: 100%;
+    }
+
+    .swipe-image img {
+        max-width: 320px;
     }
 
 }
