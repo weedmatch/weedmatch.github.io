@@ -1054,3 +1054,26 @@ body {
 
 
 
+.bottom-feature-cards {
+    width: 100%;
+    max-width: 1500px;
+    margin: 80px auto 0;
+    padding: 0 40px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+
+.bottom-feature-card {
+    background: #F6FEFF;
+    border: 2px solid #00500D;
+    border-radius: 16px;
+
+    padding: 28px 24px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
