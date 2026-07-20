@@ -1053,16 +1053,17 @@ body {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 32px;
 }
 
 
 .feature-card {
     background: #F6FEFF;
+
     border: 2px solid #00500D;
     border-radius: 16px;
-
-    padding: 28px 24px;
+    padding: 24px 20px;
+    min-height: 260px;
 
     text-align: center;
 
@@ -1091,9 +1092,12 @@ body {
 
 
 .feature-card p {
+    max-width: 300px;
+    margin: 0 auto;
+
     font-family: 'Inder', sans-serif;
     color: #00500D;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
 }
 
