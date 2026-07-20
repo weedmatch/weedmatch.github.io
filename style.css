@@ -1058,20 +1058,18 @@ body {
 /* Bottom Feature Cards */
 
 .bottom-feature-cards {
-    width: 100%;
-    max-width: 1500px;
+    width: 100vw;
+    max-width: none;
 
-    margin: 80px auto 0;
-    padding: 0 40px;
+    margin: 80px 0 0;
+    padding: 0;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     gap: 40px;
-    outline: 2px solid red;
 }
-
 
 .bottom-feature-card {
     flex: 0 0 420px;
