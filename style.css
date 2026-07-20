@@ -954,7 +954,9 @@ body {
 .feature-row {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 24px;
+
+    min-width: 0;
     width: 100%;
 }
 
@@ -991,6 +993,7 @@ body {
 .feature-content {
     flex: 1;
     min-width: 0;
+    max-width: 320px;
 }
 
 
@@ -1005,8 +1008,10 @@ body {
 .feature-content p {
     font-family: 'Inder', sans-serif;
     color: #00500D;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
+
+    max-width: 320px;
 }
 
 
@@ -1049,12 +1054,13 @@ body {
 
 
 
-/* Bottom Feature Cards */
+/* Feature Cards */
 
 .feature-cards {
     width: 100%;
     max-width: 1500px;
-    margin: 20px auto 0;
+
+    margin: 60px auto 0;
     padding: 0 40px;
 
     display: grid;
@@ -1064,6 +1070,8 @@ body {
 
 
 .feature-card {
+    width: 100%;
+
     background: #F6FEFF;
 
     border: 2px solid #00500D;
@@ -1112,7 +1120,6 @@ body {
     color: #00500D;
 
     font-size: 22px;
-
     margin-bottom: 12px;
 }
 
@@ -1129,8 +1136,7 @@ body {
 }
 
 
-
-/* Card Hover */
+/* Hover */
 
 .feature-card:hover {
     background: #00500D;
