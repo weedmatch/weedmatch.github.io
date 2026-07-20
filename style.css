@@ -963,17 +963,21 @@ body {
 .video-mockup {
     width: clamp(110px, 12vw, 180px);
     flex-shrink: 0;
-    border: 3px solid #000000;
-    border-radius: 28px;
+
+    border: 6px solid #000000;
+    border-radius: clamp(20px, 3vw, 36px);
+
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.35);
 }
+
 
 .video-mockup video {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 16px;
+
+    border-radius: clamp(16px, 2.5vw, 32px);
 }
 
 
@@ -988,14 +992,14 @@ body {
 .feature-content h2 {
     font-family: 'Sancreek', cursive;
     color: #00500D;
-    font-size: clamp(16px, 1.4vw, 24px);
+    font-size: 24px;
     margin-bottom: 16px;
 }
 
 .feature-content p {
     font-family: 'Inder', sans-serif;
     color: #00500D;
-    font-size: clamp(12px, 1vw, 16px);
+    font-size: 16px;
     line-height: 1.5;
 }
 
