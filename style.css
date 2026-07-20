@@ -961,7 +961,7 @@ body {
 }
 
 .video-mockup {
-    width: clamp(110px, 12vw, 180px);
+    width: clamp(120px, 12vw, 160px);
     flex-shrink: 0;
 
     border: 3px solid #000000;
