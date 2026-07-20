@@ -1087,3 +1087,14 @@ body {
         border-color 0.3s ease,
         transform 0.3s ease;
 }
+
+.bottom-feature-card p {
+    max-width: 300px;
+    margin: 0 auto;
+
+    font-family: 'Inder', sans-serif;
+    color: #00500D;
+
+    font-size: 15px;
+    line-height: 1.5;
+}
