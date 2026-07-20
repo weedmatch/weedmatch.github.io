@@ -1054,6 +1054,9 @@ body {
 
 
 
+
+/* Bottom Feature Cards */
+
 .bottom-feature-cards {
     width: 100%;
     max-width: 1500px;
@@ -1062,14 +1065,15 @@ body {
     padding: 0 40px;
 
     display: flex;
-    justify-content: space-between;
-    gap: 32px;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
 }
 
 
 .bottom-feature-card {
     flex: 1;
-    min-width: 0;
+    max-width: 460px;
 
     background: #F6FEFF;
 
