@@ -1066,6 +1066,8 @@ body {
 
     display: flex;
     justify-content: center;
+    align-items: center;
+
     gap: 40px;
 }
 
@@ -1099,4 +1101,30 @@ body {
 
     font-size: 15px;
     line-height: 1.5;
+}
+
+
+
+/* Hover */
+
+.bottom-feature-card:hover {
+    background: #00500D;
+    border-color: #F6FEFF;
+    transform: translateY(-6px);
+}
+
+
+.bottom-feature-card:hover h3,
+.bottom-feature-card:hover p {
+    color: #F6FEFF;
+}
+
+
+.bottom-feature-card:hover .green-icon {
+    opacity: 0;
+}
+
+
+.bottom-feature-card:hover .white-icon {
+    opacity: 1;
 }
