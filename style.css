@@ -1069,10 +1069,10 @@ body {
     align-items: center;
 
     gap: 40px;
-    align-self: center;
 }
 
 .bottom-feature-card {
+    width: 420px;
     flex: 0 0 420px;
 
     background: #F6FEFF;
@@ -1108,20 +1108,16 @@ body {
 
 .card-icon-wrapper {
     position: relative;
-    width: 55px;
-    height: 55px;
-    margin: 0 auto 20px;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto 16px;
 }
 
 
 .card-icon {
-    width: 55px;
-    height: 55px;
-    position: absolute;
-    left: 0;
-    top: 0;
+    width: 32px;
+    height: 32px;
 }
-
 
 .green-icon {
     opacity: 1;
