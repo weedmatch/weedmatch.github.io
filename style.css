@@ -945,9 +945,9 @@ body {
     margin: 0 auto;
     padding: 100px 40px;
 
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
 }
 
 
