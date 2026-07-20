@@ -964,7 +964,7 @@ body {
     width: clamp(110px, 12vw, 180px);
     flex-shrink: 0;
 
-    border: 6px solid #000000;
+    border: 3px solid #000000;
     border-radius: clamp(20px, 3vw, 36px);
 
     overflow: hidden;
