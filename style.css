@@ -1063,13 +1063,13 @@ body {
 
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 32px;
 }
 
 
 .bottom-feature-card {
-    width: 420px;
-    height: 260px;
+    flex: 1;
+    min-width: 0;
 
     background: #F6FEFF;
 
