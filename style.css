@@ -1177,7 +1177,8 @@ body {
     }
 
     .feature-row {
-        width: 100%;
+        width: fit-content;
+        justify-self: center;
     }
 
     .feature-row:nth-child(3) {
