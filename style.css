@@ -1679,70 +1679,78 @@ body {
 
 @media (max-width: 700px) {
 
-
     .intro-container {
+        display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 40px;
         padding: 40px 20px;
     }
 
 
-    /* INTRO SECTION TOP */
+    /* INTRO TOP SECTION */
     .intro-content {
         grid-column: 1 / -1;
         width: 100%;
-        text-align: center;
-    }
-
-
-    .intro-title-row {
-        justify-content: center;
-        text-align: center;
-    }
-
-
-    .intro-description {
-        width: 100%;
-        max-width: none;
-        text-align: center;
-    }
-
-
-    /* WHY USE INTRO LEFT */
-    .intro-subtitle,
-    .intro-benefits {
         text-align: left;
     }
 
 
+    /* INTRO title + leaf centered only */
+    .intro-title-row {
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    /* Paragraph full width */
+    .intro-description {
+        width: 100%;
+        max-width: none;
+        text-align: left;
+    }
+
+
+    /* Why Use Intro stays left */
+    .intro-subtitle {
+        text-align: left;
+        width: 100%;
+    }
+
+
     .intro-benefits {
+        text-align: left;
+        width: 100%;
         padding-left: 20px;
     }
 
 
 
-    /* VIDEO LEFT */
+    /* VIDEO */
     .intro-video-container {
+        grid-column: 1;
         width: 100%;
-        display: flex;
-        justify-content: center;
     }
 
 
     .intro-video-frame {
         width: 100%;
-        max-width: 220px;
+    }
+
+
+    .intro-video-frame video {
+        width: 100%;
+        height: auto;
     }
 
 
 
-    /* RIGHT SIDE WEED CONTENT */
+    /* WEED BLOCK */
     .intro-right {
+        grid-column: 2;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
     }
 
 
@@ -1754,8 +1762,8 @@ body {
 
     .intro-right-text,
     .weed-buddies-title {
-        text-align: center;
         width: 100%;
+        text-align: center;
     }
 
 
@@ -1772,6 +1780,11 @@ body {
         grid-template-columns: 1fr;
     }
 
+    .intro-description {
+    width: 100% !important;
+    max-width: none !important;
+    text-align: left;
+}
 
     .intro-video-container,
     .intro-right {
