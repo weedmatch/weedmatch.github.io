@@ -157,6 +157,8 @@ body {
     font-family: 'Overlock', cursive;
     color: #F6FEFF;
     font-size: 24px;
+    font-weight: 900;
+    font-style: black italic;
     margin-top: 16px;
     white-space: nowrap;
 }
