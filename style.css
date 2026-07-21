@@ -99,7 +99,7 @@ body {
     gap: 10px;
 
     font-family: 'Inder', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 
     cursor: pointer;
 }
@@ -154,7 +154,7 @@ body {
 
 /* Tagline */
 .brand p {
-    font-family: 'Overlock', cursive;
+    font-family: 'Overlock', sans-serif;
     color: #F6FEFF;
     font-size: 24px;
     font-weight: 700;
@@ -334,9 +334,10 @@ body {
 
 
 .carousel-content h1 {
-    font-family: 'Overlock', cursive;
+    font-family: 'Overlock', sans-serif;
     color: #F6FEFF;
     font-size: 24px;
+    font-weight: 700;
     margin-bottom: 15px;
 }
 
@@ -443,7 +444,7 @@ body {
     color: #F6FEFF;
 
     font-family: 'Inder', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 
     cursor: pointer;
 }
@@ -485,7 +486,7 @@ body {
     gap: 10px;
 
     font-family: 'Inder', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
     width: max-content;
     flex-shrink: 0;
@@ -646,14 +647,16 @@ body {
 
 .brand p {
     font-size: 20px;
+    font-weight: 700;
 }
 
 .carousel-content h1 {
     font-size: 20px;
+    font-weight: 700;
 }
 
 .carousel-content p {
-    font-size: 14px;
+    font-size: 16px;
 }
 }
 
@@ -708,8 +711,9 @@ body {
 }
 
 .swipe-title {
-    font-family: 'Overlock', cursive;
+    font-family: 'Overlock', sans-serif;
     color: #F6FEFF;
+    font-weight: 700;
 }
 
 .swipe-title {
@@ -858,7 +862,7 @@ body {
     .swipe-description {
         width: 100%;
         max-width: 420px;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .swipe-image img {
@@ -947,9 +951,10 @@ body {
 
 .section-title {
     text-align: center;
-    font-family: 'Overlock', cursive;
+    font-family: 'Overlock', sans-serif;
     color: #00500D;
     font-size: 28px;
+    font-weight: 700;
 
     margin-top: 100px;
     margin-bottom: 64px;
@@ -1016,9 +1021,10 @@ body {
 
 
 .feature-content h2 {
-    font-family: 'Overlock', cursive;
+    font-family: 'Overlock', sans-serif;
     color: #00500D;
     font-size: 24px;
+    font-weight: 700;
     margin-bottom: 16px;
 }
 
@@ -1026,7 +1032,7 @@ body {
 .feature-content p {
     font-family: 'Inder', sans-serif;
     color: #00500D;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
 
     max-width: 320px;
@@ -1060,7 +1066,7 @@ body {
 
     font-family: 'Inder', sans-serif;
     color: #0000EE;
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -1091,9 +1097,10 @@ body {
 
 .bottom-feature-card h3 {
     text-align: center;
-    font-family: 'Overlock', cursive;
+    font-family: 'Overlock', sans-serif;
     color: #00500D;
     font-size: 22px;
+    font-weight: 700;
     margin-bottom: 8px;
 }
 
