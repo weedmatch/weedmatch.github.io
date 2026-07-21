@@ -1356,19 +1356,20 @@ body {
 
 
     .feature-content {
-        width: 100%;
-        max-width: none;
-        flex: none;
-        text-align: left;
-    }
+    width: 100%;
+    max-width: none;
+    flex: none;
+    text-align: left;
+    align-self: stretch;
+}
 
 
-    .feature-content h2,
-    .feature-content p {
-        width: 100%;
-        max-width: none;
-        text-align: left;
-    }
+.feature-content h2,
+.feature-content p {
+    width: 100%;
+    max-width: none;
+    text-align: left;
+}
 
 
     /* QR stays same structure as other features */
