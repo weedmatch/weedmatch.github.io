@@ -85,10 +85,10 @@ const languageOption = document.querySelector(".language-option");
 
 if (languageSelector && languageWrapper) {
 
-    languageSelector.addEventListener("click", (event) => {
-        event.stopPropagation();
-        languageWrapper.classList.toggle("open");
-    });
+    languageSelector.addEventListener("click", () => {
+    console.log("language clicked");
+    languageWrapper.classList.toggle("open");
+});
 
 }
 
