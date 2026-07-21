@@ -1208,7 +1208,6 @@ body {
     .feature-row {
         flex-direction: column;
         justify-content: center;
-        text-align: center;
         gap: 24px;
     }
 
@@ -1216,6 +1215,7 @@ body {
     .feature-content {
         width: 100%;
         max-width: none;
+        flex: none;
         text-align: left;
     }
 
@@ -1223,6 +1223,12 @@ body {
     .feature-content h2,
     .feature-content p {
         text-align: left;
+    }
+
+
+    .feature-content p {
+        width: 100%;
+        max-width: none;
     }
 
 
