@@ -1680,45 +1680,90 @@ body {
 @media (max-width: 700px) {
 
     .intro-container {
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
+        grid-template-columns: 1fr;
         padding: 40px 20px;
+        gap: 40px;
     }
 
 
-    /* INTRO ONLY */
+    /* COLUMN 1 - INTRO */
     .intro-left {
-        grid-column: 1 / -1;
         width: 100%;
+        text-align: center;
     }
 
 
-    /* VIDEO stays left */
-    .intro-video {
-        grid-column: 1;
-        width: 100%;
-    }
-
-
-    /* WEED IMAGE BLOCK stays right */
-    .intro-right {
-        grid-column: 2;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
+    .intro-heading {
+        justify-content: center;
         align-items: center;
     }
 
 
-    .intro-right img {
+    .intro-text,
+    .why-intro-text {
         width: 100%;
-        max-width: 220px;
+        max-width: none;
+        text-align: left;
     }
 
 
-    .intro-right p,
-    .weed-buddies {
+    .why-intro {
+        text-align: center;
+    }
+
+
+
+    /* VIDEO + WEED IMAGE AREA */
+    .intro-right-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 24px;
         width: 100%;
+    }
+
+
+
+    /* COLUMN 2 - VIDEO */
+    .intro-video-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .intro-video-container video {
+        width: 100%;
+        max-width: 220px;
+        height: auto;
+    }
+
+
+
+    /* COLUMN 3 - WEED IMAGE + TEXT + WEED BUDDIES */
+    .intro-weed-column {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .intro-weed-column img {
+        width: 100%;
+        max-width: 220px;
+        height: auto;
+    }
+
+
+    .intro-weed-column p {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .weed-buddies-title {
         text-align: center;
     }
 
