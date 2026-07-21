@@ -1237,8 +1237,6 @@ body {
 
 @media (max-width: 850px) {
 
-    @media (max-width: 850px) {
-
     .unique-features-container {
         grid-template-columns: 1fr 1fr;
         gap: 60px;
@@ -1248,43 +1246,73 @@ body {
 
 
     .feature-row {
-        flex-direction: column;
+        width: 100%;
+        display: flex;
         align-items: center;
-        justify-content: center;
         gap: 24px;
-        width: 100%;
     }
 
 
-    .feature-content {
-        width: 100%;
-        max-width: 320px;
-        text-align: center;
-    }
-
-
-    .feature-content h2,
-    .feature-content p {
-        text-align: center;
-    }
-
-
-    /* QR Code takes full width underneath */
+    /* QR Code feature stays full width */
     .feature-row:nth-child(3) {
         grid-column: 1 / -1;
         justify-self: center;
     }
 
 
-    /* Keep QR links exactly as desktop layout */
-    .feature-row:nth-child(3) .qr-links-box {
-        width: fit-content;
-        display: flex;
+    /* First two features: video on top, text underneath */
+    .feature-row:nth-child(1),
+    .feature-row:nth-child(2) {
+
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 24px;
+    }
+
+
+    .feature-row:nth-child(1) .feature-content,
+    .feature-row:nth-child(2) .feature-content {
+
+        width: 100%;
+        max-width: 320px;
+        text-align: center;
+    }
+
+
+    .feature-row:nth-child(1) .feature-content h2,
+    .feature-row:nth-child(2) .feature-content h2,
+
+    .feature-row:nth-child(1) .feature-content p,
+    .feature-row:nth-child(2) .feature-content p {
+
+        text-align: center;
+    }
+
+
+    /* QR content stays beside video */
+    .feature-row:nth-child(3) .feature-content {
+
+        max-width: 320px;
+        text-align: left;
+    }
+
+
+    .feature-row:nth-child(3) .feature-content h2,
+    .feature-row:nth-child(3) .feature-content p {
+
+        text-align: left;
+    }
+
+
+    .qr-links-box {
+
+        margin-left: 0;
+        margin-right: 0;
     }
 
 }
-    
+
 
 @media (max-width: 700px) {
 
