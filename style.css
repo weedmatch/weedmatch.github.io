@@ -1680,68 +1680,62 @@ body {
 @media (max-width: 700px) {
 
     .intro-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
         padding: 40px 20px;
-        gap: 40px;
     }
 
 
-    /* COLUMN 1 - INTRO */
+    /* INTRO COLUMN ONLY */
     .intro-left {
+        grid-column: 1 / -1;
         width: 100%;
         text-align: center;
     }
 
 
-    .intro-heading {
+    .intro-left .intro-heading {
         justify-content: center;
-        align-items: center;
     }
 
 
-    .intro-text,
-    .why-intro-text {
+    .intro-left p {
         width: 100%;
         max-width: none;
         text-align: left;
     }
 
 
-    .why-intro {
+    .intro-left .why-intro {
         text-align: center;
     }
 
 
-
-    /* VIDEO + WEED IMAGE AREA */
-    .intro-right-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        gap: 24px;
-        width: 100%;
+    .intro-left .why-intro p {
+        text-align: left;
     }
 
 
 
-    /* COLUMN 2 - VIDEO */
-    .intro-video-container {
+    /* VIDEO COLUMN */
+    .intro-video {
+        grid-column: 1;
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
 
-    .intro-video-container video {
+    .intro-video video {
         width: 100%;
-        max-width: 220px;
-        height: auto;
+        max-width: 320px;
     }
 
 
 
-    /* COLUMN 3 - WEED IMAGE + TEXT + WEED BUDDIES */
-    .intro-weed-column {
+    /* WEED IMAGE COLUMN */
+    .intro-right {
+        grid-column: 2;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -1750,20 +1744,19 @@ body {
     }
 
 
-    .intro-weed-column img {
+    .intro-right img {
         width: 100%;
-        max-width: 220px;
-        height: auto;
+        max-width: 260px;
     }
 
 
-    .intro-weed-column p {
+    .intro-right p {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
 
-    .weed-buddies-title {
+    .intro-right h2 {
         text-align: center;
     }
 
