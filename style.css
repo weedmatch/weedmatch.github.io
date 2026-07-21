@@ -1237,8 +1237,10 @@ body {
 
 @media (max-width: 850px) {
 
+    @media (max-width: 850px) {
+
     .unique-features-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 60px;
         padding-left: 40px;
         padding-right: 40px;
@@ -1247,22 +1249,16 @@ body {
 
     .feature-row {
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         gap: 24px;
         width: 100%;
     }
 
 
-    .feature-video {
-        width: 100%;
-        justify-content: center;
-    }
-
-
     .feature-content {
         width: 100%;
-        max-width: 500px;
+        max-width: 320px;
         text-align: center;
     }
 
@@ -1273,24 +1269,18 @@ body {
     }
 
 
-    /* QR section keeps links beside icon/content */
-    .feature-row:nth-child(3) .feature-content {
-        max-width: 600px;
+    /* QR Code takes full width underneath */
+    .feature-row:nth-child(3) {
+        grid-column: 1 / -1;
+        justify-self: center;
     }
 
 
+    /* Keep QR links exactly as desktop layout */
     .feature-row:nth-child(3) .qr-links-box {
+        width: fit-content;
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        width: 100%;
-    }
-
-
-    .qr-links-box a {
-        white-space: nowrap;
+        flex-direction: column;
     }
 
 }
