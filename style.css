@@ -1340,42 +1340,59 @@ body {
     }
 
 
-    .feature-row {
-        width: 100%;
-        display: flex;
+    /* BA + WP only */
+    .feature-row:nth-child(1),
+    .feature-row:nth-child(2) {
         flex-direction: column;
         align-items: stretch;
+        width: 100%;
         gap: 24px;
     }
 
 
-    .feature-content {
-        width: 100%;
-        max-width: none;
-        flex: none;
-        text-align: left;
-    }
-
-
-    .feature-content h2,
-    .feature-content p {
+    .feature-row:nth-child(1) .feature-content,
+    .feature-row:nth-child(2) .feature-content {
         width: 100%;
         max-width: none;
         text-align: left;
     }
 
 
-    /* QR reset */
+    .feature-row:nth-child(1) .feature-content h2,
+    .feature-row:nth-child(1) .feature-content p,
+    .feature-row:nth-child(2) .feature-content h2,
+    .feature-row:nth-child(2) .feature-content p {
+        width: 100%;
+        max-width: none;
+        text-align: left;
+    }
+
+
+    /* QR stays like before */
     .feature-row:nth-child(3) {
-        grid-column: auto;
-        flex-direction: column;
-        align-items: stretch;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .feature-row:nth-child(3) .feature-content {
+        width: auto;
+        max-width: 320px;
+        text-align: center;
+    }
+
+
+    .feature-row:nth-child(3) .feature-content h2,
+    .feature-row:nth-child(3) .feature-content p {
+        text-align: center;
     }
 
 
     .qr-links-box {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        margin-right: 0;
     }
 
 
