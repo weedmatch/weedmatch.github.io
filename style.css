@@ -1677,7 +1677,7 @@ body {
 
 /* 700 Breakpoint */
 
-@media (max-width: 700px) {
+@media (max-width:700px) {
 
     .intro-container {
         grid-template-columns: 1fr;
@@ -1686,47 +1686,45 @@ body {
     }
 
 
-    /* Column 1 */
+    /* FIRST COLUMN */
     .intro-left {
         width: 100%;
-        text-align: center;
-        align-items: center;
     }
 
 
-    .intro-title {
+    .intro-left .intro-heading {
         justify-content: center;
         text-align: center;
     }
 
 
-    .intro-title img {
+    .intro-left .intro-heading img {
         width: 45px;
-        height: auto;
     }
 
 
-    .intro-left p,
-    .intro-left .intro-text {
+    .intro-left p {
         width: 100%;
         max-width: none;
         text-align: left;
     }
 
 
-    .intro-subtitle {
+    .intro-left h3 {
         text-align: center;
     }
 
 
     .intro-left ul {
-        text-align: left;
-        width: fit-content;
-        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        list-style-position: inside;
     }
 
 
-    /* Column 2 Video */
+
+    /* VIDEO */
     .intro-video {
         width: 100%;
         display: flex;
@@ -1735,34 +1733,28 @@ body {
 
 
     .intro-video video {
-        width: 160px; /* same size as feature videos */
+        width: 160px;
         height: auto;
     }
 
 
-    /* Column 3 */
+
+    /* THIRD COLUMN */
     .intro-right {
         width: 100%;
         text-align: center;
-        align-items: center;
     }
 
 
     .intro-right img {
         width: 220px;
-        height: auto;
         margin: 0 auto;
     }
 
 
-    .intro-right p {
+    .intro-right p,
+    .intro-right h3 {
         width: 100%;
-        max-width: none;
-        text-align: center;
-    }
-
-
-    .intro-right h2 {
         text-align: center;
     }
 
