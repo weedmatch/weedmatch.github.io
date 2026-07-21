@@ -1785,6 +1785,11 @@ body {
     max-width: none !important;
     text-align: left;
 }
+   
+    .intro-content {
+    width: 100% !important;
+    max-width: none !important;
+}
 
     .intro-video-container,
     .intro-right {
