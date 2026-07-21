@@ -1059,6 +1059,8 @@ body {
 /* Bottom Feature Cards */
 
 .bottom-feature-cards {
+    grid-column: 1 / -1;
+
     width: 100%;
 
     display: flex;
@@ -1067,7 +1069,7 @@ body {
 
     gap: 40px;
 
-    margin: 40px auto 0;
+    margin-top: 40px;
 }
 
 .bottom-feature-card h3 {
@@ -1080,7 +1082,6 @@ body {
 
 .bottom-feature-card {
     flex: 0 0 420px;
-    width: 420px;
 
     background: #F6FEFF;
 
