@@ -1363,19 +1363,19 @@ body {
     }
 
 
-    /* All feature content */
-    .feature-content {
-        width: 100%;
-        max-width: none;
-        flex: none;
-        text-align: left;
-    }
+  /* All feature content */
+.feature-content {
+    width: 100%;
+    max-width: 320px;
+    flex: none;
+    text-align: left;
+}
 
 
-    .feature-content h2,
-    .feature-content p {
-        text-align: left;
-    }
+.feature-content h2,
+.feature-content p {
+    text-align: left;
+}
 
 
     .feature-content p {
