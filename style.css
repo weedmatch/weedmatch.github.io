@@ -1072,6 +1072,7 @@ body {
 }
 
 .bottom-feature-card h3 {
+    text-align: center;
     font-family: 'Sancreek', cursive;
     color: #00500D;
     font-size: 22px;
@@ -1102,6 +1103,7 @@ body {
 .bottom-feature-card p {
     max-width: 260px;
     margin: 0 auto;
+    text-align: center;
 
     font-family: 'Inder', sans-serif;
     color: #00500D;
