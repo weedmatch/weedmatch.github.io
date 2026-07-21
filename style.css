@@ -1237,8 +1237,6 @@ body {
 
 @media (max-width: 850px) {
 
-    @media (max-width: 850px) {
-
     .unique-features-container {
         grid-template-columns: 1fr;
         gap: 60px;
