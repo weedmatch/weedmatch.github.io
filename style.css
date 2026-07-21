@@ -1257,10 +1257,11 @@ body {
     .feature-row:nth-child(3) {
         grid-column: 1 / -1;
         justify-self: center;
+        justify-content: center;
     }
 
 
-    /* First two features: video on top, text underneath */
+    /* Authentication + Weed Profile */
     .feature-row:nth-child(1),
     .feature-row:nth-child(2) {
 
@@ -1276,11 +1277,9 @@ body {
 
         width: 100%;
         max-width: 320px;
-        text-align: center;
     }
 
 
-    /* Keep titles centered, paragraphs left */
     .feature-row:nth-child(1) .feature-content h2,
     .feature-row:nth-child(2) .feature-content h2 {
 
@@ -1295,7 +1294,14 @@ body {
     }
 
 
-    /* QR content stays beside video */
+    /* QR stays video beside content */
+    .feature-row:nth-child(3) {
+
+        flex-direction: row;
+        align-items: center;
+    }
+
+
     .feature-row:nth-child(3) .feature-content {
 
         max-width: 320px;
@@ -1305,7 +1311,7 @@ body {
 
     .feature-row:nth-child(3) .feature-content h2 {
 
-        text-align: left;
+        text-align: center;
     }
 
 
@@ -1317,8 +1323,8 @@ body {
 
     .qr-links-box {
 
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
