@@ -1220,4 +1220,16 @@ body {
         flex: 0 0 auto;
     }
 
+
+    /* Video Feature Mobile */
+
+    .unique-features-container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .feature-row {
+        justify-content: center;
+    }
+
 }
