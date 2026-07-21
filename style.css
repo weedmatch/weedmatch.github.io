@@ -1081,14 +1081,14 @@ body {
 
 .bottom-feature-card {
     width: fit-content;
-    flex: 0 0 420px;
+    flex: 0 0 auto;
 
     background: #F6FEFF;
 
     border: 2px solid #00500D;
     border-radius: 16px;
 
-    padding: 8px
+    padding: 16px 16px 16px 16px;
 
     text-align: center;
 
