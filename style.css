@@ -1368,32 +1368,33 @@ body {
     }
 
 
-    /* QR stays like before */
-    .feature-row:nth-child(3) {
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
+    /* QR becomes vertical */
+.feature-row:nth-child(3) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
 
-    .feature-row:nth-child(3) .feature-content {
-        width: auto;
-        max-width: 320px;
-        text-align: center;
-    }
+.feature-row:nth-child(3) .feature-content {
+    width: 100%;
+    max-width: none;
+    text-align: left;
+}
 
 
-    .feature-row:nth-child(3) .feature-content h2,
-    .feature-row:nth-child(3) .feature-content p {
-        text-align: center;
-    }
+.feature-row:nth-child(3) .feature-content h2,
+.feature-row:nth-child(3) .feature-content p {
+    width: 100%;
+    text-align: left;
+}
 
 
-    .qr-links-box {
-        margin-left: 0;
-        margin-right: 0;
-    }
+.qr-links-box {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
     .bottom-feature-cards {
