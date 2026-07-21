@@ -1080,8 +1080,8 @@ body {
 }
 
 .bottom-feature-card {
-    width: fit-content;
-    flex: 0 0 auto;
+    flex: 1 1 400px;
+    min-width: 300px;
 
     background: #F6FEFF;
 
@@ -1101,7 +1101,10 @@ body {
 }
 
 .bottom-feature-card p {
+    width: 100%;
     max-width: 400px;
+    min-width: 250px;
+    
     margin: 0 auto;
     text-align: center;
 
