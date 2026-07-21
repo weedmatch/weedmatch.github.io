@@ -1340,21 +1340,23 @@ body {
     }
 
 
+    /* All feature rows */
     .feature-row {
-        width: 100%;
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
+        width: 100%;
         gap: 24px;
     }
 
 
+    /* Video */
     .feature-video {
         width: 100%;
-        display: flex;
         justify-content: center;
     }
 
 
+    /* Text block */
     .feature-content {
         width: 100%;
         max-width: 100%;
@@ -1371,15 +1373,31 @@ body {
     }
 
 
-    .feature-row:nth-child(3) {
-        width: 100%;
-        grid-column: auto;
+    .feature-content p {
+        display: block;
     }
 
 
+    /* QR links */
     .qr-links-box {
+        width: fit-content;
         margin-left: auto;
         margin-right: auto;
+    }
+
+
+    /* Bottom cards */
+    .bottom-feature-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+
+    .bottom-feature-card {
+        width: 100%;
+        max-width: 350px;
+        flex: 0 0 auto;
     }
 
 }
