@@ -1426,21 +1426,34 @@ body {
 .intro-left {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+/* INTRO title + leaf image row */
+.intro-heading {
+    display: flex;
     align-items: center;
-    text-align: center;
+    gap: 25px;
+    margin-bottom: 30px;
 }
 
 .intro-left h2 {
     font-family: 'Sancreek', cursive;
     font-size: 32px;
-    margin-bottom: 25px;
+    margin: 0;
 }
 
 .intro-left img {
-    width: 220px;
+    width: 90px;
     height: auto;
     object-fit: contain;
-    margin-bottom: 25px;
+}
+
+
+/* INTRO DESCRIPTION */
+.intro-text {
+    text-align: left;
 }
 
 .intro-text h3 {
@@ -1453,9 +1466,11 @@ body {
     font-family: 'Inder', sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    max-width: 400px;
+    max-width: 420px;
 }
 
+
+/* WHY USE INTRO */
 .intro-left > h3 {
     font-family: 'Sancreek', cursive;
     font-size: 22px;
@@ -1464,10 +1479,11 @@ body {
 }
 
 .intro-left ul {
-    list-style: none;
+    list-style-type: disc;
+    padding-left: 25px;
     font-family: 'Inder', sans-serif;
     font-size: 16px;
-    line-height: 2;
+    line-height: 1.8;
 }
 
 
