@@ -1172,13 +1172,12 @@ body {
 @media (max-width: 1300px) {
 
     .unique-features-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 60px;
     }
 
     .feature-row {
-        max-width: 700px;
-        margin: 0 auto;
+        width: 100%;
     }
 
 }
@@ -1194,7 +1193,8 @@ body {
     }
 
     .bottom-feature-card {
-        flex: 1 1 350px;
+        flex: 0 1 350px;
+        max-width: 350px;
     }
 
 }
@@ -1204,17 +1204,14 @@ body {
 
     .bottom-feature-cards {
         flex-direction: column;
+        align-items: center;
         gap: 24px;
     }
 
     .bottom-feature-card {
         width: 100%;
-        min-width: 0;
-    }
-
-    .bottom-feature-card p {
-        min-width: 0;
-        max-width: 100%;
+        max-width: 350px;
+        flex: 0 0 auto;
     }
 
 }
