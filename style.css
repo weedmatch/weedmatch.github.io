@@ -1332,72 +1332,37 @@ body {
 
 @media (max-width: 700px) {
 
-    .unique-features-container {
-        grid-template-columns: 1fr;
-        gap: 60px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-
-    /* All feature rows */
     .feature-row {
+        width: 100%;
+        display: flex;
         flex-direction: column;
         align-items: stretch;
-        width: 100%;
-        gap: 24px;
     }
 
-
-    /* Video */
-    .feature-video {
-        width: 100%;
-        justify-content: center;
+    .feature-content,
+    .feature-row .feature-content {
+        width: 100% !important;
+        max-width: none !important;
+        flex: none !important;
+        text-align: left !important;
+        align-self: stretch !important;
     }
-
-
-    /* Text block */
-    .feature-content {
-        width: 100%;
-        max-width: 100%;
-        text-align: left;
-        align-self: stretch;
-    }
-
 
     .feature-content h2,
     .feature-content p {
-        width: 100%;
-        max-width: 100%;
-        text-align: left;
+        width: 100% !important;
+        max-width: none !important;
+        text-align: left !important;
     }
 
-
-    .feature-content p {
-        display: block;
+    .feature-row:nth-child(3) {
+        flex-direction: column !important;
+        align-items: stretch !important;
     }
 
-
-    /* QR links */
     .qr-links-box {
-        width: fit-content;
         margin-left: auto;
         margin-right: auto;
-    }
-
-
-    /* Bottom cards */
-    .bottom-feature-cards {
-        flex-direction: column;
-        align-items: center;
-        gap: 24px;
-    }
-
-
-    .bottom-feature-card {
-        width: 100%;
-        max-width: 350px;
-        flex: 0 0 auto;
     }
 
 }
