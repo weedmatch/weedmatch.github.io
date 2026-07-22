@@ -1752,32 +1752,25 @@ body {
 
 
 .links-container {
-
     width: 100%;
     max-width: 1500px;
 
     margin: 0 auto;
-
     padding: 60px 40px;
 
     display: flex;
     align-items: center;
-
     gap: 40px;
-
     overflow: hidden;
 }
 
 
 
 .links-title {
-
     flex-shrink: 0;
 
     font-family: 'Sancreek', sans-serif;
-
     font-size: 28px;
-
     color: #00500D;
 
 }
@@ -1791,9 +1784,7 @@ body {
 .ticker-wrapper {
 
     flex: 1;
-
     overflow: hidden;
-
     position: relative;
 
     mask-image: linear-gradient(
@@ -1815,22 +1806,16 @@ body {
 }
 
 
-
 .ticker-track {
 
     display: flex;
-
     align-items: center;
 
     gap: 60px;
-
     width: max-content;
-
     animation: logoTicker 25s linear infinite;
 
 }
-
-
 
 .ticker-track a {
 
@@ -1845,17 +1830,13 @@ body {
 .ticker-track img {
 
     width: clamp(70px, 8vw, 130px);
-
     height: auto;
 
     object-fit: contain;
-
     filter: blur(0);
-
     transition: transform .3s ease;
 
 }
-
 
 
 .ticker-track img:hover {
@@ -1865,20 +1846,16 @@ body {
 }
 
 
-
 @keyframes logoTicker {
 
     from {
 
         transform: translateX(0);
-
     }
-
 
     to {
 
         transform: translateX(-50%);
-
     }
 
 }
