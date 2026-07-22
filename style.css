@@ -1971,7 +1971,8 @@ body {
 }
 
 .enthusiasts-tag-image img {
-    width: 120px;
+
+    width: 200px;
     height: auto;
     object-fit: contain;
 
@@ -2088,12 +2089,12 @@ body {
 
 .i-dont-image {
 
-    width: 120px;
-
+    width: 200px;
     height: auto;
     margin-top: 20px;
 
 }
+
 
 .enthusiasts-seeker-text {
 
