@@ -1875,3 +1875,333 @@ body {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ============================= */
+/* WEED ENTHUSIASTS SECTION */
+/* ============================= */
+
+
+.enthusiasts-section {
+
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 80px 0;
+
+}
+
+.enthusiasts-container {
+    width: 90%;
+
+    max-width: 1500px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+
+}
+
+
+/* COLUMN 1 */
+
+.enthusiasts-left {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.weed-selection-image {
+    position: relative;
+    width: 100%;
+
+    max-width: 330px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+.weed-selection-image img {
+    width: 100%;
+
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+
+.weed-selection-overlay {
+
+    position: absolute;
+    bottom: 0;
+
+    left: 0;
+    width: 100%;
+    padding: 20px;
+
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(8px);
+
+    font-family: 'Overlock', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #00500D;
+
+    text-align: center;
+
+}
+
+.enthusiasts-tag-image {
+
+    margin-top: 45px;
+}
+
+.enthusiasts-tag-image img {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+
+}
+
+.enthusiasts-tag-text {
+    margin-top: 20px;
+
+    font-family: 'Inder', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #00500D;
+}
+
+
+
+/* COLUMN 2 */
+
+.enthusiasts-content {
+
+    text-align: center;
+
+}
+
+.enthusiasts-content h2 {
+
+    font-family: 'Overlock', sans-serif;
+
+    font-weight: 700;
+    font-size: 24px;
+    color: #00500D;
+    margin-bottom: 25px;
+
+}
+
+.enthusiasts-content p {
+
+    font-family: 'Inder', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+
+    color: #00500D;
+
+}
+
+.enthusiasts-content h3 {
+
+    font-family: 'Overlock', sans-serif;
+
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 45px;
+
+    color: #00500D;
+
+}
+
+
+.enthusiasts-content h4 {
+    font-family: 'Overlock', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+
+    margin-top: 20px;
+    color: #00500D;
+
+}
+
+
+
+
+
+/* COLUMN 3 */
+
+.enthusiasts-right {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+
+.enthusiasts-slider {
+
+    width: 100%;
+    max-width: 280px;
+
+    aspect-ratio: 1 / 1;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.slider-image {
+    position: absolute;
+
+    inset: 0;
+    width: 100%;
+
+    height: 100%;
+    object-fit: contain;
+    opacity: 0;
+
+    transition: opacity .5s ease;
+
+}
+
+.slider-image.active {
+
+    opacity: 1;
+}
+
+
+.weed-man-image {
+
+    width: 180px;
+    height: auto;
+    margin-top: 35px;
+
+}
+
+.i-dont-image {
+
+    width: 120px;
+
+    height: auto;
+    margin-top: 20px;
+
+}
+
+
+
+/* ============================= */
+/* 700 BREAKPOINT */
+/* ============================= */
+
+
+@media (max-width: 700px) {
+    .enthusiasts-container {
+
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+
+        text-align: center;
+
+    }
+
+    .enthusiasts-left,
+    .enthusiasts-content,
+    .enthusiasts-right {
+
+        width: 100%;
+
+        align-items: center;
+
+        text-align: center;
+
+    }
+
+    .weed-selection-image {
+
+        max-width: 320px;
+
+    }
+
+    .enthusiasts-content p {
+
+        width: 100%;
+
+    }
+
+    .enthusiasts-slider {
+
+        max-width: 250px;
+
+    }
+}
+
+
+
+/* ============================= */
+/* 500 BREAKPOINT */
+/* ============================= */
+
+
+@media (max-width: 500px) {
+
+
+    .enthusiasts-section {
+
+        padding: 50px 0;
+
+    }
+
+    .enthusiasts-container {
+
+        width: 90%;
+
+        gap: 40px;
+
+    }
+
+    .weed-selection-image {
+
+        max-width: 280px;
+
+    }
+
+    .weed-selection-overlay {
+
+        font-size: 20px;
+
+        padding: 15px;
+
+    }
+    .enthusiasts-slider {
+
+        max-width: 220px;
+    }
+
+    .weed-man-image {
+
+        width: 150px;
+    }
+
+
+}
