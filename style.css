@@ -1515,6 +1515,8 @@ body {
     width: 100%;
     padding-left: 20px;
     font-family: 'Inder', sans-serif;
+    align-self: flex-start;
+    text-align: left;
 
     color: #F6FEFF;
 
