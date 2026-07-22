@@ -2396,26 +2396,34 @@ body {
 
         flex-direction: column !important;
 
-        align-items: center;
+        align-items: center !important;
 
-        justify-content: center;
+        justify-content: center !important;
 
-        gap: 32px;
+        gap: 32px !important;
 
-        padding: 0 16px;
+        padding: 0 16px !important;
 
     }
 
 
     .tag-card {
 
+        display: flex !important;
+
+        flex-direction: column !important;
+
         width: 260px !important;
+
+        height: auto !important;
 
         min-width: 260px !important;
 
         max-width: 260px !important;
 
-        grid-column: auto !important;
+        grid-column: unset !important;
+
+        justify-self: unset !important;
 
         order: unset !important;
 
@@ -2423,28 +2431,21 @@ body {
 
 
     .tag-card:nth-child(1) {
-
-        order: 1;
-
+        order: 1 !important;
     }
 
 
     .tag-card:nth-child(2) {
-
-        order: 2;
-
+        order: 2 !important;
     }
 
 
     .tag-card:nth-child(3) {
-
-        order: 3;
-
+        order: 3 !important;
     }
 
 
 }
-
 
 
 
