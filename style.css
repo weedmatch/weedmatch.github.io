@@ -1334,7 +1334,7 @@ body {
 
     .unique-features-container {
         grid-template-columns: 1fr;
-        gap: 60px;
+        gap: 32px;
         padding-left: 20px;
         padding-right: 20px;
     }
