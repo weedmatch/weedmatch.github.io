@@ -2169,5 +2169,9 @@ body {
         order: 3;
         width: 100%;
     }
+    
+    .weed-selection-image {
+        width: 240px;
+    }
 
 }
