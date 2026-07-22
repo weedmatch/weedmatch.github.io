@@ -1809,7 +1809,7 @@ body {
 
     gap: 60px;
     width: max-content;
-    animation: logoTicker 35s linear infinite;
+    animation: logoTicker 25s linear infinite;
 
 }
 
