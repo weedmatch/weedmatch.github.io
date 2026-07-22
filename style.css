@@ -1560,12 +1560,9 @@ body {
 
 .intro-video-frame {
 
-    width: 160px;
-
+    width: 180px;
     border: 3px solid #000;
-
     border-radius: 26px;
-
     overflow: hidden;
 
     box-shadow: 0 10px 25px rgba(0,0,0,0.35);
@@ -1576,9 +1573,7 @@ body {
 .intro-video-frame video {
 
     width: 100%;
-
     height: auto;
-
     display: block;
 
 }
@@ -1592,11 +1587,8 @@ body {
 .intro-right {
 
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
-
     text-align: center;
 
 }
@@ -1605,9 +1597,7 @@ body {
 .intro-weed-image {
 
     width: 260px;
-
     max-width: 100%;
-
     height: auto;
 
 }
@@ -1617,11 +1607,8 @@ body {
 .intro-right-text {
 
     margin-top: 24px;
-
     font-family: 'Inder', sans-serif;
-
     color: #F6FEFF;
-
     font-size: 16px;
 
     line-height: 1.5;
@@ -1632,11 +1619,8 @@ body {
 .weed-buddies-title {
 
     margin-top: 32px;
-
     font-family: 'Overlock', sans-serif;
-
     font-weight: 700;
-
     color: #F6FEFF;
 
     font-size: 24px;
@@ -1645,32 +1629,21 @@ body {
 
 
 
-
-
 /* 850 Breakpoint */
 
 @media (max-width: 850px) {
 
-
     .intro-container {
-
         grid-template-columns: 1fr 1fr;
-
         gap: 60px;
-
         padding: 60px 40px;
 
     }
 
-
-
     .intro-right {
-
-        grid-column: 1 / -1;
+      grid-column: 1 / -1;
 
     }
-
-
 }
 
 
