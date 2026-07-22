@@ -81,6 +81,13 @@ const selectedLanguage = document.querySelector(".selected-language");
 const languageOption = document.querySelector(".language-option");
 
 
+
+
+
+
+
+
+
 // Language Dropdown
 
 if (languageSelector && languageWrapper) {
@@ -116,6 +123,13 @@ if (languageOption && selectedLanguage && languageWrapper) {
 }
 
 
+
+
+
+
+
+
+
 // Contact Dropdown
 
 const contactWrapper = document.querySelector(".contact-wrapper");
@@ -149,3 +163,37 @@ document.addEventListener("click", (event) => {
 
 
 
+
+
+
+
+const sliderImages = document.querySelectorAll(".slider-image");
+
+let currentSliderImage = 0;
+
+
+function changeSliderImage() {
+
+    sliderImages[currentSliderImage].classList.remove("active");
+
+
+    currentSliderImage++;
+
+
+    if (currentSliderImage >= sliderImages.length) {
+
+        currentSliderImage = 0;
+
+    }
+
+
+    sliderImages[currentSliderImage].classList.add("active");
+
+}
+
+
+if (sliderImages.length > 0) {
+
+    setInterval(changeSliderImage, 3000);
+
+}
