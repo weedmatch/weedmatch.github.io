@@ -2322,12 +2322,14 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     padding: 0 32px;
+    align-items: stretch;
 }
     
     .tag-card {
         width: 100%;
         min-width: 0;
-        height: auto;
+        height: 100%;
+        min-height: 220px;
 
         display: grid;
         grid-template-columns: 70px 1fr;
