@@ -2312,5 +2312,67 @@ body {
 }
 
 
-@media (max-width:850px) {
+
+
+@media (max-width: 850px) {
+
+    .tags-container {
+        grid-template-columns: 1fr 1fr;
+
+        gap: 30px;
+    }
+
+    .tag-card {
+        width: 100%;
+        min-width: 0;
+        height: auto;
+
+        display: grid;
+        grid-template-columns: 70px 1fr;
+        grid-template-rows: auto auto;
+        column-gap: 20px;
+        align-items: center;
+        text-align: left;
+        padding: 25px;
+
+    }
+
+
+    .tag-icon-wrapper {
+
+        grid-column: 1;
+        grid-row: 1;
+        margin-bottom: 0;
+
+        height: 70px;
+    }
+
+
+    .tag-card h3 {
+        grid-column: 2;
+        grid-row: 1;
+
+        margin-bottom: 0;
+        align-self: center;
+    }
+
+
+    .tag-card p {
+
+        grid-column: 1 / -1;
+        grid-row: 2;
+        margin-top: 20px;
+
+    }
+
+
+    .tag-card:nth-child(3) {
+
+        grid-column: 1 / -1;
+        width: 50%;
+        justify-self: center;
+
+    }
+
+}
 
