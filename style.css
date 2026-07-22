@@ -2385,3 +2385,33 @@ body {
 }
 
 
+
+@media (max-width: 350px) {
+
+    .tags-container {
+
+        grid-template-columns: 1fr;
+
+        gap: 32px;
+
+        padding: 0 16px;
+
+    }
+
+
+    .tag-card,
+    .tag-card:nth-child(3) {
+
+        grid-column: auto;
+
+        width: 320px;
+
+        min-width: 320px;
+
+        max-width: 320px;
+
+        justify-self: center;
+
+    }
+
+}
