@@ -1742,7 +1742,7 @@ body {
 
 
 
-/* LINKS SECTION */
+ /* LINKS SECTION */
 
 .links-section {
     width: 100%;
@@ -1750,11 +1750,10 @@ body {
 }
 
 
-
 .links-container {
+
     width: 100%;
     max-width: 1500px;
-
     margin: 0 auto;
     padding: 60px 40px;
 
@@ -1763,7 +1762,6 @@ body {
     gap: 40px;
     overflow: hidden;
 }
-
 
 
 .links-title {
@@ -1776,15 +1774,13 @@ body {
 }
 
 
-
-
-
 /* TICKER */
 
 .ticker-wrapper {
 
     flex: 1;
     overflow: hidden;
+
     position: relative;
 
     mask-image: linear-gradient(
@@ -1825,36 +1821,27 @@ body {
 
 }
 
-
-
 .ticker-track img {
 
     width: clamp(70px, 8vw, 130px);
     height: auto;
-
     object-fit: contain;
     filter: blur(0);
     transition: transform .3s ease;
 
 }
 
-
 .ticker-track img:hover {
 
     transform: scale(1.1);
-
 }
-
 
 @keyframes logoTicker {
 
     from {
-
         transform: translateX(0);
     }
-
     to {
-
         transform: translateX(-50%);
     }
 
