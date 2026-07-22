@@ -2312,8 +2312,6 @@ body {
 }
 
 
-
-
 @media (max-width: 850px) {
 
     .tags-container {
@@ -2337,7 +2335,6 @@ body {
 
     }
 
-
     .tag-icon-wrapper {
 
         grid-column: 1;
@@ -2347,7 +2344,6 @@ body {
         height: 70px;
     }
 
-
     .tag-card h3 {
         grid-column: 2;
         grid-row: 1;
@@ -2356,7 +2352,6 @@ body {
         align-self: center;
     }
 
-
     .tag-card p {
 
         grid-column: 1 / -1;
@@ -2364,7 +2359,6 @@ body {
         margin-top: 20px;
 
     }
-
 
     .tag-card:nth-child(3) {
 
