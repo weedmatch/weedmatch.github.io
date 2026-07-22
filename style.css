@@ -1865,9 +1865,9 @@ body {
 
 @media (max-width: 700px) {
 
-    .ticker-track {
-        gap: 16px;
-    }
+    .ticker-set {
+    gap: 16px;
+}
 
 
     .ticker-track a {
