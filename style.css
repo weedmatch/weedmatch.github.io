@@ -1677,150 +1677,79 @@ body {
 
 /* 700 Breakpoint */
 
-@media (max-width: 700px) {
+@media (max-width:700px){
 
-    .intro-container {
-        display: grid !important;
-        grid-template-columns: 1fr 1fr !important;
-        gap: 40px;
-        padding: 40px 20px;
-    }
-
-
-    /* INTRO FULL WIDTH TOP */
-    .intro-content {
-        grid-column: 1 / -1 !important;
-        width: 100% !important;
-        max-width: none !important;
-        text-align: left;
-    }
+.intro-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
 
 
-    .intro-title-row {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
+/* INTRO TOP */
+.intro-content{
+    grid-column:1 / -1;
+    width:100%;
+}
+
+.intro-title-row{
+    justify-content:center;
+}
+
+.intro-description{
+    width:100%;
+    text-align:left;
+}
 
 
-    .intro-description {
-        width: 100% !important;
-        max-width: none !important;
-        text-align: left;
-    }
+.intro-subtitle,
+.intro-benefits{
+    text-align:left;
+}
 
 
-    .intro-subtitle,
-    .intro-benefits {
-        text-align: left;
-    }
+/* VIDEO */
+.intro-video-container{
+    grid-column:1;
+}
 
 
+/* WEED */
+.intro-right{
+    grid-column:2;
+    text-align:center;
+}
 
-    /* VIDEO */
-    .intro-video-container {
-        grid-column: 1 !important;
-        width: 100%;
-    }
-
-
-    .intro-video-frame {
-        width: 100%;
-        max-width: 220px;
-        margin: auto;
-    }
-
-
-
-    /* WEED GROUP */
-    .intro-right {
-        grid-column: 2 !important;
-        width: 100%;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center;
-        text-align: center;
-    }
-
-
-    .intro-weed-image {
-        width: 100%;
-        max-width: 220px;
-    }
 
 }
 
 
+@media(max-width:500px){
+
+.intro-container{
+    display:flex;
+    flex-direction:column;
+}
 
 
-@media (max-width: 500px) {
+.intro-content{
+    width:100%;
+}
 
 
-    .intro-container {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        padding: 40px 20px;
-    }
+.intro-title-row{
+    justify-content:center;
+}
 
 
-
-    /* INTRO */
-    .intro-content {
-        width: 100% !important;
-        max-width: none !important;
-        text-align: left;
-    }
+.intro-description{
+    width:100%;
+}
 
 
-    .intro-title-row {
-        justify-content: center;
-        width: 100%;
-    }
-
-
-    .intro-description {
-        width: 100% !important;
-        max-width: none;
-        text-align: left;
-        
-        max-width: none !important;
-    }
-
-
-    .intro-subtitle,
-    .intro-benefits {
-        text-align: left;
-    }
-
-
-
-
-    /* VIDEO */
-    .intro-video-container {
-        width: 100%;
-    }
-
-
-    .intro-video-frame {
-        width: 100%;
-        max-width: 220px;
-        margin: 0 auto;
-    }
-
-
-
-    /* WEED */
-    .intro-right {
-        width: 100%;
-        align-items: center;
-        text-align: center;
-    }
-
-
-    .intro-weed-image {
-        width: 100%;
-        max-width: 220px;
-    }
+.intro-video-container,
+.intro-right{
+    width:100%;
+}
 
 }
