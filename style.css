@@ -1927,7 +1927,7 @@ body {
 .weed-selection-image {
     
     position: relative;
-    width: 260;
+    width: 260px;
     max-width: 260px;
     overflow: visible;
 
@@ -2138,9 +2138,6 @@ body {
     }
     .enthusiasts-right {
         order: 3;
-    }
-    .weed-selection-image {
-        width: 240px;
     }
 }
 
