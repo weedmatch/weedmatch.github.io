@@ -1855,15 +1855,13 @@ body {
 }
 
 @keyframes logoTicker {
-
     from {
         transform: translateX(0);
     }
 
     to {
-        transform: translateX(-20%);
+        transform: translateX(calc(-50% - 10px));
     }
-
 }
 
 
