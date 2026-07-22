@@ -1941,7 +1941,7 @@ body {
     height: auto;
     display: block;
     object-fit: contain;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
 
 }
 
@@ -1954,6 +1954,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px;
+    border-radius: 0 0 20px 20px;
 
     background: rgba(255,255,255,0.7);
     backdrop-filter: blur(8px);
