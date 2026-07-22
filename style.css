@@ -2415,3 +2415,208 @@ body {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+/* ============================= */
+/* CONTACT FAQ SECTION */
+/* ============================= */
+
+
+.contact-faq-section {
+
+    width: 100%;
+
+    background: rgba(255,255,255,0.7);
+
+    padding: 80px 0;
+
+}
+
+
+
+.contact-faq-container {
+
+    width: 90%;
+
+    max-width: 1500px;
+
+    margin: 0 auto;
+
+    padding: 50px;
+
+    background: #F6FEFF;
+
+    border-radius: 30px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+
+}
+
+
+
+.contact-content,
+.faq-content {
+
+    text-align: center;
+
+}
+
+
+
+.contact-content h2,
+.faq-content h2 {
+
+    font-family: 'Overlock', sans-serif;
+
+    font-size: 28px;
+
+    color: #00500D;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+.contact-content p {
+
+    font-family: 'Inder', sans-serif;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    color: #00500D;
+
+}
+
+
+
+.contact-content span {
+
+    font-weight: bold;
+
+}
+
+
+
+
+/* FAQ */
+
+.faq-content {
+
+    margin-top: 60px;
+
+}
+
+
+
+.faq-accordion {
+
+    width: 100%;
+
+    background: #00500D;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+}
+
+
+
+.faq-question {
+
+    width: 100%;
+
+    padding: 22px 30px;
+
+    background: transparent;
+
+    border: none;
+
+    color: #F6FEFF;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    font-family: 'Inder', sans-serif;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+
+
+.faq-item {
+
+    border-bottom: 1px solid rgba(246,254,255,0.5);
+
+}
+
+
+
+.faq-item:last-child {
+
+    border-bottom: none;
+
+}
+
+
+
+.faq-icon {
+
+    font-size: 28px;
+
+    transition: transform .3s ease;
+
+}
+
+
+
+.faq-answer {
+
+    max-height: 0;
+
+    overflow: hidden;
+
+    transition: max-height .35s ease;
+
+}
+
+
+
+.faq-answer p {
+
+    padding: 0 30px 25px;
+
+    color: #F6FEFF;
+
+    font-family: 'Inder', sans-serif;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+}
+
+
+
+.faq-item.active .faq-icon {
+
+    transform: rotate(45deg);
+
+}
