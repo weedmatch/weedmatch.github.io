@@ -1850,11 +1850,10 @@ body {
     }
 
     to {
-        transform: translateX(-50%);
+        transform: translateX(calc(-50% - 30px));
     }
 
 }
-
 
 
 @media (max-width: 700px) {
