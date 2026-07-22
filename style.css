@@ -2381,33 +2381,37 @@ body {
 
 
 
-@media (max-width: 350px) {
+@media (max-width: 500px) {
 
     .tags-container {
 
-        display: grid;
+        display: grid !important;
 
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
 
-        gap: 32px;
+        grid-template-rows: auto auto auto !important;
 
-        padding: 0 16px;
+        gap: 32px !important;
 
-    }
-
-
-    .tag-card {
-
-        width: 320px;
-
-        justify-self: center;
+        padding: 0 16px !important;
 
     }
 
 
+    .tag-card,
+    .tag-card:nth-child(1),
+    .tag-card:nth-child(2),
     .tag-card:nth-child(3) {
 
-        grid-column: auto;
+        grid-column: 1 !important;
+
+        width: 320px !important;
+
+        min-width: 320px !important;
+
+        max-width: 320px !important;
+
+        justify-self: center !important;
 
     }
 
