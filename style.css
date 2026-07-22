@@ -1875,6 +1875,10 @@ body {
         height: 100%;
     }
 
+    .links-container {
+        gap: 16px;
+    }
+
   .ticker-wrapper {
 
         mask-image: linear-gradient(
