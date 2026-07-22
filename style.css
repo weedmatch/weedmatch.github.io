@@ -2381,14 +2381,9 @@ body {
 
 @media (max-width: 350px) {
 
-
     .tags-container {
 
-        display: flex !important;
-
-        flex-direction: column !important;
-
-        align-items: center !important;
+        grid-template-columns: 1fr;
 
         gap: 32px;
 
@@ -2397,42 +2392,22 @@ body {
     }
 
 
-    .tag-card {
-
-        width: 260px !important;
-
-        min-width: 260px !important;
-
-        max-width: 260px !important;
-
-        display: flex !important;
-
-        flex-direction: column !important;
-
-        text-align: center !important;
-
-    }
-
-
-    .tag-card:nth-child(1),
-    .tag-card:nth-child(2),
     .tag-card:nth-child(3) {
 
-        grid-column: auto !important;
+        grid-column: auto;
 
-        justify-self: center !important;
+        width: 320px;
 
-        width: 260px !important;
-
-    }
-
-
-    .tag-icon-wrapper {
-
-        margin-bottom: 20px;
+        justify-self: center;
 
     }
 
+
+    .tag-card {
+
+        width: 320px;
+
+    }
 
 }
 
