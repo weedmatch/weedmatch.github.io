@@ -670,7 +670,11 @@ body {
 
 
 
+
+
+/* ============================= */
 /* Swipe Section */
+/* ============================= */
 
 .swipe-section {
     width: 100%;
@@ -960,8 +964,10 @@ body {
 
 
 
-
+/* ============================= */
 /* Unique App Features Section */
+/* ============================= */
+
 
 .unique-features-section {
     width: 100%;
@@ -1430,7 +1436,6 @@ body {
 
 
 
-
 /* ==========================
    INTRO SECTION
 ========================== */
@@ -1740,9 +1745,9 @@ body {
 
 
 
-
-
+/* ============================= */
  /* LINKS SECTION */
+/* ============================= */
 
 .links-section {
     width: 100%;
@@ -2324,4 +2329,48 @@ body {
     line-height: 1.7;
 
 }
+
+
+
+/* ============================= */
+/* 1100 BREAKPOINT */
+/* ============================= */
+
+
+@media (max-width:1100px) {
+
+
+    .tags-container {
+
+        gap: 25px;
+
+    }
+
+
+    .tag-card {
+
+        padding: 35px 20px;
+
+    }
+
+
+}
+
+
+
+
+@media (max-width:700px) {
+
+
+    .tags-container {
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+    }
+
+
+}
+
 
