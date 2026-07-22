@@ -2228,6 +2228,7 @@ body {
 .tag-card {
     width: 232px;
     min-width: 232px;
+    height: 420px;
 
     background: #F6FEFF;
 
