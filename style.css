@@ -1803,11 +1803,13 @@ body {
 
 
 .ticker-track {
+
     display: flex;
     align-items: center;
+
     width: max-content;
     animation: logoTicker 25s linear infinite;
-    will-change: transform;
+
 }
 
 
@@ -1816,6 +1818,8 @@ body {
     align-items: center;
     gap: 60px;
     flex-shrink: 0;
+
+    min-width: max-content;
 }
 
 .ticker-track a {
@@ -1861,7 +1865,7 @@ body {
     }
 
     to {
-        transform: translateX(calc(-50% - 60px));
+        transform: translateX(-50%);
     }
 
 }
