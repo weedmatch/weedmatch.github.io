@@ -2312,6 +2312,8 @@ body {
 }
 
 
+
+
 @media (max-width: 850px) {
 
     .tags-container {
@@ -2319,15 +2321,14 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    padding: 0 32px;
 
 }
 
     .tag-card:nth-child(3) {
 
     grid-column: 1 / -1;
-
     width: 260px;
-
     justify-self: center;
 
 }
