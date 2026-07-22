@@ -2322,16 +2322,6 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     padding: 0 32px;
-
-}
-
-    .tag-card:nth-child(3) {
-
-    grid-column: 1 / -1;
-    min-width: 320px;
-    max-width: 320px;
-    justify-self: center;
-
 }
     
     .tag-card {
@@ -2387,7 +2377,7 @@ body {
 
 
 
-/* 350 BREAKPOINT */
+
 
 @media (max-width: 350px) {
 
@@ -2400,38 +2390,28 @@ body {
 
         align-items: center !important;
 
-        gap: 32px !important;
+        gap: 32px;
 
-        padding: 0 16px !important;
+        padding: 0 16px;
 
     }
 
 
-
     .tag-card {
+
+        width: 260px !important;
+
+        min-width: 260px !important;
+
+        max-width: 260px !important;
 
         display: flex !important;
 
         flex-direction: column !important;
 
-        width: 320px !important;
-
-        min-width: 320px !important;
-
-        max-width: 320px !important;
-
-        height: auto !important;
-
-        grid-template-columns: none !important;
-
-        grid-template-rows: none !important;
-
         text-align: center !important;
 
-        padding: 25px !important;
-
     }
-
 
 
     .tag-card:nth-child(1),
@@ -2440,53 +2420,21 @@ body {
 
         grid-column: auto !important;
 
-        width: 320px !important;
-
-        min-width: 320px !important;
-
-        max-width: 320px !important;
-
         justify-self: center !important;
+
+        width: 260px !important;
 
     }
 
 
-
     .tag-icon-wrapper {
-
-        grid-column: auto !important;
-
-        grid-row: auto !important;
 
         margin-bottom: 20px;
 
     }
 
 
-
-    .tag-card h3 {
-
-        grid-column: auto !important;
-
-        grid-row: auto !important;
-
-    }
-
-
-
-    .tag-card p {
-
-        grid-column: auto !important;
-
-        grid-row: auto !important;
-
-        margin-top: 20px;
-
-    }
-
-
 }
-
 
 
 
