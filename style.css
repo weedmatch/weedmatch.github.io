@@ -1808,7 +1808,6 @@ body {
     width: max-content;
     
     gap: 60px;
-    animation: logoTicker 25s linear infinite;
 }
 
 .ticker-set {
