@@ -1953,7 +1953,7 @@ body {
 
     left: 0;
     width: 100%;
-    padding: 12px 12px;
+    padding: 14px 14px;
     border-radius: 0;
 
     background: rgba(255,255,255,0.7);
@@ -1965,7 +1965,7 @@ body {
     color: #00500D;
 
     text-align: center;
-
+    white-space: nowrap;
 }
 
 .enthusiasts-tag-image {
