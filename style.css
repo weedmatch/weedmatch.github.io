@@ -1806,6 +1806,8 @@ body {
     display: flex;
     align-items: center;
     width: max-content;
+    
+    gap: 60px;
     animation: logoTicker 25s linear infinite;
 }
 
@@ -1859,7 +1861,7 @@ body {
     }
 
     to {
-        transform: translateX(-50%);
+        transform: translateX(-20%);
     }
 
 }
