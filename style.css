@@ -1901,14 +1901,6 @@ body {
     width: 100%;
     background: rgba(255,255,255,0.7);
     padding: 80px 0;
-
-    clip-path: polygon(
-        0 0,
-        100% 0,
-        100% 92%,
-        0 100%
-    );
-
 }
 
 
@@ -2207,6 +2199,13 @@ body {
     width: 100%;
     background: rgba(0,80,13,0.85);
     padding: 80px 0 100px;
+
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 92%,
+        0 100%
+    );
 }
 
 
