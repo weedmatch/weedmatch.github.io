@@ -2455,12 +2455,9 @@ body {
     width: 100%;
 
     background: rgba(255,255,255,0.7);
-
     padding: 80px 0;
 
 }
-
-
 
 .contact-faq-container {
 
@@ -2470,15 +2467,12 @@ body {
 
     padding: 0 40px;
     border-radius: 30px;
-
 }
-
 
 .contact-content,
 .faq-content {
 
     text-align: center;
-
 }
 
 
@@ -2487,7 +2481,6 @@ body {
     text-decoration: none !important;
 }
 
-
 .contact-content h2,
 .faq-content h2 {
 
@@ -2495,12 +2488,8 @@ body {
 
     font-size: 28px;
     color: #00500D;
-
     margin-bottom: 0px;
-
 }
-
-
 
 .contact-content p {
 
@@ -2509,15 +2498,11 @@ body {
     line-height: 1.7;
 
     color: #00500D;
-
 }
-
-
 
 .contact-content span {
 
     font-weight: bold;
-
 }
 
 
@@ -2672,12 +2657,6 @@ body {
 }
 
 
-
-/* ============================= */
-/* DESKTOP */
-/* ============================= */
-
-
 .subscription-desktop {
 
     display: flex;
@@ -2763,7 +2742,7 @@ body {
 
 
 
-@media (max-width:850px) {
+@media (max-width:500px) {
 
     .subscription-desktop {
         display: none;
@@ -2833,58 +2812,68 @@ body {
 
 
 
-/* LOGO */
+/* FOOTER LOGO */
 
 .footer-logo {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 
-    gap: 15px;
+    gap: 0;
     margin-bottom: 60px;
-
 }
 
-
 .footer-logo img {
-
-    width: 55px;
+    width: 60px;
     height: auto;
 }
 
+/* WeedMatch Text */
 
 .footer-logo span {
-
+    margin-left: -8px;
+    transform: translateY(8px);
     font-family: 'Italianno', cursive;
-    font-size: 50px;
+
     color: #F6FEFF;
-
+    font-size: 46px;
+    line-height: 1;
 }
-
 
 /* COLUMNS */
 
 .footer-columns {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: center;
-    text-align: center;
 
+    grid-template-columns: repeat(3,1fr);
+    align-items: stretch;
+    text-align: center;
     gap: 40px;
+}
+
+.footer-column {
+
+    min-height: 180px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .footer-column h3 {
     font-family: 'Overlock', sans-serif;
-    font-size: 20px;
 
+    font-size: 20px;
     margin-bottom: 25px;
     color:#F6FEFF;
 }
 
+
 .footer-column p {
+
     font-family:'Inder', sans-serif;
     font-size:16px;
-
     line-height:1.6;
 }
 
