@@ -2494,10 +2494,9 @@ body {
     font-family: 'Overlock', sans-serif;
 
     font-size: 28px;
-
     color: #00500D;
 
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 
 }
 
@@ -2506,9 +2505,7 @@ body {
 .contact-content p {
 
     font-family: 'Inder', sans-serif;
-
     font-size: 16px;
-
     line-height: 1.7;
 
     color: #00500D;
@@ -2623,7 +2620,7 @@ body {
 
         max-width: 1500px;
 
-        padding: 0 32px;
+        padding: 0 16px;
 
     }
 
