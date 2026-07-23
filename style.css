@@ -2653,7 +2653,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    gap: clamp(0, 5vw, 80px);
+    gap: clamp(20, 5vw, 80px);
 }
 
 .subscription-desktop img {
