@@ -2485,6 +2485,11 @@ body {
 }
 
 
+.contact-faq-section a {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
 
 .contact-content h2,
 .faq-content h2 {
