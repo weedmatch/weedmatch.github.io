@@ -1901,6 +1901,31 @@ body {
     width: 100%;
     background: rgba(255, 255, 255, 0.7);
     padding: 80px 0;
+    
+    position: relative;
+    overflow: hidden;
+
+}
+
+.enthusiasts-section::before {
+
+    content: "";
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 80px;
+
+    background: #00500D;
+
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 100%,
+        0 0
+    );
 
 }
 
@@ -1913,8 +1938,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-
+    
+    position: relative;
+    z-index: 1;
 }
+
 
 
 /* COLUMN 1 */
@@ -2194,37 +2222,8 @@ body {
 .tags-section {
 
     width: 100%;
-
     background: rgba(0,80,13,0.85);
-
     padding: 80px 0 100px;
-    position: relative;
-    overflow: hidden;
-
-}
-
-.tags-section::after {
-
-    content: "";
-
-    position: absolute;
-
-    bottom: -1px;
-
-    left: 0;
-
-    width: 100%;
-
-    height: 80px;
-
-    background: #F6FEFF;
-
-    clip-path: polygon(
-        100% 0,
-        100% 100%,
-        0 100%
-    );
-
 }
 
 
@@ -2963,6 +2962,13 @@ body {
     opacity: 0.8;
 
 }
+
+.footer-copyright {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 
 
