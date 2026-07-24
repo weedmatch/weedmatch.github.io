@@ -3029,28 +3029,36 @@ body {
     justify-content:space-between;
 }
 
-    .footer-mobile-right .footer-social-icons {
-    display:grid;
-
-    grid-template-columns:repeat(2,24px);
-    justify-content:space-between;
+   .footer-mobile-right .footer-social-icons {
+    display:flex;
+    flex-direction:column;
     gap:16px;
-    margin-top:0;
 
+    width:100%;
+}
+    
+    .footer-mobile-right .footer-social-icons div {
+
+    display:flex;
+    justify-content:space-between;
+}
+
+.footer-mobile-right .footer-social-icons div:nth-child(2) {
+
+    justify-content:center;
+    gap:24px;
 }
     
     .footer-mobile-right .footer-social-icons img:nth-child(3) {
 
     grid-column:1;
     justify-self:center;
-
 }
 
 .footer-mobile-right .footer-social-icons img:nth-child(4) {
 
     grid-column:2;
     justify-self:center;
-
 }
 
     .footer-mobile-right .footer-social-icons img {
