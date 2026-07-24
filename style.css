@@ -3043,6 +3043,11 @@ body {
         align-items:flex-start;
     }
 
+    .footer-contact p {
+    color: #F6FEFF;
+    text-decoration: none !important;
+}
+    
     .footer-contact-icons {
 
         justify-content:flex-start;
