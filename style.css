@@ -3019,23 +3019,22 @@ body {
     }
 
     .footer-mobile-right {
-
     display:flex;
     flex-direction:column;
-    justify-content:space-between;
 
-    height:100%;
+    justify-content:flex-start;
     padding-right:16px;
+
 }
 
     .footer-mobile-right .footer-social-icons {
-        width:100%;
-        display:grid;
-        grid-template-columns:repeat(2,24px);
+    display:grid;
 
-        justify-content:space-between;
-        gap:16px;
-    }
+    grid-template-columns:repeat(2,24px);
+    gap:16px;
+    margin-top:0;
+
+}
 
     .footer-mobile-right .footer-social-icons img {
 
@@ -3045,7 +3044,7 @@ body {
 
     .footer-mobile-address {
 
-        margin-top:auto;
+        margin-top:32px;
         font-family:'Inder', sans-serif;
 
         font-size:16px;
