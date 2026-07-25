@@ -3038,10 +3038,9 @@ body {
    .footer-mobile-right .footer-social-icons {
     display:flex;
     flex-direction:column;
-    justify-content:space-between;
-    flex:1;
+    gap:32px;
     width:100%;
-    margin-top:0;
+
 }
     
     .footer-mobile-right .footer-social-icons div {
