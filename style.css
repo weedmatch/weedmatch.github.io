@@ -3033,12 +3033,13 @@ body {
     flex-direction:column;
     justify-content:space-between;
     align-self:stretch;
+    height:100%;
 }
 
    .footer-mobile-right .footer-social-icons {
     display:flex;
     flex-direction:column;
-    gap:space-between;
+    gap:32;
     width:100%;
 
 }
@@ -3048,12 +3049,7 @@ body {
     display:flex;
     justify-content:space-between;
 }
-
-    .footer-mobile-right .footer-social-icons div:nth-child(2) {
-    justify-content:center;
-    gap:24px;
-}
-
+    
     .footer-mobile-right .footer-social-icons div img {
     flex-shrink:0;
 }
