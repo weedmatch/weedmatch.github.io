@@ -3082,11 +3082,8 @@ body {
     .footer-mobile-right {
 
         display:flex;
-
         flex-direction:column;
-
-        height:100%;
-
+        align-self:stretch;
     }
 
 
