@@ -3154,7 +3154,15 @@ body {
     }
 
 
+.footer-mobile-contact p,
+.footer-mobile-contact a {
 
+    color:#F6FEFF;
+    text-decoration:none;
+}
+
+
+    
     /* COLUMN 2 */
 
 
