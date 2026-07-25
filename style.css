@@ -2931,7 +2931,7 @@ body {
 
 .footer-copyright {
     width: 100%;
-    display: flex;
+    display: block;
     justify-content: center !important;;
     align-items: center !important;
 
@@ -3077,8 +3077,8 @@ body {
     }
 
     .footer-copyright {
+        width:100%;
         margin-top:40px;
         text-align:center;
-
     }
 }
