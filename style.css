@@ -3048,8 +3048,12 @@ body {
     justify-content:space-between;
 }
 
+    .footer-mobile-right .footer-social-icons div img {
+    flex-shrink:0;
+}
+    
     .footer-mobile-right .footer-social-icons div:nth-child(2) {
-    justify-content:center;
+    justify-content:space-between;
     gap:24px;
 }
  
