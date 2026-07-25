@@ -3047,6 +3047,11 @@ body {
     display:flex;
     justify-content:space-between;
 }
+
+    .footer-mobile-right .footer-social-icons div:nth-child(2) {
+    justify-content:center;
+    gap:24px;
+}
  
     .footer-mobile-right .footer-social-icons img {
 
