@@ -2773,6 +2773,10 @@ body {
 /* ============================= */
 
 
+.footer-mobile-1 {
+    display:none;
+}
+
 .footer-section {
     width: 100%;
     background: rgba(0,80,13,0.85);
@@ -2985,6 +2989,9 @@ body {
 
 @media(max-width:850px){
 
+    .footer-section {
+    display:none;
+}
 
     .footer-mobile-1 {
 
