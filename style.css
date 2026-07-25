@@ -3079,27 +3079,28 @@ body {
 
     /* RIGHT COLUMN */
 
-    .footer-mobile-right {
+   .footer-mobile-right {
 
     display:flex;
+
     flex-direction:column;
-    align-self:stretch;
+
+    height:100%;
 
 }
 
 
+.footer-mobile-right .footer-social-icons {
 
-    .footer-mobile-right .footer-social-icons {
+    flex:1;
 
-        flex:1;
+    display:flex;
 
-        display:flex;
+    flex-direction:column;
 
-        flex-direction:column;
+    justify-content:space-between;
 
-        justify-content:space-between;
-
-    }
+}
 
 
 
@@ -3135,12 +3136,15 @@ body {
 
     .footer-social-middle {
 
-        display:flex;
+    display:flex;
 
-        justify-content:space-between;
+    justify-content:center;
 
-        align-items:center;
-    }
+    align-items:center;
+
+    gap:24px;
+
+}
 
 
 
