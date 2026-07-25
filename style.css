@@ -3013,7 +3013,7 @@ body {
 
     /* LOGO */
 
-    .mobile-footer-1-logo {
+    .mobile-footer-logo {
 
         display:flex;
 
@@ -3026,7 +3026,7 @@ body {
     }
 
 
-    .mobile-footer-1-logo img {
+    .mobile-footer-logo img {
 
         width:60px;
 
@@ -3035,7 +3035,7 @@ body {
     }
 
 
-    .mobile-footer-1-logo span {
+    .mobile-footer-logo span {
 
         margin-left:-8px;
 
@@ -3056,7 +3056,7 @@ body {
     /* TWO COLUMNS */
 
 
-    .mobile-footer-1-content {
+    .mobile-footer-content {
 
         display:grid;
 
@@ -3075,7 +3075,7 @@ body {
     /* COLUMN 1 */
 
 
-    .mobile-footer-1-column-left {
+    .mobile-footer-column-left {
 
         display:flex;
 
@@ -3088,7 +3088,7 @@ body {
     }
 
 
-    .mobile-footer-1-column-left h3 {
+    .mobile-footer-column-left h3 {
 
         margin:0;
 
@@ -3104,7 +3104,7 @@ body {
 
 
 
-    .mobile-footer-1-contact {
+    .mobile-footer-contact {
 
         display:flex;
 
@@ -3117,7 +3117,7 @@ body {
     }
 
 
-    .mobile-footer-1-contact-icons {
+    .mobile-footer-contact-icons {
 
         display:flex;
 
@@ -3130,7 +3130,7 @@ body {
     }
 
 
-    .mobile-footer-1-contact-icons img {
+    .mobile-footer-contact-icons img {
 
         width:22px;
 
@@ -3139,7 +3139,7 @@ body {
     }
 
 
-    .mobile-footer-1-contact p {
+    .mobile-footer-contact p {
 
         margin:0;
 
@@ -3158,7 +3158,7 @@ body {
     /* COLUMN 2 */
 
 
-    .mobile-footer-1-column-right {
+    .mobile-footer-column-right {
 
         display:flex;
 
@@ -3172,7 +3172,7 @@ body {
 
 
 
-    .mobile-footer-1-social {
+    .mobile-footer-social {
 
     flex:1;
 
@@ -3185,7 +3185,7 @@ body {
 }
 
 
-    .mobile-footer-1-social .mobile-footer-1-icon-row:nth-child(2) {
+    .mobile-footer-social .mobile-footer-icon-row:nth-child(2) {
 
     margin-top:auto;
 
@@ -3196,7 +3196,7 @@ body {
 
     /* BOTH ICON ROWS */
 
-    .mobile-footer-1-icon-row {
+    .mobile-footer-icon-row {
 
         width:100%;
 
@@ -3210,7 +3210,7 @@ body {
 
 
 
-    .mobile-footer-1-icon-row img {
+    .mobile-footer-icon-row img {
 
         width:24px;
 
@@ -3225,7 +3225,7 @@ body {
     /* ADDRESS */
 
 
-    .mobile-footer-1-address {
+    .mobile-footer-address {
 
         margin:0;
 
@@ -3246,7 +3246,7 @@ body {
     /* COPYRIGHT */
 
 
-    .mobile-footer-1-copyright {
+    .mobile-footer-copyright {
 
         width:100%;
 
