@@ -2962,6 +2962,10 @@ body {
 }
 
 
+
+
+
+
 @media(max-width:850px){
 
     .footer-columns{
@@ -2975,11 +2979,12 @@ body {
 
         display:grid;
 
-        grid-template-columns:minmax(0,60%) minmax(0,40%);
+        grid-template-columns:minmax(0,70%) minmax(0,30%);
 
         width:100%;
+        margin-left:16px;
 
-        padding:0 16px;
+        margin-right:16px;
 
         box-sizing:border-box;
 
