@@ -2996,7 +2996,21 @@ body {
 
 }
 
+    .footer-mobile-contact .footer-contact-icons {
 
+    justify-content:flex-start;
+
+    width:100%;
+
+}
+
+
+.footer-mobile-contact p {
+
+    text-align:left;
+
+}
+    
     .footer-mobile-right .footer-social-icons {
 
     display:flex;
@@ -3021,14 +3035,26 @@ body {
 
 .footer-social-middle {
 
-    justify-content:center;
+    justify-content:space-between;
 
-    gap:24px;
+    width:100%;
 
 }
 
     
 .footer-mobile-right {
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+}
+
+    .footer-mobile-right .footer-social-icons {
+
+    flex:1;
 
     display:flex;
 
