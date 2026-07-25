@@ -3400,17 +3400,25 @@ body {
 
     .mobile-footer-1-social {
 
-        height:100%;
+    flex:1;
 
-        display:flex;
+    display:flex;
 
-        flex-direction:column;
+    flex-direction:column;
 
-        justify-content:space-between;
+    justify-content:space-between;
 
-    }
+}
 
 
+    .mobile-footer-1-social .mobile-footer-1-icon-row:nth-child(2) {
+
+    margin-top:auto;
+
+    margin-bottom:auto;
+
+}
+    
 
     /* BOTH ICON ROWS */
 
