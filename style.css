@@ -2965,6 +2965,10 @@ body {
 
     }
 
+    .footer-container {
+        width:100%;
+    }
+
     .footer-mobile-layout {
 
     display:grid;
@@ -2974,7 +2978,7 @@ body {
 
     box-sizing:border-box;
     gap:32px;
-    align-items:stretch;
+    align-items:start;
 }
     
 
@@ -3031,7 +3035,6 @@ body {
     .footer-mobile-right {
     display:flex;
     flex-direction:column;
-    justify-content:space-between;
     align-self:stretch;
     height:100%;
 }
