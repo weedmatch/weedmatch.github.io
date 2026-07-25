@@ -3039,9 +3039,7 @@ body {
    .footer-mobile-right .footer-social-icons {
     display:flex;
     flex-direction:column;
-    
-    justify-content:space-between;
-    flex:1;
+    gap:32px;
     width:100%;
    }
     
@@ -3050,15 +3048,7 @@ body {
     display:flex;
     justify-content:space-between;
 }
-
-.footer-mobile-right .footer-social-icons div {
-
-    width:100%;
-    display:flex;
-    justify-content:space-between;
-}
-    
-
+ 
     .footer-mobile-right .footer-social-icons img {
 
         width:24px;
