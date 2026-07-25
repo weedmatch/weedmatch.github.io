@@ -3077,18 +3077,19 @@ body {
 
 
 
-    /* RIGHT COLUMN */
+/* RIGHT COLUMN */
 
-   .footer-mobile-right {
+.footer-mobile-right {
 
     display:flex;
-
     flex-direction:column;
 
     height:100%;
 
 }
 
+
+/* ICON AREA */
 
 .footer-mobile-right .footer-social-icons {
 
@@ -3103,51 +3104,21 @@ body {
 }
 
 
+/* BOTH ROWS */
 
-    /* TOP ROW */
+.footer-social-row {
 
-    .footer-social-row {
-
-        display:flex;
-
-        justify-content:space-between;
-
-        align-items:center;
-
-        width:100%;
-
-    }
-
-
-
-    .footer-social-row img {
-
-        width:24px;
-
-        height:24px;
-
-        flex-shrink:0;
-
-    }
-
-
-
-    /* MIDDLE ROW */
-
-    .footer-social-middle {
+    width:100%;
 
     display:flex;
 
-    justify-content:center;
+    justify-content:space-between;
 
     align-items:center;
 
-    gap:24px;
-
 }
 
-
-
+    
     /* ADDRESS */
 
     .footer-mobile-address {
