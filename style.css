@@ -2525,6 +2525,7 @@ body {
 
     font-family: 'Inder', sans-serif;
     font-size: 16px;
+    font-weight: 400;
     cursor: pointer;
 }
 
@@ -3033,39 +3034,26 @@ body {
     flex-direction:column;
     justify-content:space-between;
     
-    min-height:180px;
+    height:100%;
 }
 
    .footer-mobile-right .footer-social-icons {
     display:flex;
     flex-direction:column;
-    gap:16px;
+    
+    justify-content:space-between;
+    flex:1;
     width:100%;
-}
     
     .footer-mobile-right .footer-social-icons div {
-
     display:flex;
     justify-content:space-between;
 }
 
 .footer-mobile-right .footer-social-icons div:nth-child(2) {
-
-    justify-content:center;
-    gap:24px;
+    justify-content:space-between;
 }
     
-    .footer-mobile-right .footer-social-icons img:nth-child(3) {
-
-    grid-column:1;
-    justify-self:center;
-}
-
-.footer-mobile-right .footer-social-icons img:nth-child(4) {
-
-    grid-column:2;
-    justify-self:center;
-}
 
     .footer-mobile-right .footer-social-icons img {
 
