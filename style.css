@@ -3038,7 +3038,7 @@ body {
    .footer-mobile-right .footer-social-icons {
     display:flex;
     flex-direction:column;
-    gap:32px;
+    gap:space-between;
     width:100%;
 
 }
