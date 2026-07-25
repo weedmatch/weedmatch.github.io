@@ -2968,7 +2968,7 @@ body {
     .footer-mobile-layout {
 
     display:grid;
-    grid-template-columns:60% 40%;
+    grid-template-columns:minmax(0, 60%) minmax(0, 40%);
     width:100%;
     padding:0 16px;
 
@@ -3026,22 +3026,21 @@ body {
     .footer-mobile-contact-icons img {
         width:22px;
         height:22px;
-
     }
 
     .footer-mobile-right {
-
     display:flex;
     flex-direction:column;
     justify-content:space-between;
+    align-self:stretch;
 }
 
    .footer-mobile-right .footer-social-icons {
     display:flex;
     flex-direction:column;
-    gap:32px;
     width:100%;
-   }
+    margin-top:0;
+}
     
     .footer-mobile-right .footer-social-icons div {
     width:100%;
