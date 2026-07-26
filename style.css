@@ -961,7 +961,7 @@ body {
     text-align: center;
     font-family: 'Overlock', sans-serif;
     color: #00500D;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
 
     padding-top: 100px;
@@ -1032,7 +1032,7 @@ body {
 .feature-content h2 {
     font-family: 'Overlock', sans-serif;
     color: #00500D;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     margin-bottom: 16px;
 }
@@ -1312,18 +1312,15 @@ body {
         text-align: left;
     }
 
-
     .feature-row:nth-child(3) .feature-content h2 {
 
         text-align: center;
     }
 
-
     .feature-row:nth-child(3) .feature-content p {
 
         text-align: left;
     }
-
 
     .qr-links-box {
 
@@ -1336,6 +1333,14 @@ body {
 
 @media (max-width: 700px) {
 
+    .section-title {
+    font-size: 20px;
+}
+
+    .feature-content h2 {
+    font-size: 20px;
+}
+    
     .unique-features-container {
         grid-template-columns: 1fr;
         gap: 60px;
