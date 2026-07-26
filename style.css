@@ -569,7 +569,7 @@ body {
     align-items: center;
 
     width: 100%;
-    min-width: 390px;
+    min-width: 0px;
     padding: 0 16px;
     margin-top: 16px;
 }
