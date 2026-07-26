@@ -2717,8 +2717,8 @@ body {
 
 .subscription-arrow img {
 
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
     object-fit: contain;
 }
 
@@ -2769,16 +2769,20 @@ body {
         gap: 10px;
         margin-top: 30px;
     }
-    .subscription-dot {
+    
+   .subscription-dot {
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#00500D;
+    opacity:0.5;
+    cursor:pointer;
+    transition:opacity 0.3s ease;
+}
 
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        background: rgba(0,80,13,0.4);
-    }
-
-    .subscription-dot.active {
-        background: #00500D;
+.subscription-dot.active {
+    opacity:1;
+    background: #00500D;
 
     }
 }
