@@ -3113,17 +3113,15 @@ body {
 
 
     /* LOGO */
-
-
+    
     .footer-mobile-logo {
         display:flex;
         justify-content:center;
         align-items:flex-end;
 
         margin-bottom:32px;
+        margin-top:0;
     }
-
-
 
     .footer-mobile-logo img {
         width:50px;
@@ -3248,19 +3246,19 @@ body {
 
 
     .footer-mobile-column-right {
+    display:flex;
+    flex-direction:column;
+}
 
-        display:flex;
-        flex-direction:column;
-        height:100%;
-    }
-
-    .footer-mobile-social {
+.footer-mobile-social {
     display:flex;
     flex-direction:column;
     gap:16px;
-    justify-content:flex-start;
 }
-
+    
+.footer-mobile-icon-row {
+    margin-bottom:16px;
+}
 
     /* ICON ROWS */
 
@@ -3296,10 +3294,8 @@ body {
     /* COPYRIGHT */
 
   .footer-mobile-copyright {
-    width:100%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    width:100vw;
+    margin-left:calc(-16px);
     text-align:center;
 
     margin-top:32px;
