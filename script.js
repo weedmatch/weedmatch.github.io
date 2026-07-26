@@ -286,7 +286,19 @@ let currentSubscription = 1;
 
 function updateSubscriptionSlider() {
 
-    subscriptionImage.src = subscriptionPlans[currentSubscription];
+    subscriptionImage.style.opacity = "0";
+    subscriptionImage.style.transform = "translateX(30px)";
+
+
+    setTimeout(() => {
+
+        subscriptionImage.src = subscriptionPlans[currentSubscription];
+
+        subscriptionImage.style.transform = "translateX(0)";
+        subscriptionImage.style.opacity = "1";
+
+    }, 300);
+
 
     subscriptionDots.forEach((dot, index)=>{
         dot.classList.toggle(
