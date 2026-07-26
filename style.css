@@ -2389,7 +2389,7 @@ body {
         display: grid !important;
         grid-template-columns: 1fr !important;
         grid-template-rows: auto auto auto !important;
-        gap: 0 !important;
+        gap: 32px !important;
         padding: 0 16px !important;
 
     }
@@ -2399,12 +2399,11 @@ body {
     margin-bottom: 0;
 }
     .tag-icon-wrapper {
-    height: 48px;
+    height: auto;
     margin-top: 8px;
     margin-bottom: 0;
 
 }
-    
     .tag-card,
     .tag-card:nth-child(1),
     .tag-card:nth-child(2),
