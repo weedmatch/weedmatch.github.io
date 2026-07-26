@@ -2385,6 +2385,14 @@ body {
 
 @media (max-width:500px) {
 
+    .tags-container {
+    width:100% !important;
+}
+
+.tag-card {
+    width:100% !important;
+}
+    
     .tag-card,
     .tag-card:nth-child(1),
     .tag-card:nth-child(2),
