@@ -599,7 +599,7 @@ body {
 
     width: 100%;
     min-width: 390px;
-    padding: 0 20px;
+    padding: 0 16px;
     margin-top: 16px;
 }
 
@@ -904,8 +904,9 @@ body {
     }
 
     .swipe-description {
-        max-width: 90%;
+        max-width: 100%;
         font-size: 16px;
+        padding: 0 16px;
         margin-bottom: 80px;
     }
 
@@ -950,7 +951,7 @@ body {
     }
 
     .swipe-image img {
-        max-width: 320px;
+        max-width: 360px;
     }
 
 }
@@ -1418,7 +1419,7 @@ body {
 
     .bottom-feature-card {
         width: 100%;
-        max-width: 350px;
+        max-width: 360px;
     }
 
 }
