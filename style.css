@@ -2427,15 +2427,10 @@ body {
 @media (max-width:500px) {
 
     .tags-container {
-
-        display:grid !important;
-        grid-template-columns:1fr !important;
-        grid-template-rows:auto auto auto !important;
-
-        gap:32px !important;
-
-        padding:0 16px !important;
-
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 32px !important;
+        padding: 0 16px !important;
     }
 
 
@@ -2444,83 +2439,73 @@ body {
     .tag-card:nth-child(2),
     .tag-card:nth-child(3) {
 
-        grid-column:1 !important;
+        grid-column: 1 !important;
 
-        width:100% !important;
-        min-width:0 !important;
-        max-width:none !important;
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: none !important;
 
-        justify-self:center !important;
+        padding: 8px !important;
 
-        display:flex !important;
+        display: flex !important;
+        flex-direction: column !important;
 
-        flex-direction:column !important;
-
-        align-items:flex-start !important;
-
-        text-align:left;
-
-        height:auto !important;
-
-        min-height:0 !important;
-
-        padding:8px !important;
+        align-items: flex-start !important;
+        text-align: left !important;
 
     }
 
 
-    /* ICON + TITLE ROW */
+    /* ICON + TITLE SAME ROW */
 
     .tag-icon-wrapper {
 
-        display:flex !important;
+        display: flex !important;
 
-        flex-direction:row !important;
+        align-items: center !important;
 
-        align-items:center !important;
+        justify-content: center !important;
 
-        justify-content:flex-start !important;
+        width: auto !important;
 
-        gap:12px;
+        height: auto !important;
 
-        width:100%;
-
-        height:auto !important;
-
-        margin:0 0 16px 0 !important;
+        margin: 0 0 16px 0 !important;
 
     }
 
 
     .tag-icon {
 
-        width:40px !important;
+        width: 40px !important;
+        height: 40px !important;
 
-        height:40px !important;
-
-        margin:0 !important;
+        margin: 0 !important;
 
     }
 
 
     .tag-card h3 {
 
-        font-size:20px;
+        font-size: 20px;
 
-        margin:0 !important;
+        margin: 0 !important;
+
+        transform: translateX(56px) translateY(-40px);
 
     }
 
 
     .tag-card p {
 
-        margin:0 !important;
+        margin: -24px 0 0 0 !important;
 
-        line-height:1.5;
+        line-height: 1.5;
 
     }
 
 }
+
 
 
 
