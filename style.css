@@ -2682,7 +2682,7 @@ body {
     .contact-faq-container {
         width: 100%;
         max-width: 1500px;
-        padding: 0 16px;
+        padding: 0;
     }
 }
 
