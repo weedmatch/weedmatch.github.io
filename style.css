@@ -2454,7 +2454,6 @@ body {
 
 .contact-content,
 .faq-content {
-
     text-align: center;
 }
 
@@ -2469,7 +2468,7 @@ body {
 
     font-family: 'Overlock', sans-serif;
 
-    font-size: 28px;
+    font-size: 24px;
     color: #00500D;
     margin-bottom: 32px;
     margin-top: 32px;
@@ -2584,16 +2583,26 @@ body {
 
 @media (max-width: 850px) {
 
+    .contact-content h2 {
+
+    font-size: 22px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+    
+    .faq-content h2 {
+        
+    font-size: 22px;
+    color: #00500D;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+    
     .contact-faq-container {
-
         width: 100%;
-
         max-width: 1500px;
-
         padding: 0 16px;
-
     }
-
 }
 
 
