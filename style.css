@@ -2386,22 +2386,39 @@ body {
 @media (max-width: 500px) {
 
     .tags-container {
-        display: grid !important;
-        grid-template-columns: 1fr !important;
-        grid-template-rows: auto auto auto !important;
-        gap: 32px !important;
-        padding: 0 16px !important;
+        display:grid !important;
+        grid-template-columns:1fr !important;
+        grid-template-rows:auto auto auto !important;
+        gap:32px !important;
+        padding:0 16px !important;
     }
+
 
     .tag-card h3 {
-        font-size: 20px;
-        margin-bottom: 0;
+
+        font-size:20px;
+        margin:0;
     }
 
+
     .tag-icon-wrapper {
-        height: 32px;
-        margin-top: 8px;
-        margin-bottom: 0;
+
+        height:auto;
+        margin:0;
+
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+    }
+
+
+    .tag-icon {
+
+        width:28px;
+        height:28px;
+        margin:0;
+
     }
 
 
@@ -2410,21 +2427,53 @@ body {
     .tag-card:nth-child(2),
     .tag-card:nth-child(3) {
 
-        grid-column: 1 !important;
+        grid-column:1 !important;
+
         width:100% !important;
         min-width:0 !important;
         max-width:none !important;
+
         justify-self:center !important;
 
-        align-items:start;
+        padding:8px;
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+
     }
-    
+
+
+    /* Icon + title row */
+
+    .tag-card > .tag-icon-wrapper,
+    .tag-card > h3 {
+
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+    }
+
+
+    /* Text spacing */
+
     .tag-card p {
-        margin-top:8px;
+
+        margin-top:16px;
         line-height:1.5;
+
     }
 
 }
+
+
+
+
+
+
+
 
 
 
@@ -2701,8 +2750,8 @@ body {
 
 .subscription-arrow {
 
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     border: none;
 
     background: transparent;
@@ -2717,8 +2766,8 @@ body {
 
 .subscription-arrow img {
 
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     object-fit: contain;
 }
 
