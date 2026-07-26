@@ -2391,19 +2391,20 @@ body {
         grid-template-rows: auto auto auto !important;
         gap: 32px !important;
         padding: 0 16px !important;
-
     }
 
-.tag-card h3 {
-    font-size: 20px;
-    margin-bottom: 0;
-}
-    .tag-icon-wrapper {
-    height: 32px;
-    margin-top: 8px;
-    margin-bottom: 0;
+    .tag-card h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
 
-}
+    .tag-icon-wrapper {
+        height: 32px;
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+
+
     .tag-card,
     .tag-card:nth-child(1),
     .tag-card:nth-child(2),
@@ -2413,11 +2414,19 @@ body {
         width:100% !important;
         min-width:0 !important;
         max-width:none !important;
-        justify-self: center !important;
+        justify-self:center !important;
 
+        align-items:start;
+    }
+    
+    .tag-card p {
+        margin-top:8px;
+        line-height:1.5;
     }
 
 }
+
+
 
 
 
