@@ -3178,59 +3178,35 @@ body {
     .footer-mobile-column-right {
 
         display:flex;
-
         flex-direction:column;
-
-        justify-content:space-between;
-
         height:100%;
-
     }
-
-
-
 
     .footer-mobile-social {
 
-        flex:1;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
 
-        display:flex;
-
-        flex-direction:column;
-
-        justify-content:space-between;
-
-    }
-
-
-
+}
 
 
     /* ICON ROWS */
 
-
     .footer-mobile-icon-row {
-
         width:100%;
-
         display:flex;
-
         justify-content:space-between;
 
         align-items:center;
-
     }
 
-
-
     .footer-mobile-icon-row img {
-
         width:24px;
-
         height:24px;
 
         flex-shrink:0;
-
     }
 
 
