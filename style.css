@@ -2643,7 +2643,7 @@ body {
 }
 
 .faq-item.active .faq-icon {
-    transform: rotate(45deg);
+    transform: rotate(35deg);
 }
 
 
