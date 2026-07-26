@@ -2462,51 +2462,42 @@ body {
 
 .tag-icon-wrapper {
 
+    position: relative;
     display: flex !important;
     align-items: center !important;
     justify-content: flex-start !important;
 
-    width: auto !important;
+    width: 100% !important;
     height: 40px !important;
 
     margin: 0 !important;
     margin-bottom: 16px !important;
-
 }
-
 
 .tag-icon {
 
     width: 40px !important;
     height: 40px !important;
-
     margin: 0 !important;
-
 }
-
 
 .tag-card h3 {
+    position: absolute;
 
-    display: flex !important;
-    align-items: center !important;
+    left: 48px; /* 40px icon + 8px gap */
 
-    margin: -40px 0 0 48px !important;
+    margin: 0;
 
     font-size: 20px;
-
 }
-
 
 /* TEXT */
 
 .tag-card p {
-
     margin: 16px 0 0 0 !important;
-
     line-height: 1.5;
 
 }
-
 }
 
 
