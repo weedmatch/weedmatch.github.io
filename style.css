@@ -1334,7 +1334,7 @@ body {
 @media (max-width: 700px) {
 
     .section-title {
-    font-size: 20px;
+    font-size: 22px;
 }
 
     .feature-content h2 {
@@ -1403,7 +1403,10 @@ body {
         gap: 24px;
     }
 
-
+.bottom-feature-card h3 {
+    font-size: 20px;
+}
+    
     .bottom-feature-card {
         width: 100%;
         max-width: 360px;
