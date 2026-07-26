@@ -2430,46 +2430,107 @@ body {
 @media (max-width:500px) {
 
     .tags-container {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    grid-template-rows: auto auto auto !important;
-    gap: 32px !important;
-    padding: 0 16px !important;
+
+        display:grid !important;
+        grid-template-columns:1fr !important;
+        grid-template-rows:auto auto auto !important;
+
+        gap:32px !important;
+
+        padding:0 16px !important;
+
+    }
+
+
+    .tag-card,
+    .tag-card:nth-child(1),
+    .tag-card:nth-child(2),
+    .tag-card:nth-child(3) {
+
+        grid-column:1 !important;
+
+        width:100% !important;
+        min-width:0 !important;
+        max-width:none !important;
+
+        justify-self:center !important;
+
+        padding:8px;
+
+        height:auto;
+
+        display:grid;
+
+        grid-template-columns:auto auto;
+        grid-template-rows:auto auto;
+
+        column-gap:12px;
+
+        align-items:center;
+
+        text-align:left;
+
+    }
+
+
+    /* ICON + TITLE ROW */
+
+    .tag-icon-wrapper {
+
+        grid-column:1;
+        grid-row:1;
+
+        height:auto;
+
+        margin:0;
+
+        display:flex;
+
+        align-items:center;
+        justify-content:center;
+
+    }
+
+
+    .tag-icon {
+
+        width:40px;
+        height:40px;
+
+        margin:0;
+
+    }
+
+
+    .tag-card h3 {
+
+        grid-column:2;
+        grid-row:1;
+
+        font-size:20px;
+
+        margin:0;
+
+        align-self:center;
+
+    }
+
+
+    /* DESCRIPTION */
+
+    .tag-card p {
+
+        grid-column:1 / -1;
+
+        grid-row:2;
+
+        margin-top:16px;
+
+        line-height:1.5;
+
+    }
+
 }
-
-.tag-card h3 {
-    font-size: 20px;
-    margin-bottom: 0;
-}
-
-.tag-icon-wrapper {
-    height: 32px;
-    margin-top: 8px;
-    margin-bottom: 0;
-}
-
-
-.tag-card,
-.tag-card:nth-child(1),
-.tag-card:nth-child(2),
-.tag-card:nth-child(3) {
-
-    grid-column: 1 !important;
-    width:100% !important;
-    min-width:0 !important;
-    max-width:none !important;
-    justify-self:center !important;
-
-    align-items:start;
-}
-
-.tag-card p {
-    margin-top:8px;
-    line-height:1.5;
-}
-
-}
-
 
 
 
