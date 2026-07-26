@@ -1483,15 +1483,10 @@ body {
 
 
 .intro-title-row h2 {
-
     font-family: 'Overlock', sans-serif;
-
     font-weight: 700;
-
     color: #F6FEFF;
-
-    font-size: 28px;
-
+    font-size: 24px;
 }
 
 
@@ -1530,8 +1525,6 @@ body {
     color: #F6FEFF;
     font-size: 22px;
 }
-
-
 
 .intro-benefits {
 
@@ -1576,14 +1569,10 @@ body {
     width: 100%;
     height: auto;
     display: block;
-
 }
 
 
-
-
 /* Right Column */
-
 
 .intro-right {
 
@@ -1591,29 +1580,22 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-
 }
-
 
 .intro-weed-image {
 
     width: 160px;
     max-width: 100%;
     height: auto;
-
 }
 
-
-
 .intro-right-text {
-
     margin-top: 24px;
     font-family: 'Inder', sans-serif;
     color: #F6FEFF;
     font-size: 16px;
 
     line-height: 1.5;
-
 }
 
 
@@ -1624,7 +1606,7 @@ body {
     font-weight: 700;
     color: #F6FEFF;
 
-    font-size: 24px;
+    font-size: 22px;
 
 }
 
@@ -1703,29 +1685,36 @@ body {
 .intro-container{
     display:flex;
     flex-direction:column;
+    padding:0 16px;
 }
 
+.intro-title-row h2 {
+    font-size: 22px;
+}
 
+ .intro-subtitle {
+    font-size: 20px;
+}
+    
 .intro-content{
     width:100%;
 }
-
 
 .intro-title-row{
     justify-content:center;
 }
 
-
 .intro-description{
     width:100%;
 }
-
 
 .intro-video-container,
 .intro-right{
     width:100%;
 }
-
+.weed-buddies-title {
+    font-size: 20px;
+ }
 }
 
 
