@@ -2613,14 +2613,6 @@ body {
 
 }
 
-.faq-icon {
-
-    font-size: 28px;
-    display: inline-block;
-    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
 .faq-answer {
     max-height: 0;
     overflow: hidden;
@@ -2638,7 +2630,6 @@ body {
     line-height: 1.7;
     text-align: left;
 }
-
 
 
 .faq-icon {
@@ -2663,9 +2654,13 @@ body {
 .faq-content {
     margin-top: 64px;
 }
+    
     .faq-accordion {
     margin-top: 16px;
+    margin-left:0;
+    margin-right:0;
 }
+    
     .contact-content h2 {
     font-size: 22px;
     margin-bottom: 16px;
