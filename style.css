@@ -2167,7 +2167,6 @@ body {
     .enthusiasts-left {
         order: 2;
         width: 100%;
-
     }
 
     .enthusiasts-right {
@@ -2176,10 +2175,10 @@ body {
     }
 
     .enthusiasts-tag-image img {
-    width: 260px;
+    width: 300px;
 }
 .i-dont-image {
-    width: 260px;
+    width: 300px;
    } 
 }
 
@@ -2256,8 +2255,6 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 
 }
-
-
 .tag-icon-wrapper {
 
     height: 95px;
@@ -2269,9 +2266,7 @@ body {
 
 }
 
-
 .tag-card:hover {
-
     background: #00500D;
     color: #F6FEFF;
     border-color: #F6FEFF;
@@ -2280,7 +2275,6 @@ body {
 }
 
 .tag-icon {
-
     width: 70px;
     height: 70px;
     object-fit: contain;
@@ -2412,13 +2406,9 @@ body {
     .tag-card:nth-child(3) {
 
         grid-column: 1 !important;
-
-        width: 320px !important;
-
-        min-width: 320px !important;
-
-        max-width: 320px !important;
-
+        width:100% !important;
+        min-width:0 !important;
+        max-width:none !important;
         justify-self: center !important;
 
     }
