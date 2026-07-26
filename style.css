@@ -2633,11 +2633,15 @@ body {
 
 
 .faq-icon {
-    font-size: 28px;
-    display: inline-block;
-    transition: transform .3s ease;
-
+    font-size:28px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:28px;
+    height:28px;
+    transition:transform .3s ease;
 }
+
 .faq-item.active .faq-icon {
     transform: rotate(45deg);
 }
