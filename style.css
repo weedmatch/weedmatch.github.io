@@ -2483,13 +2483,17 @@ body {
 
 .tag-card h3 {
     position: absolute;
-
-    left: 48px; /* 40px icon + 8px gap */
+    left: 48px;
+    top: 50%;
+    transform: translateY(-50%);
 
     margin: 0;
 
+    font-family: 'Overlock', sans-serif;
     font-size: 20px;
+    color: #00500D;
 }
+    
 
 /* TEXT */
 
