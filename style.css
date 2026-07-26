@@ -2385,21 +2385,6 @@ body {
 
 @media (max-width:500px) {
 
-    .tags-container {
-        display:grid !important;
-        grid-template-columns:1fr !important;
-        grid-template-rows:auto auto auto !important;
-        gap:32px !important;
-        padding:0 16px !important;
-    }
-
-.tag-card {
-    display:flex;
-    flex-direction:column;
-    align-items:flex-start;
-    text-align:left;
-}
-    
     .tag-card,
     .tag-card:nth-child(1),
     .tag-card:nth-child(2),
@@ -2412,64 +2397,28 @@ body {
         max-width:none !important;
 
         justify-self:center !important;
-
-        height:auto;
-        min-height:0;
-
         padding:8px;
-
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        text-align:center;
-
+        align-items:start;
     }
-
-
-    /* ICON + TITLE ROW */
-
+    
     .tag-icon-wrapper {
-
-        height:auto;
-
-        display:flex;
-        align-items:center;
-        justify-content:flex-start;
-        gap:12px;
-
-
-        margin:0 0 16px 0;
-
+        height:40px;
+        margin-top:8px;
+        margin-bottom:16px;
     }
-
-
+    
     .tag-icon {
 
         width:40px;
         height:40px;
-
-        margin:0;
-
     }
-
-
-    .tag-card h3 {
-
-        font-size:20px;
-        margin:0;
-
-    }
-
 
     .tag-card p {
-
-        margin:0;
+        margin-top:0;
         line-height:1.5;
-
     }
 
 }
-
 
 
 
