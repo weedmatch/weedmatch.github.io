@@ -2383,7 +2383,7 @@ body {
 
 
 
-@media (max-width: 500px) {
+@media (max-width:500px) {
 
     .tags-container {
         display:grid !important;
@@ -2391,34 +2391,6 @@ body {
         grid-template-rows:auto auto auto !important;
         gap:32px !important;
         padding:0 16px !important;
-    }
-
-
-    .tag-card h3 {
-
-        font-size:20px;
-        margin:0;
-    }
-
-
-    .tag-icon-wrapper {
-
-        height:auto;
-        margin:0;
-
-        display:flex;
-        align-items:center;
-        justify-content:center;
-
-    }
-
-
-    .tag-icon {
-
-        width:28px;
-        height:28px;
-        margin:0;
-
     }
 
 
@@ -2435,6 +2407,9 @@ body {
 
         justify-self:center !important;
 
+        height:auto;
+        min-height:0;
+
         padding:8px;
 
         display:flex;
@@ -2445,30 +2420,47 @@ body {
     }
 
 
-    /* Icon + title row */
+    /* ICON + TITLE ROW */
 
-    .tag-card > .tag-icon-wrapper,
-    .tag-card > h3 {
+    .tag-icon-wrapper {
+
+        height:auto;
 
         display:flex;
         align-items:center;
         justify-content:center;
 
+        margin:0 0 16px 0;
+
     }
 
 
-    /* Text spacing */
+    .tag-icon {
+
+        width:40px;
+        height:40px;
+
+        margin:0;
+
+    }
+
+
+    .tag-card h3 {
+
+        font-size:20px;
+        margin:0;
+
+    }
+
 
     .tag-card p {
 
-        margin-top:16px;
+        margin:0;
         line-height:1.5;
 
     }
 
 }
-
-
 
 
 
@@ -2632,6 +2624,8 @@ body {
 .faq-item.active .faq-icon {
     transform: rotate(45deg);
 }
+
+
 
 
 @media (max-width: 850px) {
