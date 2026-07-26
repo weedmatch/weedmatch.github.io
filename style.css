@@ -2424,21 +2424,14 @@ body {
 
 
 
-
-
-
 @media (max-width:500px) {
 
     .tags-container {
-
         display:grid !important;
         grid-template-columns:1fr !important;
         grid-template-rows:auto auto auto !important;
-
         gap:32px !important;
-
         padding:0 16px !important;
-
     }
 
 
@@ -2455,19 +2448,14 @@ body {
 
         justify-self:center !important;
 
+        height:auto;
+        min-height:0;
+
         padding:8px;
 
-        height:auto;
-
-        display:grid;
-
-        grid-template-columns:auto auto;
-        grid-template-rows:auto auto;
-
-        column-gap:12px;
-
-        align-items:center;
-
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
         text-align:left;
 
     }
@@ -2477,17 +2465,16 @@ body {
 
     .tag-icon-wrapper {
 
-        grid-column:1;
-        grid-row:1;
-
         height:auto;
 
-        margin:0;
-
         display:flex;
-
         align-items:center;
-        justify-content:center;
+
+        justify-content:flex-start;
+
+        gap:12px;
+
+        margin:0 0 16px 0;
 
     }
 
@@ -2504,35 +2491,21 @@ body {
 
     .tag-card h3 {
 
-        grid-column:2;
-        grid-row:1;
-
         font-size:20px;
-
         margin:0;
-
-        align-self:center;
 
     }
 
 
-    /* DESCRIPTION */
-
     .tag-card p {
 
-        grid-column:1 / -1;
-
-        grid-row:2;
-
-        margin-top:16px;
+        margin:0;
 
         line-height:1.5;
 
     }
 
 }
-
-
 
 
 
