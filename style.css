@@ -3239,6 +3239,11 @@ body {
 
     }
 
+    .footer-mobile-contact a {
+    color:#F6FEFF;
+    text-decoration:none;
+}
+
     /* COLUMN 2 */
 
 
@@ -3253,6 +3258,7 @@ body {
     display:flex;
     flex-direction:column;
     gap:16px;
+    justify-content:flex-start;
 }
 
 
@@ -3289,11 +3295,15 @@ body {
 
     /* COPYRIGHT */
 
-   .footer-mobile-copyright {
+  .footer-mobile-copyright {
     width:100%;
-    display:block;
-    margin-top:32px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     text-align:center;
+
+    margin-top:32px;
+
     font-family:'Inder',sans-serif;
     font-size:16px;
     font-weight:400;
