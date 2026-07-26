@@ -2401,6 +2401,7 @@ body {
     .tag-icon-wrapper {
     height: 48px;
     margin-top: 8px;
+    margin-bottom: 0;
 
 }
     
@@ -2583,7 +2584,7 @@ body {
 }
 
 .faq-content {
-    margin-top: 40px;
+    margin-top: 64px;
 }
     .faq-accordion {
     margin-top: 16px;
