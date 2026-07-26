@@ -2301,7 +2301,7 @@ body {
     font-family: 'Overlock', sans-serif;
     font-weight: 700;
     font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .tag-card p {
@@ -2399,7 +2399,16 @@ body {
 
     }
 
+.tag-card h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+    .tag-icon-wrapper {
+    height: 48px;
+    margin-bottom: 8px;
 
+}
+    
     .tag-card,
     .tag-card:nth-child(1),
     .tag-card:nth-child(2),
