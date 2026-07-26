@@ -696,6 +696,7 @@ body {
 .swipe-title {
     font-family: 'Overlock', sans-serif;
     color: #F6FEFF;
+    font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
 }
@@ -876,6 +877,14 @@ body {
         margin-bottom: 80px;
     }
 
+    .swipe-title {
+    font-family: 'Overlock', sans-serif;
+    color: #F6FEFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+    
     .store-buttons img {
         height: 50px;
     }
@@ -908,7 +917,7 @@ body {
 
     .video-title-text {
     font-family: 'Overlock', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     color: #F6FEFF;
     text-align: center;
