@@ -2968,6 +2968,8 @@ body {
 
 
 
+
+
 /* ============================= */
 /* MOBILE FOOTER */
 /* ============================= */
@@ -2997,17 +2999,12 @@ body {
     /* Show mobile footer */
 
     .footer-mobile {
-
         display:block;
 
         width:100%;
-
         background:rgba(0,80,13,0.9);
-
         padding:32px 16px;
-
         box-sizing:border-box;
-
         color:#F6FEFF;
 
     }
@@ -3019,47 +3016,30 @@ body {
 
 
     .footer-mobile-logo {
-
         display:flex;
-
         justify-content:center;
-
         align-items:flex-end;
 
         margin-bottom:40px;
-
     }
 
 
 
     .footer-mobile-logo img {
-
         width:60px;
-
         height:auto;
-
     }
 
-
-
     .footer-mobile-logo span {
-
         margin-left:-8px;
-
         transform:translateY(8px);
-
         font-family:'Italianno',cursive;
 
         font-size:46px;
-
         line-height:1;
-
         color:#F6FEFF;
 
     }
-
-
-
 
 
     /* CONTENT */
@@ -3067,19 +3047,13 @@ body {
 
     .footer-mobile-content {
 
-        display:grid;
+    display:grid;
+    grid-template-columns:minmax(0,60%) minmax(0,40%);
 
-        grid-template-columns:minmax(0,70%) minmax(0,30%);
-
-        gap:32px;
-
-        height:280px;
-
-        align-items:stretch;
-
-    }
-
-
+    gap:32px;
+    height:300px;
+    align-items:stretch;
+}
 
 
     /* COLUMN 1 */
@@ -3183,11 +3157,9 @@ body {
     }
 
     .footer-mobile-social {
-
-    flex:1;
+    height:100%;
     display:flex;
     flex-direction:column;
-
     justify-content:space-between;
 }
 
@@ -3210,52 +3182,35 @@ body {
     }
 
 
-
-
     /* ADDRESS */
 
-
     .footer-mobile-address {
-
         margin:0;
-
         font-family:'Inder',sans-serif;
 
         font-size:16px;
-
         font-weight:400;
-
         color:#F6FEFF;
-
         line-height:1.6;
 
     }
 
-
-
-
-
     /* COPYRIGHT */
 
-
     .footer-mobile-copyright {
-
         width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
 
         margin-top:40px;
 
         text-align:center;
-
         font-family:'Inder',sans-serif;
-
         font-size:16px;
-
         font-weight:400;
 
         color:#F6FEFF;
-
     }
-
-
 
 }
