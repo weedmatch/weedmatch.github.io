@@ -910,6 +910,17 @@ body {
         width: 228px;
     }
 
+    .video-title-text {
+    font-family: 'Overlock', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F6FEFF;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    margin-bottom: 16px;
+}
+
     /* 1. Image last */
     .swipe-image {
         order: 3;
