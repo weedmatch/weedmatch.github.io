@@ -2257,7 +2257,7 @@ body {
 }
 .tag-icon-wrapper {
 
-    height: 95px;
+    height: 90px;
     display: flex;
     align-items: center;
 
@@ -2399,7 +2399,7 @@ body {
     margin-bottom: 0;
 }
     .tag-icon-wrapper {
-    height: 36px;
+    height: 32px;
     margin-top: 8px;
     margin-bottom: 0;
 
