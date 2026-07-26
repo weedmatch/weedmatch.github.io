@@ -2445,6 +2445,9 @@ body {
         min-width: 0 !important;
         max-width: none !important;
 
+        height: auto !important;
+        min-height: 0 !important;
+
         padding: 8px !important;
 
         display: flex !important;
@@ -2456,7 +2459,7 @@ body {
     }
 
 
-    /* ICON + TITLE SAME ROW */
+    /* ICON + TITLE ROW */
 
     .tag-icon-wrapper {
 
@@ -2464,7 +2467,7 @@ body {
 
         align-items: center !important;
 
-        justify-content: center !important;
+        justify-content: flex-start !important;
 
         width: auto !important;
 
@@ -2489,23 +2492,22 @@ body {
 
         font-size: 20px;
 
-        margin: 0 !important;
+        margin: 0 0 0 8px !important;
 
-        transform: translateX(56px) translateY(-40px);
+        transform: none !important;
 
     }
 
 
     .tag-card p {
 
-        margin: -24px 0 0 0 !important;
+        margin: 0 !important;
 
         line-height: 1.5;
 
     }
 
 }
-
 
 
 
