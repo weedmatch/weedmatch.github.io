@@ -694,6 +694,7 @@ body {
 }
 
 .swipe-title {
+.video-title-text {
     font-family: 'Overlock', sans-serif;
     color: #F6FEFF;
     font-weight: 700;
@@ -908,10 +909,6 @@ body {
 
     .phone-mockup {
         width: 228px;
-    }
-
-    .video-title-image {
-        width: 320px;
     }
 
     /* 1. Image last */
