@@ -2393,7 +2393,13 @@ body {
         padding:0 16px !important;
     }
 
-
+.tag-card {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    text-align:left;
+}
+    
     .tag-card,
     .tag-card:nth-child(1),
     .tag-card:nth-child(2),
@@ -2428,7 +2434,9 @@ body {
 
         display:flex;
         align-items:center;
-        justify-content:center;
+        justify-content:flex-start;
+        gap:12px;
+
 
         margin:0 0 16px 0;
 
