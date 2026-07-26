@@ -2633,17 +2633,32 @@ body {
 
 
 .faq-icon {
-    font-size:28px;
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    width:28px;
-    height:28px;
-    transition:transform .3s ease;
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    font-size: 0;
 }
 
-.faq-item.active .faq-icon {
-    transform: rotate(55deg);
+.faq-icon::before,
+.faq-icon::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 2px;
+    background: #F6FEFF;
+    transform: translate(-50%, -50%);
+    transition: transform .3s ease;
+}
+
+.faq-icon::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.faq-item.active .faq-icon::after {
+    transform: translate(-50%, -50%) rotate(0deg);
 }
 
 
