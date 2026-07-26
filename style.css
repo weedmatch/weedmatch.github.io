@@ -2386,45 +2386,43 @@ body {
 @media (max-width:500px) {
 
     .tags-container {
-    width:100% !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto auto auto !important;
+    gap: 32px !important;
+    padding: 0 16px !important;
 }
 
-.tag-card {
-    width:100% !important;
+.tag-card h3 {
+    font-size: 20px;
+    margin-bottom: 0;
 }
-    
-    .tag-card,
-    .tag-card:nth-child(1),
-    .tag-card:nth-child(2),
-    .tag-card:nth-child(3) {
 
-        grid-column:1 !important;
+.tag-icon-wrapper {
+    height: 32px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
 
-        width:100% !important;
-        min-width:0 !important;
-        max-width:none !important;
 
-        justify-self:center !important;
-        padding:8px;
-        align-items:start;
-    }
-    
-    .tag-icon-wrapper {
-        height:40px;
-        margin-top:8px;
-        margin-bottom:16px;
-    }
-    
-    .tag-icon {
+.tag-card,
+.tag-card:nth-child(1),
+.tag-card:nth-child(2),
+.tag-card:nth-child(3) {
 
-        width:40px;
-        height:40px;
-    }
+    grid-column: 1 !important;
+    width:100% !important;
+    min-width:0 !important;
+    max-width:none !important;
+    justify-self:center !important;
 
-    .tag-card p {
-        margin-top:0;
-        line-height:1.5;
-    }
+    align-items:start;
+}
+
+.tag-card p {
+    margin-top:8px;
+    line-height:1.5;
+}
 
 }
 
