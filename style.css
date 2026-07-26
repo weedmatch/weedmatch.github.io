@@ -2752,12 +2752,10 @@ body {
 }
 
 .subscription-slide-image {
-
     width: 232px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 0.6s ease, opacity 0.6s ease;
 }
 
 .subscription-slide-image img {
@@ -2765,6 +2763,7 @@ body {
     width: 232px;
     height: auto;
     object-fit: contain;
+    transition: transform 0.6s ease, opacity 0.6s ease;
 }
 
 
