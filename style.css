@@ -3119,13 +3119,13 @@ body {
         justify-content:center;
         align-items:flex-end;
 
-        margin-bottom:40px;
+        margin-bottom:16px;
     }
 
 
 
     .footer-mobile-logo img {
-        width:60px;
+        width:50px;
         height:auto;
     }
 
@@ -3134,7 +3134,7 @@ body {
         transform:translateY(8px);
         font-family:'Italianno',cursive;
 
-        font-size:46px;
+        font-size:32px;
         line-height:1;
         color:#F6FEFF;
 
@@ -3302,7 +3302,7 @@ body {
         justify-content:center;
         align-items:center;
 
-        margin-top:40px;
+        margin-top:16px;
 
         text-align:center;
         font-family:'Inder',sans-serif;
