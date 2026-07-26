@@ -1823,6 +1823,8 @@ body {
 
     .links-container {
         padding:0 16px;
+        margin-top:16px;
+        margin-bottom:16px;
  }        
     .links-title {
     font-size: 20px;
@@ -2150,6 +2152,7 @@ body {
     .enthusiasts-content h2 {
     font-size: 22px;
 }
+
 .enthusiasts-content h3 {
     font-size: 20px;
 }
@@ -2171,7 +2174,13 @@ body {
         order: 3;
         width: 100%;
     }
-    
+
+    .enthusiasts-tag-image img {
+    width: 260px;
+}
+.i-dont-image {
+    width: 260px;
+   } 
 }
 
 
