@@ -2377,7 +2377,7 @@ body {
         grid-row: 1;
         
         align-self: center;
-        margin: -50px 0 0 0 !important;
+        margin: -32px 0 0 0 !important;
     }
 
     .tag-card p {
@@ -2388,17 +2388,17 @@ body {
     .tag-card:nth-child(3) {
     grid-column: 1 / -1;
     width: auto;
-    height: 150px;
+    height: auto;
     justify-self: center;
 }
 
 .tag-card:nth-child(3) h3 {
     
-        margin: -100px 0 0 0 !important;
+        margin: -80px 0 0 0 !important;
     }
 
 .tag-card:nth-child(3) p {
-    margin: -78px 0 0 0 !important;
+    margin: -24px 0 0 0 !important;
 }
     
 }
