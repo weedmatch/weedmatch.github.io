@@ -2388,11 +2388,12 @@ body {
     .tag-card:nth-child(3) {
     grid-column: 1 / -1;
     width: auto;
+    height: 150px;
     justify-self: center;
 }
 
 .tag-card:nth-child(3) p {
-    margin: -100px 0 0 0 !important;
+    margin: -60px 0 0 0 !important;
 }
     
 }
