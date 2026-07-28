@@ -2870,6 +2870,10 @@ body {
 
 
 .footer-section {
+    display: block;
+}
+
+.footer-section {
     width: 100%;
     background: rgba(0,80,13,0.85);
     padding: 32px 0 32px;
