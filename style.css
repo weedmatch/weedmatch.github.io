@@ -2392,7 +2392,7 @@ body {
 }
 
 .tag-card:nth-child(3) p {
-    margin: 16px 0 0 0 !important;
+    margin: -100px 0 0 0 !important;
 }
     
 }
