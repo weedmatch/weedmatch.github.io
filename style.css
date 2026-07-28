@@ -2186,7 +2186,6 @@ body {
         grid-column: auto;
         order: 1;
         margin-bottom: 0;
-
     }
 
     .enthusiasts-left {
@@ -2202,6 +2201,7 @@ body {
     .enthusiasts-tag-image img {
     width: 300px;
 }
+    
 .i-dont-image {
     width: 300px;
    } 
@@ -2388,6 +2388,7 @@ body {
     .tag-card:nth-child(3) {
     grid-column: 1 / -1;
     width: auto;
+    margin-top: 0;
     justify-self: center;
 }
 }
