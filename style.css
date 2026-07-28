@@ -2382,12 +2382,12 @@ body {
     .tag-card p {
         grid-column: 1 / -1;
         grid-row: 2;
-        margin: -16px 0 0 0 !important;
     }
 
     .tag-card:nth-child(3) {
     grid-column: 1 / -1;
     width: auto;
+    margin: -16px 0 0 0 !important;
     justify-self: center;
 }
 }
