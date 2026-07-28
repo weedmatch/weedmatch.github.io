@@ -2388,19 +2388,9 @@ body {
     .tag-card:nth-child(3) {
     grid-column: 1 / -1;
     width: auto;
-    height: auto;
     justify-self: center;
 }
 
-.tag-card:nth-child(3) h3 {
-    
-        margin: -80px 0 0 0 !important;
-    }
-
-.tag-card:nth-child(3) p {
-    margin: -24px 0 0 0 !important;
-}
-    
 }
 
 
@@ -2424,7 +2414,6 @@ body {
 
     grid-column: 1 !important;
     width: 100% !important;
-    height: auto !important;
 
     min-width: 0 !important;
     max-width: none !important;
