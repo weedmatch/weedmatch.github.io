@@ -2390,9 +2390,7 @@ body {
     .tag-card:nth-child(3) {
     grid-column: 1 / -1;
         
-    width: 320px;
-    min-width: 320px;
-    max-width: 320px;
+    width: auto;
     justify-self: center;
 
 }
@@ -2454,7 +2452,7 @@ body {
 .tag-card h3 {
     display: flex !important;
     align-items: left !important;
-    margin: -50px 10px 8px -100px !important;
+    margin: -50px 10px 8px 0 !important;
     font-size: 20px;
 }
 
