@@ -2485,7 +2485,7 @@ body {
 /* TEXT */
 
 .tag-card p {
-    margin: 16px 8px 0 8px !important;
+    margin: 0 100px 0 0 !important;
     line-height: 1.5;
  }
 }
