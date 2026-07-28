@@ -2376,13 +2376,13 @@ body {
         grid-row: 1;
         
         align-self: center;
-        margin: -32px 0 0 0 !important;
+        margin: -28px 0 0 0 !important;
     }
 
     .tag-card p {
         grid-column: 1 / -1;
         grid-row: 2;
-        margin-top: 0;
+        margin: -16px 0 0 0 !important;
     }
 
     .tag-card:nth-child(3) {
