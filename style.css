@@ -2341,8 +2341,8 @@ body {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    padding: 0 32px;
+    gap: 32px;
+    padding: 0 16px;
     align-items: stretch;
 }
     
@@ -2355,10 +2355,10 @@ body {
         display: grid;
         grid-template-columns: 70px 1fr;
         grid-template-rows: auto auto;
-        column-gap: 20px;
+        column-gap: 16px;
         align-items: center;
         text-align: left;
-        padding: 25px;
+        padding: 16px;
 
     }
 
@@ -2392,9 +2392,7 @@ body {
         
     width: auto;
     justify-self: center;
-
 }
-
 }
 
 
