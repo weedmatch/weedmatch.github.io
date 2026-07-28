@@ -2869,8 +2869,8 @@ body {
 /* ============================= */
 
 
-.footer-section {
-    display: block;
+.footer-mobile {
+    display: none;
 }
 
 .footer-section {
