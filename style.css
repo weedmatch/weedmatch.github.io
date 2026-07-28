@@ -2478,7 +2478,7 @@ body {
 .tag-card h3 {
     display: flex !important;
     align-items: center !important;
-    margin: -24px 0 0 48px !important;
+    margin: -60px 0 0 48px !important;
     font-size: 20px;
 }
 
