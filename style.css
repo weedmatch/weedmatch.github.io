@@ -2392,8 +2392,13 @@ body {
     justify-self: center;
 }
 
+.tag-card:nth-child(3) h3 {
+    
+        margin: -32px 0 0 0 !important;
+    }
+
 .tag-card:nth-child(3) p {
-    margin: -60px 0 0 0 !important;
+    margin: -78px 0 0 0 !important;
 }
     
 }
