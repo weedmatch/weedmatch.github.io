@@ -2356,7 +2356,7 @@ body {
         grid-template-columns: 70px 1fr;
         grid-template-rows: auto auto;
         column-gap: 16px;
-        align-items: center;
+        align-items: start;
         text-align: left;
         padding: 16px;
 
@@ -2368,7 +2368,7 @@ body {
         grid-row: 1;
         margin-bottom: 0;
 
-        height: 32px;
+        height: 70px;
     }
 
     .tag-card h3 {
@@ -2380,7 +2380,6 @@ body {
     }
 
     .tag-card p {
-
         grid-column: 1 / -1;
         grid-row: 2;
         margin-top: 0;
@@ -2388,7 +2387,6 @@ body {
 
     .tag-card:nth-child(3) {
     grid-column: 1 / -1;
-        
     width: auto;
     justify-self: center;
 }
