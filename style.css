@@ -2448,7 +2448,7 @@ body {
     height: auto !important;
     min-height: 0 !important;
 
-    padding: 8px !important;
+    padding: 16px !important;
     display: flex !important;
     flex-direction: column !important;
 
