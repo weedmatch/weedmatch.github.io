@@ -2336,6 +2336,7 @@ body {
 
 
 
+
 @media (max-width: 850px) {
 
    .tags-container {
@@ -2355,9 +2356,12 @@ align-items: stretch;
 
     display: grid;
     grid-template-columns: 70px 1fr;
-    grid-template-rows: auto auto;
+
     column-gap: 16px;
-    align-items: center;
+    grid-template-rows: auto auto;
+    row-gap: 8px; /* or 0px if you want it very close */
+    align-items: start;
+
     text-align: left;
     padding: 16px;
 
@@ -2396,6 +2400,7 @@ justify-self: center;
     
 }
     }
+
 
 
 
