@@ -337,11 +337,8 @@ body {
     justify-content: center;
 
     gap: 12px;
-
     padding: 10px 14px;
-
     border-radius: 16px;
-
     background: rgba(0,0,0,0.2);
 
     z-index: 20;
@@ -351,15 +348,11 @@ body {
 .carousel-dot {
     width: 10px;
     height: 10px;
-
     border-radius: 50%;
 
     background: #F6FEFF;
-
     opacity: 0.5;
-
     cursor: pointer;
-
     transition: opacity 0.3s ease;
 }
 
@@ -413,25 +406,21 @@ body {
     padding: 0 16px;
 
     color: #F6FEFF;
-
     font-family: 'Inder', sans-serif;
     font-size: 16px;
 
     cursor: pointer;
 }
 
-
 .language-option:hover {
     background: rgba(246,254,255,0.15);
 }
-
 
 /* Chevron Rotation */
 
 .language-chevron {
     transition: transform 0.3s ease;
 }
-
 
 .language-wrapper.open .language-chevron {
     transform: rotate(180deg);
@@ -1491,17 +1480,13 @@ body {
     max-width: 1500px;
 
     margin: 0 auto;
-
     padding: 80px 40px;
 
     display: grid;
 
     grid-template-columns: repeat(3, 1fr);
-
     align-items: center;
-
     gap: 40px;
-
 }
 
 
@@ -1535,11 +1520,8 @@ body {
 
 
 .intro-title-row img {
-
     width: 70px;
-
     height: auto;
-
 }
 
 
@@ -1592,7 +1574,6 @@ body {
 
     display: flex;
     justify-content: center;
-
 }
 
 
@@ -2281,11 +2262,8 @@ body {
     height: 420px;
 
     background: #F6FEFF;
-
     border: 2px solid #00500D;
-
     border-radius: 20px;
-
     padding: 40px 25px;
 
     display: flex;
@@ -2293,12 +2271,11 @@ body {
     align-items: center;
 
     text-align: center;
-
     color: #00500D;
 
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-
 }
+
 .tag-icon-wrapper {
 
     height: 90px;
@@ -2465,8 +2442,7 @@ body {
     justify-content: flex-start !important;
     width: auto !important;
     height: 40px !important;
-    margin: 0 !important;
-    margin-bottom: 16px !important;
+    margin: 0 0 16px 16px !important;
 }
 
 .tag-icon {
@@ -2477,8 +2453,8 @@ body {
 
 .tag-card h3 {
     display: flex !important;
-    align-items: center !important;
-    margin: -50px 10px 8px -80px !important;
+    align-items: left !important;
+    margin: -50px 10px 8px -100px !important;
     font-size: 20px;
 }
 
@@ -2489,6 +2465,12 @@ body {
     line-height: 1.5;
  }
 }
+
+
+
+
+
+
 
 
 
