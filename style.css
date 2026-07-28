@@ -2424,6 +2424,7 @@ body {
 
     grid-column: 1 !important;
     width: 100% !important;
+    height: auto !important;
 
     min-width: 0 !important;
     max-width: none !important;
