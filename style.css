@@ -2368,7 +2368,7 @@ body {
         grid-row: 1;
         margin-bottom: 0;
 
-        height: 70px;
+        height: 32px;
     }
 
     .tag-card h3 {
@@ -2384,7 +2384,6 @@ body {
         grid-column: 1 / -1;
         grid-row: 2;
         margin-top: 0;
-
     }
 
     .tag-card:nth-child(3) {
