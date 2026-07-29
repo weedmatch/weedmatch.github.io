@@ -846,8 +846,8 @@ body {
 
     .swipe-container {
         grid-template-columns: 1fr;
-        gap: 78px;
-        padding: 40px 16px;
+        gap: 64px;
+        padding: 32px 16px;
     }
 
     /* 2. Middle Content first */
@@ -859,7 +859,8 @@ body {
     .swipe-description {
         max-width: 100%;
         font-size: 16px;
-        margin-bottom: 80px;
+        margin-top: 32px;
+        margin-bottom: 64px;
     }
 
     .swipe-title {
@@ -871,23 +872,23 @@ body {
 }
     
     .store-buttons img {
-        height: 50px;
+        height: 48px;
     }
 
     .store-buttons {
-        margin-bottom: 48px;
+        margin-bottom: 32px;
     }
 
     .swipe-decoration {
-        gap: 48px;
+        gap: 64px;
     }
 
     .swipe-decoration img {
-        width: 44px;
+        width: 46px;
     }
 
     .swipe-decoration .ios-icon {
-        width: 70px;
+        width: 66px;
     }
 
     /* 3. Video second */
