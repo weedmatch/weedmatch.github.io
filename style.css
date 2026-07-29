@@ -3235,7 +3235,7 @@ align-items: stretch;
     .footer-mobile-content {
 
     display:grid;
-    grid-template-columns:minmax(0,60%) minmax(0,40%);
+    grid-template-columns:minmax(0,62%) minmax(0,38%);
 
     gap:32px;
     height:auto;
