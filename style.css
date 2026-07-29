@@ -1106,9 +1106,9 @@ body {
 
     flex: 1 1 400px;
 
-    background: #F6FEFF;
+    background: #00500D;
 
-    border: 1px solid #00500D;
+    border: 1px solid #F6FEFF;
     border-radius: 16px;
 
     padding: 16px;
@@ -1138,7 +1138,7 @@ body {
     text-align: center;
 
     font-family: 'Inder', sans-serif;
-    color: #00500D;
+    color: #F6FEFF;
 
     font-size: 16px;
     line-height: 1.4;
@@ -1152,6 +1152,7 @@ body {
 
 .bottom-feature-card h3 {
     grid-column: 2;
+    color: #F6FEFF;
     justify-self: start;
 }
 
@@ -1160,6 +1161,7 @@ body {
 }
 
 .bottom-feature-card p {
+    color: #F6FEFF;
     grid-column: 1 / -1;
 }
 
@@ -1182,34 +1184,34 @@ body {
 }
 
 .green-icon {
-    opacity: 1;
+    opacity: 0;
 }
 
 
 .white-icon {
-    opacity: 0;
+    opacity: 1;
 }
 
 
 /* Card Hover */
 
 .bottom-feature-card:hover {
-    background: #00500D;
-    border-color: #F6FEFF;
+    background: #F6FEFF;
+    border-color: #00500D;
     transform: translateY(-6px);
 }
 
 .bottom-feature-card:hover h3,
 .bottom-feature-card:hover p {
-    color: #F6FEFF;
+    color: #00500D;
 }
 
 .bottom-feature-card:hover .green-icon {
-    opacity: 0;
+    opacity: 1;
 }
 
 .bottom-feature-card:hover .white-icon {
-    opacity: 1;
+    opacity: 0;
 }
 
 
