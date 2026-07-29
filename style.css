@@ -2035,7 +2035,7 @@ body {
 
 
 .enthusiasts-tag-text {
-    margin-top: 20;
+    margin-top: 16px;
 
     font-family: 'Inder', sans-serif;
     font-size: 16px;
@@ -2156,7 +2156,7 @@ body {
 }
 
 .enthusiasts-seeker-text {
-    margin-top: 20;
+    margin-top: 16px;
     font-family: 'Inder', sans-serif;
     font-size: 16px;
     
@@ -2252,15 +2252,8 @@ body {
 .tags-section {
 
     width: 100%;
-    background: rgba(0,80,13,0.85);
+    background: rgba(0,80,13,0.9);
     padding: 80px 0 100px;
-
-    clip-path: polygon(
-        0 0,
-        100% 0,
-        100% 96%,
-        0 100%
-    );
 }
 
 
@@ -2530,6 +2523,25 @@ align-items: stretch;
 
 
 
+ /* SECTION DIVIDER */
+
+.section-divider {
+    width: 100%;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.section-divider img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+
+
 
 
 
@@ -2606,7 +2618,7 @@ align-items: stretch;
 
     width: 100%;
     margin-top: 64px;
-    background: rgba(0,80,13,0.88);
+    background: rgba(0,80,13,0.9);
     border-radius: 20px;
 
     overflow: hidden;
@@ -2931,7 +2943,7 @@ align-items: stretch;
 
 .footer-section {
     width: 100%;
-    background: rgba(0,80,13,0.85);
+    background: rgba(0,80,13,0.9);
     padding: 32px 0 32px;
 
     color: #F6FEFF;
