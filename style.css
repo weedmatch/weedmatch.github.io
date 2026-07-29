@@ -812,10 +812,6 @@ body {
         width: clamp(200px, 18vw, 240px);
     }
 
-    .video-title-image {
-        width: clamp(280px, 18vw, 320px);
-    }
-
     .store-buttons img {
         height: clamp(45px, 3vw, 50px);
     }
@@ -839,7 +835,7 @@ body {
     }
 
     .swipe-image img {
-        max-width: clamp(280px, 30vw, 320px);
+        max-width: 380px;
     }
 
 }
