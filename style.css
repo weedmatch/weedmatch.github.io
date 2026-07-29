@@ -2274,7 +2274,7 @@ body {
 
     width: 100%;
     background: rgba(0,80,13,0.9);
-    padding: 80px 0 100px;
+    padding: 64px 0 32px;
 }
 
 
@@ -2338,8 +2338,8 @@ body {
 }
 
 .tag-icon {
-    width: 70px;
-    height: 70px;
+    width: 64px;
+    height: 64px;
     object-fit: contain;
     margin-bottom: 25px;
 }
@@ -2545,6 +2545,7 @@ align-items: stretch;
 
 
 
+
  /* SECTION DIVIDER */
 
 .section-divider {
@@ -2578,7 +2579,7 @@ align-items: stretch;
     width: 100%;
 
     background: rgba(255,255,255,0.7);
-    padding: 80px 0;
+    padding: 100px 16px 100px 16px;
 
 }
 
@@ -2587,9 +2588,6 @@ align-items: stretch;
     width: 90%;
     max-width: 1500px;
     margin: 0 auto;
-
-    padding: 0 40px;
-    border-radius: 30px;
 }
 
 .contact-content,
@@ -2611,14 +2609,13 @@ align-items: stretch;
     font-size: 24px;
     color: #00500D;
     margin-bottom: 32px;
-    margin-top: 32px;
 }
 
 .contact-content p {
 
     font-family: 'Inder', sans-serif;
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.4;
 
     color: #00500D;
 }
@@ -2640,10 +2637,11 @@ align-items: stretch;
 .faq-accordion {
 
     width: 100%;
-    margin-top: 64px;
+    margin-top: 32px;
     background: rgba(0,80,13,0.9);
-    border-radius: 20px;
+    border-radius: 32px;
 
+    border: 1px solid #F6FEFF;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 
@@ -2652,8 +2650,8 @@ align-items: stretch;
 .faq-question {
 
     width: 100%;
-    padding: 22px 30px;
-    background: transparent;
+    padding: 16px 32px;
+    background: none;
     border: none;
 
     color: #F6FEFF;
@@ -2672,14 +2670,13 @@ align-items: stretch;
 
 .faq-item {
 
-    border-bottom: 1px solid rgba(246,254,255,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
 }
 
 .faq-item:last-child {
 
     border-bottom: none;
-
 }
 
 .faq-answer {
@@ -2690,7 +2687,7 @@ align-items: stretch;
 }
 
 .faq-answer p {
-    padding: 0 30px 25px;
+    padding: 0 32px 16px 32px;
 
     color: #F6FEFF;
     font-family: 'Inder', sans-serif;
@@ -2704,8 +2701,8 @@ align-items: stretch;
 .faq-icon {
     position: relative;
     display: inline-block;
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
     font-size: 0;
 }
 
@@ -2741,7 +2738,7 @@ align-items: stretch;
 }
 
     .contact-faq-section {
-    padding: 32px 0;
+    padding: 64px 0 64px 0;
 }
 
 .faq-content {
@@ -2792,14 +2789,13 @@ align-items: stretch;
 
     width: 100%;
     background: rgba(255,255,255,0.7);
-    padding: 80px 0;
+    padding: 0 32px 100px 32px;
 }
 
 .subscription-container {
     width: 90%;
     max-width: 1500px;
     margin: 0 auto;
-
 }
 
 .subscription-container h2 {
@@ -2808,7 +2804,7 @@ align-items: stretch;
     font-family: 'Overlock', sans-serif;
     font-size: 24px;
     color: #00500D;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 
 }
 
@@ -2883,7 +2879,15 @@ align-items: stretch;
 }
 
 .subscription-dots {
-    display: none;
+    display: block;
+    max-width: fit-content;
+
+    background: rgba(255,255,255,1);
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -2899,6 +2903,10 @@ align-items: stretch;
 
 @media (max-width:700px) {
 
+    .subscription-section {
+    padding: 32px 32px 64px 32px;
+}
+
     .subscription-desktop {
         display: none;
     }
@@ -2906,7 +2914,6 @@ align-items: stretch;
     .subscription-container h2 {
     font-size: 22px;
     margin-bottom: 32px;
-
 }
     
     .subscription-slider {
@@ -2914,21 +2921,20 @@ align-items: stretch;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 25px;
-
+        gap: 32px;
     }
 
     .subscription-dots {
 
         display: flex;
         justify-content: center;
-        gap: 10px;
-        margin-top: 30px;
+        gap: 16px;
+        margin-top: 32px;
     }
     
    .subscription-dot {
-    width:10px;
-    height:10px;
+    width:12px;
+    height:12px;
     border-radius:50%;
     background:#00500D;
     opacity:0.5;
@@ -2987,11 +2993,11 @@ align-items: stretch;
     align-items: flex-end;
 
     gap: 0;
-    margin-bottom: 60px;
+    margin-bottom: 64px;
 }
 
 .footer-logo img {
-    width: 60px;
+    width: 50px;
     height: auto;
 }
 
@@ -3003,7 +3009,7 @@ align-items: stretch;
     font-family: 'Italianno', cursive;
 
     color: #F6FEFF;
-    font-size: 46px;
+    font-size: 32px;
     line-height: 1;
 }
 
@@ -3109,8 +3115,8 @@ align-items: stretch;
 
 
 .footer-contact-icons img {
-    width:22px;
-    height:22px;
+    width:24px;
+    height:24px;
 }
 
 
@@ -3180,12 +3186,8 @@ align-items: stretch;
     /* Hide desktop footer */
 
     .footer-section {
-
         display:none;
-
     }
-
-
 
     /* Show mobile footer */
 
@@ -3199,9 +3201,6 @@ align-items: stretch;
         color:#F6FEFF;
 
     }
-
-
-
 
     /* LOGO */
     
@@ -3233,7 +3232,6 @@ align-items: stretch;
 
     /* CONTENT */
 
-
     .footer-mobile-content {
 
     display:grid;
@@ -3244,9 +3242,7 @@ align-items: stretch;
     align-items:stretch;
 }
 
-
     /* COLUMN 1 */
-
 
     .footer-mobile-column-left {
 
@@ -3256,76 +3252,47 @@ align-items: stretch;
         white-space:nowrap;
     }
 
-
-
     .footer-mobile-column-left h3 {
 
         margin:0;
-
         font-family:'Inder',sans-serif;
-
         font-size:16px;
 
         font-weight:400;
-
         color:#F6FEFF;
-
     }
 
-
-
-
     .footer-mobile-contact {
-
         display:flex;
-
         flex-direction:column;
 
         align-items:flex-start;
-
         gap:8px;
-
     }
-
-
 
 
     .footer-mobile-contact-icons {
 
         display:flex;
-
         justify-content:flex-start;
-
         align-items:center;
 
         gap:16px;
-
     }
-
-
 
     .footer-mobile-contact-icons img {
 
-        width:22px;
-
-        height:22px;
-
+        width:24px;
+        height:24px;
     }
 
-
-
     .footer-mobile-contact p {
-
         margin:0;
-
         font-family:'Inder',sans-serif;
 
         font-size:16px;
-
         font-weight:400;
-
         color:#F6FEFF;
-
     }
 
     .footer-mobile-contact a {
@@ -3334,7 +3301,6 @@ align-items: stretch;
 }
 
     /* COLUMN 2 */
-
 
     .footer-mobile-column-right {
     display:flex;
@@ -3352,7 +3318,6 @@ align-items: stretch;
 }
 
     /* ICON ROWS */
-
     .footer-mobile-icon-row {
         width:100%;
         display:flex;
@@ -3367,7 +3332,6 @@ align-items: stretch;
 
         flex-shrink:0;
     }
-
 
     /* ADDRESS */
 
