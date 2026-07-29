@@ -1103,6 +1103,7 @@ body {
 }
 
 .bottom-feature-card {
+
     flex: 1 1 400px;
 
     background: #F6FEFF;
@@ -1110,6 +1111,12 @@ body {
     border: 1px solid #00500D;
     border-radius: 16px;
 
+    padding: 16px;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 16px;
+    justify-content: center;
     padding: 16px;
 
     text-align: center;
@@ -1135,6 +1142,25 @@ body {
 
     font-size: 16px;
     line-height: 1.4;
+}
+
+.bottom-feature-card .card-icon-wrapper {
+    grid-column: 1;
+    justify-self: end;
+    width: 24px;
+}
+
+.bottom-feature-card h3 {
+    grid-column: 2;
+    justify-self: start;
+}
+
+.bottom-feature-card {
+    justify-content: center;
+}
+
+.bottom-feature-card p {
+    grid-column: 1 / -1;
 }
 
 
@@ -1396,24 +1422,26 @@ body {
 
 
 .bottom-feature-card {
+    display: grid;
 
     width:100% !important;
     max-width:none !important;
-
-    padding:8px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 32px;
+    padding: 16px;
 
     height:auto;
 
 }
 
-
-.card-icon-wrapper {
+.bottom-feature-card .card-icon-wrapper {
 
     width:40px;
     height:40px;
 
-    margin:0 auto 16px;
-
+    margin:0;
+    grid-column: 1;
 }
 
 
@@ -1424,12 +1452,10 @@ body {
 
 }
 
-
 .bottom-feature-card h3 {
-
+    grid-column: 2;
     font-size:20px;
-    margin-bottom:16px;
-
+    align-self:center;
 }
 
 
@@ -1439,7 +1465,7 @@ body {
     max-width:none;
     min-width:0;
 
-    margin:0;
+    margin-top:16px;
 
     line-height:1.5;
 
@@ -2671,6 +2697,11 @@ align-items: stretch;
 
 
 @media (max-width: 850px) {
+
+
+    .contact-content p {
+    padding: 0 32px 0 32px;
+}
 
     .contact-faq-section {
     padding: 32px 0;
