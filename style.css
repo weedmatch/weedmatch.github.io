@@ -118,6 +118,9 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+
+    text-decoration: none;
+    color: inherit;
     gap: 0;
 }
 
@@ -137,6 +140,10 @@ body {
     color: #F6FEFF;
     font-size: 46px;
     line-height: 1;
+}
+
+.brand-logo:hover {
+    text-decoration: none;
 }
 
 /* Tagline */
@@ -196,6 +203,7 @@ body {
     width: max-content;
     flex-shrink: 0;
     white-space: nowrap;
+    text-decoration: none;
 }
 
 .contact-button,
@@ -223,6 +231,7 @@ body {
 }
 
 .contact-button:hover {
+    text-decoration: none;
     transform: scale(1.04);
 }
 
@@ -3054,7 +3063,7 @@ align-items: stretch;
 }
 
 .footer-column h3:hover {
-    opacity: 0.7;
+    opacity: 0.6;
 
 }
 
@@ -3066,11 +3075,6 @@ align-items: stretch;
     font-weight: 400;
     
     line-height:1.6;
-    transition: opacity 0.3s ease;
-}
-
-.footer-column p:hover {
-    opacity:0.7;
 }
 
 .mobile-footer-address {
@@ -3144,8 +3148,7 @@ align-items: stretch;
 .footer-social-icons img:hover {
 
     transform: scale(1.15);
-    opacity: 0.8;
-
+    opacity: 0.6;
 }
 
 .footer-mobile-layout {
@@ -3260,6 +3263,17 @@ align-items: stretch;
 
         font-weight:400;
         color:#F6FEFF;
+        text-decoration: none;
+    }
+
+    .footer-mobile-column-left h3 a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .footer-mobile-column-left h3 a:hover {
+        text-decoration: none;
+        opacity: 0.6;
     }
 
     .footer-mobile-contact {
