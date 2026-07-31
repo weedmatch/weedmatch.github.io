@@ -3062,6 +3062,16 @@ align-items: stretch;
     transition: opacity 0.3s ease;
 }
 
+.footer-column h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-column h3 a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
 .footer-column h3:hover {
     opacity: 0.6;
 
@@ -3263,7 +3273,6 @@ align-items: stretch;
 
         font-weight:400;
         color:#F6FEFF;
-        text-decoration: none;
     }
 
     .footer-mobile-column-left h3 a {
