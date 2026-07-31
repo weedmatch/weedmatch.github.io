@@ -3385,3 +3385,164 @@ align-items: stretch;
 }
 
      }
+
+
+    
+
+
+
+
+
+
+
+
+     /* ============================= */
+/* LEGAL PAGES */
+/* ============================= */
+
+.page-header .brand-name span,
+.page-header .brand p {
+    color: #00500D;
+}
+
+
+.legal-page {
+
+    width: 90%;
+    max-width: 1500px;
+    margin: 64px auto 100px;
+
+    padding: 64px;
+    background: rgba(246,254,255,0.8);
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+.legal-page h1 {
+    font-family: 'Overlock', sans-serif;
+
+    font-size: 24px;
+    color: #00500D;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.legal-page h2 {
+    font-family: 'Overlock', sans-serif;
+
+    font-size: 22px;
+    color: #00500D;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.legal-page p {
+
+    font-family: 'Inder', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #00500D;
+    margin-bottom: 16px;
+}
+
+.legal-page ul {
+    padding-left: 32px;
+    margin-bottom: 32px;
+}
+
+
+
+.legal-page li {
+
+    font-family: 'Inder', sans-serif;
+
+    font-size: 16px;
+    line-height: 1.7;
+    color: #00500D;
+    margin-bottom: 12px;
+}
+
+.legal-contact-box {
+
+    background: rgba(0,80,13,0.8);
+    padding: 16px;
+
+    border-radius: 16px;
+    margin-top: 32px;
+}
+
+.legal-contact-box p {
+
+    color: #F6FEFF;
+    margin: 0;
+}
+
+
+/* LEGAL PAGE HEADER */
+
+.page-header {
+
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+
+    margin: 24px auto 0;
+    padding: 0 40px;
+
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    z-index: 10;
+}
+
+
+.page-header .brand {
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-align: center;
+}
+
+
+@media(max-width:700px) {
+
+    .page-header {
+
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 0;
+        padding: 0 16px;
+
+    }
+
+
+    .page-header .brand {
+
+        position: static;
+        transform: none;
+        order: 1;
+        margin-top: 0;
+
+    }
+
+
+    .page-header .header-buttons {
+
+        order: 2;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+        margin-top: 16px;
+
+    }
+
+}
