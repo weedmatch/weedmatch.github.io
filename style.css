@@ -10,7 +10,7 @@
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 32px;
 }
 
 html,
@@ -67,7 +67,7 @@ body {
     width: 100%;
     max-width: 1500px;
 
-    padding: 0 40px;
+    padding: 0 32px;
 
     display: flex;
     align-items: center;
@@ -677,7 +677,7 @@ body {
     height: auto;
     object-fit: contain;
 
-    filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.5));
 }
 
 
@@ -739,7 +739,7 @@ body {
 .ios-icon {
     width: 64px;
     height: auto;
-    filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.5));
 }
 
 .swipe-decoration img {
@@ -778,7 +778,7 @@ body {
     border: 6px solid #000000;
     border-radius: clamp(20px, 3vw, 36px);
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.5));
 }
 
 
@@ -1005,7 +1005,7 @@ body {
     border-radius: 26px;
 
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.5));
 }
 
 
@@ -1060,7 +1060,7 @@ body {
     flex-direction: column;
     gap: 14px;
 
-    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.5));
 }
 
 
@@ -1128,7 +1128,7 @@ body {
 
     text-align: center;
 
-    box-shadow: 0 8px 18px rgba(0,0,0,0.5);
+    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.5));
 
     transition:
         background 0.3s ease,
@@ -1628,7 +1628,7 @@ body {
     border-radius: 26px;
     overflow: hidden;
 
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.5));
 
 }
 
@@ -2056,7 +2056,7 @@ body {
     height: auto;
     object-fit: contain;
 
-    filter: drop-shadow(0 8px 15px rgba(0,0,0,0.5));
+    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.5));
 }
 
 
@@ -2179,7 +2179,7 @@ body {
     height: auto;
     margin-top: 0;
 
-    filter: drop-shadow(0 8px 15px rgba(0,0,0,0.5));
+    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.5));
 
 }
 
@@ -2325,7 +2325,7 @@ body {
     text-align: center;
     color: #00500D;
 
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.5));
 }
 
 .tag-icon-wrapper {
@@ -2653,7 +2653,7 @@ align-items: stretch;
 
     border: 1px solid #F6FEFF;
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    filter: drop-shadow(0 10px 25px rgba(0,0,0,0.5));
 
 }
 
@@ -2835,7 +2835,7 @@ align-items: stretch;
 .subscription-desktop img,
 .subscription-slide-image img {
 
-    filter: drop-shadow(0 15px 25px rgba(0,0,0,0.5));
+    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.5));
 
 }
 
@@ -3409,13 +3409,14 @@ align-items: stretch;
 .legal-page {
 
     width: 90%;
-    max-width: 1500px;
+    max-width: 1430px;
     margin: 64px auto 100px;
 
-    padding: 64px;
+    padding: 32px;
     background: rgba(246,254,255,0.8);
     border-radius: 16px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    border: 1px solid #568360;
+    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.5));
 }
 
 .legal-page h1 {
@@ -3423,7 +3424,7 @@ align-items: stretch;
 
     font-size: 24px;
     color: #00500D;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
     text-align: center;
 }
 
@@ -3459,7 +3460,7 @@ align-items: stretch;
     font-size: 16px;
     line-height: 1.7;
     color: #00500D;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 .legal-contact-box {
@@ -3542,7 +3543,20 @@ align-items: stretch;
 
         width: 100%;
         margin-top: 16px;
-
     }
+
+    .legal-page {
+    margin: 32px auto 32px;
+    width: 100%;
+    padding: 16px;
+    }
+
+    .legal-page h1 {
+    font-size: 22px;
+}
+
+    .legal-page h2 {
+    font-size: 20px;
+}
 
 }
