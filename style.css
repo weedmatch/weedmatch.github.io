@@ -10,7 +10,6 @@
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 0 32px;
 }
 
 html,
@@ -59,7 +58,7 @@ body {
 /* Header */
 .hero-header {
     position: absolute;
-    top: 24px;
+    top: 32px;
     left: 50%;
 
     transform: translateX(-50%);
@@ -247,7 +246,7 @@ body {
 /* Weed Carousel */
 
 .weed-carousel {
-    width: min(1400px, calc(100% - 80px));
+    width: min(1500px, calc(100% - 80px));
     position: absolute;
     top: 50%;
     left: 50%;
@@ -654,13 +653,13 @@ body {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 80px 40px;
+    padding: 100px 32px;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
     align-items: center;
-    gap: 40px;
+    gap: auto;
 }
 
 /* Left Image */
@@ -668,6 +667,7 @@ body {
 .swipe-image {
     display: flex;
     justify-content: center;
+    justify-self: start;
 }
 
 
@@ -689,6 +689,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transform: translateX(36px);
 }
 
 .swipe-title {
@@ -759,6 +760,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-self: end;
+    
 }
 
 .video-title-text {
@@ -809,6 +812,7 @@ body {
     .swipe-content {
         order: 2;
         width: 100%;
+        transform: none;
     }
 
     .swipe-image {
@@ -863,6 +867,7 @@ body {
     .swipe-content {
         order: 1;
         width: 100%;
+        transform: none;
     }
 
     .swipe-description {
@@ -971,7 +976,7 @@ body {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 0 40px 100px;
+    padding: 0 32px 100px 32px;
 
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1048,9 +1053,9 @@ body {
 
 .qr-links-box {
     margin-top: 32px;
-    padding: 20px 24px;
+    padding: 8px 0;
 
-    width: 280px;
+    width: fill-available;
 
     background: #F6FEFF;
     border: 2px solid #00500D;
@@ -1067,10 +1072,11 @@ body {
 .qr-links-box a {
     display: flex;
     align-items: center;
-    gap: 16px;
+    justify-content: center;
+    gap: clamp(10px, 1.2vw, 16px);
+    padding: clamp(4px, 0.8vw, 8px);
 
     font-family: 'Inder', sans-serif;
-    padding: 8px;
     color: #0000EE;
     font-size: 16px;
     text-decoration: none;
@@ -1241,6 +1247,17 @@ body {
     .feature-row:nth-child(3) {
         grid-column: 1 / -1;
         justify-self: center;
+    }
+
+    .qr-links-box {
+        padding: 20px 24px;
+        width: fill-available;
+        gap: 14px;
+    }
+
+    .qr-links-box a {
+        gap: 16px;
+        padding: 8px;
     }
 
 }
@@ -1510,21 +1527,16 @@ body {
 
 
 .intro-section {
-
     width: 100%;
-
     background: rgba(0, 80, 13, 0.9);
-
 }
 
 
 .intro-container {
-
     width: 100%;
     max-width: 1500px;
-
     margin: 0 auto;
-    padding: 80px 40px;
+    padding: 100px 32px;
 
     display: grid;
 
@@ -1618,8 +1630,8 @@ body {
 
     display: flex;
     justify-content: center;
+    justify-self: end;
 }
-
 
 .intro-video-frame {
 
@@ -1649,6 +1661,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-self: end;
 }
 
 .intro-weed-image {
@@ -1696,6 +1709,16 @@ body {
       grid-column: 1 / -1;
 
     }
+
+    .intro-video-container {
+
+    justify-self: center;
+    }
+
+    .intro-right {
+    justify-self: center;
+    }
+
 }
 
 
@@ -1970,22 +1993,19 @@ body {
 
     width: 100%;
     background: rgba(255,255,255,0.7);
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
-
 .enthusiasts-container {
-    width: 90%;
-
+    width: 100%;
     max-width: 1500px;
+    box-sizing: border-box;
+    padding: 0 32px;
     margin: 0 auto;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    
-    position: relative;
-    z-index: 1;
 }
 
 
@@ -1998,6 +2018,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-self: start;
 }
 
 
@@ -2076,6 +2097,9 @@ body {
 .enthusiasts-content {
 
     text-align: center;
+    justify-self: center;
+    width: 100%;
+
 
 }
 
@@ -2124,7 +2148,7 @@ body {
     align-items: center;
 
     text-align: center;
-
+    justify-self: end;
 }
 
 
@@ -2218,6 +2242,14 @@ body {
     .enthusiasts-right {
         order: 3;
     }
+
+    .enthusiasts-left {
+    justify-self: center;
+    }
+
+    .enthusiasts-right {
+    justify-self: center;
+    }
 }
 
 
@@ -2275,6 +2307,8 @@ body {
 
 
 
+
+
 /* ============================= */
 /* WEED MATCH TAGS SECTION */
 /* ============================= */
@@ -2284,7 +2318,7 @@ body {
 
     width: 100%;
     background: rgba(0,80,13,0.9);
-    padding: 64px 0 32px;
+    padding: 100px 32px;
 }
 
 
@@ -2299,11 +2333,14 @@ body {
 
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: clamp(
+    32px,
+    calc(32px + 132 * ((100vw - 1000px) / 500)),
+    164px
+);
     position: relative;
 
     z-index: 1;
-
 }
 
 
@@ -2667,7 +2704,7 @@ align-items: stretch;
 .contact-form input,
 .contact-form textarea{
     width:100%;
-    padding:8px 16px;
+    padding: 16px 16px;
     margin-top:8px;
 
     border: none;
@@ -2770,10 +2807,10 @@ align-items: stretch;
     width:132px;
     height:48px;
 
-    background:rgba(0,80,13,0.9);
-    color:#F6FEFF;
+    background: rgba(255,255,255,0.9);
+    color:#00500D;
 
-    border:1px solid #F6FEFF;
+    border:1px solid #00500D;
     border-radius:8px;
 
     box-shadow:0 10px 25px rgba(0,0,0,0.4);
@@ -2826,6 +2863,94 @@ align-items: stretch;
 
     cursor:pointer;
 }
+
+
+@media (max-width:1100px) {
+
+    /* Stack Name + Email */
+
+    .form-row {
+        flex-direction:column;
+        gap:32px;
+    }
+
+    /* Stack bottom row */
+
+    .form-bottom-row {
+        flex-direction:column;
+        align-items:flex-start;
+        gap:32px;
+    }
+
+    /* Keep file section left */
+
+    .file-group {
+        width:132px;
+        align-items:flex-start;
+    }
+
+    .file-list {
+        width:132px;
+        text-align:center;
+    }
+
+    /* Submit goes underneath and fills form width */
+
+    .contact-submit {
+        width:100%;
+        height:48px;
+        align-self:stretch;
+    }
+
+}
+
+
+
+@media (max-width:700px) {
+
+    /* Stack Contact + Form */
+
+    .contact-form-section {
+    padding:64px 0 64px 0;
+    }
+    
+    .contact-form-container {
+        flex-direction:column;
+        row-gap:32px;
+        column-gap:0;
+    }
+
+    /* Contact section full width */
+
+    .contact-content {
+
+        width:100%;
+        text-align:center;
+    }
+
+    /* Sticky no longer needed */
+
+    .sticky-inner {
+
+        position:static;
+    }
+
+    /* Form full width */
+
+    .contact-form-wrapper {
+
+        width:100%;
+    }
+
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -2959,11 +3084,11 @@ align-items: stretch;
 @media (max-width: 850px) {
 
     .contact-faq-section {
-    padding: 64px 0 64px 0;
+    padding: 64px 0;
 }
 
 .faq-content {
-    margin-top: 64px;
+    margin-top: 0;
 }
     
 .faq-accordion {
