@@ -2480,7 +2480,7 @@ body {
 @media (max-width:648px) {
 
     .tags-container {
-    padding:64px 16px;
+    padding:64px 16px 32px 16px;
     }
 
     .tags-container {
@@ -2686,9 +2686,9 @@ body {
 
 @media (max-width:700px) {
 
-    .subscription-section {
-    padding: 32px 32px 64px 32px;
-}
+    .subscription-container {
+    padding: 64px 0;
+    }
 
     .subscription-desktop {
         display: none;
@@ -3033,7 +3033,7 @@ body {
     /* Stack Contact + Form */
 
     .contact-form-section {
-    padding:64px 0 64px 0;
+    padding:32px 16px 64px 16px;
     }
     
     .contact-form-container {
@@ -3091,7 +3091,7 @@ body {
 .contact-faq-section {
     width: 100%;
     background: rgba(255,255,255,0.7);
-    padding: 64px 0;
+    padding: 64px 0 100px 0;
 }
 
 .faq-content {
@@ -3205,7 +3205,7 @@ body {
 @media (max-width: 850px) {
 
     .contact-faq-section {
-    padding: 64px 0;
+    padding: 64px 0 100px 0;
 }
 
 .faq-content {
