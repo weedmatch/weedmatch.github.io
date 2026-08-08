@@ -356,3 +356,137 @@ updateSubscriptionSlider();
 
 
 
+
+
+
+
+
+
+
+// Contact form
+
+const fileInput = document.getElementById("attachment");
+const fileList = document.querySelector(".file-list");
+
+fileInput.addEventListener("change", () => {
+
+    if (fileInput.files.length === 0) {
+
+        fileList.textContent = "No file chosen";
+
+    } else {
+
+        fileList.textContent = Array.from(fileInput.files)
+            .map(file => file.name)
+            .join(", ");
+
+    }
+
+});
+
+
+
+const form = document.getElementById("contactForm");
+
+const submitButton = form.querySelector(".contact-submit");
+
+form.addEventListener("submit", async (e) => {
+
+    e.preventDefault();
+
+    submitButton.disabled = true;
+
+    let dots = 0;
+
+    const loadingAnimation = setInterval(() => {
+
+        dots = dots >= 3 ? 1 : dots + 1;
+
+        submitButton.textContent =
+            "Sending" + ".".repeat(dots);
+
+    }, 400);
+
+
+    const scriptURL = "https://script.google.com/macros/s/AKfycbw6qxVG919XL0wcwfSFmYHLi_YJb4oWk7PjcsIoDBp-Pq_X2o0hKze__bW5E-YLjsg/exec";
+    
+    const file = fileInput.files[0];
+
+    let fileData = null;
+
+
+    // Convert file to Base64
+
+    if (file) {
+
+        fileData = await new Promise((resolve, reject) => {
+
+            const reader = new FileReader();
+
+            reader.onload = () => {
+
+                resolve({
+                    name: file.name,
+                    type: file.type,
+                    data: reader.result
+                });
+
+            };
+
+            reader.onerror = reject;
+
+            reader.readAsDataURL(file);
+
+        });
+
+    }
+
+
+    const formObject = {
+
+        fullname: form.fullname.value,
+        email: form.email.value,
+        inquiry: form.inquiry.value,
+        message: form.message.value,
+        file: fileData
+
+    };
+
+
+    try {
+
+        await fetch(scriptURL, {
+
+            method: "POST",
+            body: JSON.stringify(formObject)
+
+        });
+
+
+        clearInterval(loadingAnimation);
+
+        submitButton.textContent = "Submit";
+        submitButton.disabled = false;
+
+
+        alert("Message sent!");
+
+        form.reset();
+
+        fileList.textContent = "No file chosen";
+
+
+    } catch (error) {
+
+        clearInterval(loadingAnimation);
+
+        submitButton.textContent = "Submit";
+        submitButton.disabled = false;
+
+        console.error(error);
+
+        alert("Message not sent.");
+
+    }
+
+});

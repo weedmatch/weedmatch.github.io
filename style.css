@@ -58,7 +58,7 @@ body {
 /* Header */
 .hero-header {
     position: absolute;
-    top: 32px;
+    top: 16px;
     left: 50%;
 
     transform: translateX(-50%);
@@ -73,7 +73,6 @@ body {
     justify-content: space-between;
 
     height: 80px;
-
     z-index: 10;
 }
 
@@ -2761,12 +2760,12 @@ body {
     justify-content:center;
     align-items:flex-start;
 
-    gap: 164px;
+    gap: clamp(32px, 11vw, 164px);
 }
 
 .contact-form-section {
     width:100%;
-    padding:100px 0;
+    padding:100px 32px;
     background: rgba(255,255,255,0.7);
     overflow: visible;
 }
@@ -2817,11 +2816,41 @@ body {
     flex-direction:column;
     gap: 32px;
 }
-
 .contact-form-wrapper {
     width:55%;
-
 }
+
+
+/* INQUIRY TYPE */
+
+.contact-form .form-group label[for="inquiry"] {
+    color:#00500D;
+    padding-right: 16px;
+}
+
+.contact-form select {
+
+    width:200px;
+
+    padding:16px;
+    margin-top:8px;
+
+    border:none;
+    border-bottom:1px solid #568360;
+    border-radius:0 0 8px 8px;
+
+    background:rgba(255,255,255,0.5);
+    filter:drop-shadow(0 10px 25px rgba(0,0,0,0.4));
+
+    font-family:'Inder',sans-serif;
+    font-size:16px;
+    color:#00500D;
+
+    outline:none;
+    cursor:pointer;
+}
+
+
 
 .contact-form input,
 .contact-form textarea{
@@ -2841,6 +2870,14 @@ body {
     color:#00500D;
 
     outline:none;
+}
+
+.form-group select {
+    color: rgba(0,80,13,0.6);
+}
+
+.form-group select:valid {
+    color:#00500D;
 }
 
 .contact-form input::placeholder,
