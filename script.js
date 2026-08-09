@@ -368,7 +368,22 @@ updateSubscriptionSlider();
 const fileInput = document.getElementById("attachment");
 const fileList = document.querySelector(".file-list");
 
+const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10 MB
+
 fileInput.addEventListener("change", () => {
+
+    for (const file of fileInput.files) {
+
+        if (file.size > MAX_FILE_SIZE) {
+
+            alert(`"${file.name}" is larger than 10 MB. Please choose a smaller file.`);
+
+            fileInput.value = "";
+            fileList.textContent = "No file chosen";
+
+            return;
+        }
+    }
 
     if (fileInput.files.length === 0) {
 
@@ -383,6 +398,7 @@ fileInput.addEventListener("change", () => {
     }
 
 });
+
 
 
 
@@ -455,12 +471,18 @@ form.addEventListener("submit", async (e) => {
 
     try {
 
-        await fetch(scriptURL, {
+        const response = await fetch(scriptURL, {
 
-            method: "POST",
-            body: JSON.stringify(formObject)
+    method: "POST",
+    body: JSON.stringify(formObject)
 
-        });
+});
+
+const result = await response.text();
+
+if (result !== "Success") {
+    throw new Error(result);
+}
 
 
         clearInterval(loadingAnimation);

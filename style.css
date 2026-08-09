@@ -2759,14 +2759,14 @@ body {
     display:flex;
     justify-content:center;
     align-items:flex-start;
+    background: rgba(255,255,255,0.7);
+    padding:100px 32px;
 
     gap: clamp(32px, 11vw, 164px);
 }
 
 .contact-form-section {
     width:100%;
-    padding:100px 32px;
-    background: rgba(255,255,255,0.7);
     overflow: visible;
 }
 
@@ -2793,6 +2793,15 @@ body {
     line-height: 1.7;
     text-decoration: none;
 }
+
+.file-restriction-note {
+    font-family: 'Inder', sans-serif;
+    font-size: 14px !important;
+    color: #00500D;
+    opacity: 0.6;
+    margin-top: 16px;
+}
+
 
 
 
