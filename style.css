@@ -3032,6 +3032,25 @@ body {
 }
 
 
+.privacy-note {
+    margin-top: 32px;
+    font-family: 'Inder', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #00500D;
+    text-align: center;
+}
+
+.privacy-note a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+.privacy-note a:hover {
+    text-decoration: none;
+}
+
+
 
 /* CONTACT SUCCESS OVERLAY (flex) */
 
