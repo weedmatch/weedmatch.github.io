@@ -1076,7 +1076,7 @@
 
 <!-- Contact Us Section -->
 
-
+<section class="contact-form-section">
 
     <div class="contact-form-container">
 
@@ -1084,17 +1084,20 @@
 
         <div class="contact-content">
 
-             <div class="sticky-inner">
+            <div class="sticky-inner">
 
-            <h2>Contact Us</h2>
+                <h2>Contact Us</h2>
 
-            <p>
-                Kindly reach us here or
-            <br>
-                <a href="mailto:weedmatch@europe.com">weedmatch@europe.com</a>.
+                <p>
+                    Kindly reach us here or
+                    <br>
+                    <a href="mailto:weedmatch@europe.com">weedmatch@europe.com</a>.
+                </p>
 
-            </p>
-            <p class="file-restriction-note"> (PDF, JPG, PNG, DOC, DOCX • Max 10MB) </p>
+                <p class="file-restriction-note">
+                    (PDF, JPG, PNG, DOC, DOCX • Max 10MB)
+                </p>
+
             </div>
 
         </div>
@@ -1103,114 +1106,153 @@
         <!-- Right Column -->
 
         <div class="contact-form-wrapper">
-        <form id="contactForm" class="contact-form">
 
-    <!-- Name + Email Row -->
+            <form id="contactForm" class="contact-form">
 
-    <div class="form-row">
+                <!-- Name + Email Row -->
 
-        <div class="form-group">
+                <div class="form-row">
 
-            <label for="fullname">Name</label>
+                    <div class="form-group">
 
-            <input 
-                type="text"
-                id="fullname"
-                name="fullname"
-                placeholder="Enter name"
-                required>
+                        <label for="fullname">Name</label>
 
-        </div>
+                        <input 
+                            type="text"
+                            id="fullname"
+                            name="fullname"
+                            placeholder="Enter name"
+                            required>
 
-        <div class="form-group">
+                    </div>
 
-            <label for="email">Email</label>
+                    <div class="form-group">
 
-            <input 
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Enter email"
-                required>
+                        <label for="email">Email</label>
 
-        </div>
+                        <input 
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter email"
+                            required>
 
-    </div>
+                    </div>
 
-    <!-- Inquiry Type -->
+                </div>
 
-    <div class="form-group">
 
-        <label for="inquiry">Inquiry Type</label>
+                <!-- Inquiry Type -->
 
-        <select id="inquiry" name="inquiry" required>
+                <div class="form-group">
 
-            <option value="" disabled selected>
-                Select Inquiries
-            </option>
+                    <label for="inquiry">Inquiry Type</label>
 
-            <option value="Report Issues">
-                Report Issues
-            </option>
+                    <select id="inquiry" name="inquiry" required>
 
-            <option value="Careers">
-                Careers
-            </option>
+                        <option value="" disabled selected>
+                            Select Inquiries
+                        </option>
 
-            <option value="Med Providers">
-                Med Providers
-            </option>
+                        <option value="Report Issues">
+                            Report Issues
+                        </option>
 
-            <option value="Others">
-                Others
-            </option>
+                        <option value="Careers">
+                            Careers
+                        </option>
 
-        </select>
+                        <option value="Med Providers">
+                            Med Providers
+                        </option>
 
-    </div>
+                        <option value="Others">
+                            Others
+                        </option>
 
-    <!-- Message -->
+                    </select>
 
-    <div class="form-group">
+                </div>
 
-        <label for="message">Message</label>
 
-        <textarea
-            id="message"
-            name="message"
-            placeholder="Write message here..."
-            required></textarea>
+                <!-- Message -->
 
-    </div>
+                <div class="form-group">
 
-    <!-- File + Submit Row -->
+                    <label for="message">Message</label>
 
-    <div class="form-bottom-row">
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Write message here..."
+                        required></textarea>
 
-        <div class="file-group">
+                </div>
 
-            <label for="attachment" class="file-button">
 
-                Choose File
-            </label>
+                <!-- File + Submit Row -->
 
-            <input
-                type="file"
-                id="attachment"
-                name="attachment"
-                hidden>
+                <div class="form-bottom-row">
 
-            <div class="file-list">
-                No file chosen
-            
+                    <div class="file-group">
+
+                        <label for="attachment" class="file-button">
+                            Choose File
+                        </label>
+
+                        <input
+                            type="file"
+                            id="attachment"
+                            name="attachment"
+                            hidden>
+
+                        <div class="file-list">
+                            No file chosen
+                        </div>
+
+                    </div>
+
+                    <button type="submit" class="contact-submit">
+                        Submit
+                    </button>
+
+                </div>
+
+            </form>
+
+                <!-- Success Overlay -->
+    <!-- THIS IS WHERE IT GOES: AFTER contact-form-container -->
+
+    <div class="contact-success-overlay" id="contactSuccessOverlay">
+
+        <div class="contact-success-card">
+
+            <button
+                type="button"
+                class="contact-success-close"
+                id="contactSuccessClose"
+                aria-label="Close success message">
+                ×
+            </button>
+
+            <div class="contact-success-title">
+
+                <span class="success-check">✓</span>
+
+                <span>Sent</span>
+
             </div>
+
+            <p class="contact-success-message">
+
+                Thank you <span id="successFirstName"></span>.<br>
+                We will respond shortly.
+
+            </p>
+
         </div>
 
-        <button type="submit" class="contact-submit">
-            Submit
-        </button>
     </div>
-</form>
 
         </div>
 

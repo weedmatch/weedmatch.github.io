@@ -363,6 +363,7 @@ updateSubscriptionSlider();
 
 
 
+
 // Contact form
 
 const fileInput = document.getElementById("attachment");
@@ -491,11 +492,16 @@ if (result !== "Success") {
         submitButton.disabled = false;
 
 
-        alert("Message sent!");
+       const fullName = form.fullname.value.trim();
+       const firstName = fullName.split(/\s+/)[0];
 
-        form.reset();
+       document.getElementById("successFirstName").textContent = firstName;
 
-        fileList.textContent = "No file chosen";
+       document.getElementById("contactSuccessOverlay").style.display = "flex";
+
+       form.reset();
+
+       fileList.textContent = "No file chosen";
 
 
     } catch (error) {
@@ -511,4 +517,8 @@ if (result !== "Success") {
 
     }
 
+});
+
+document.getElementById("contactSuccessClose").addEventListener("click", () => {
+    document.getElementById("contactSuccessOverlay").style.display = "none";
 });

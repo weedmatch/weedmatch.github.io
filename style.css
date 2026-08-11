@@ -2767,10 +2767,7 @@ body {
 
 .contact-form-section {
     width:100%;
-    overflow: visible;
-}
-
-.contact-form-section {
+    position:relative;
     overflow: visible !important;
 }
 
@@ -2825,8 +2822,10 @@ body {
     flex-direction:column;
     gap: 32px;
 }
+
 .contact-form-wrapper {
     width:55%;
+    position:relative;
 }
 
 
@@ -3033,6 +3032,123 @@ body {
 }
 
 
+
+/* CONTACT SUCCESS OVERLAY (flex) */
+
+.contact-success-overlay {
+
+    position:absolute;
+    inset:-16px;
+    display:none;
+
+    align-items:center;
+    justify-content:center;
+
+    background: rgba(246, 254, 255, 0.25);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(1px);
+    border-radius: 8px;
+    z-index:100;
+}
+
+.contact-success-card {
+
+    position:relative;
+    width:min(90%, 500px);
+    padding:48px 32px;
+
+    background:#F6FEFF;
+
+    border:1px solid #00500D;
+    border-radius:20px;
+
+    text-align:center;
+    color:#00500D;
+
+    box-shadow:0 16px 40px rgba(0,0,0,0.35);
+}
+
+
+/* CLOSE BUTTON */
+
+.contact-success-close {
+
+    position:absolute;
+
+    top:12px;
+    right:16px;
+
+    width:48px;
+    height:48px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border:none;
+    background:none;
+
+    color:#00500D;
+
+    font-family:Arial,sans-serif;
+    font-size:28px;
+    font-weight:400;
+    cursor:pointer;
+}
+
+
+/* SENT */
+
+.contact-success-title {
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    gap:12px;
+
+    font-family:'Overlock',sans-serif;
+    font-size:28px;
+    font-weight:700;
+}
+
+
+.success-check {
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    width:32px;
+    height:32px;
+    border-radius:50%;
+
+    background:#00500D;
+    color:#F6FEFF;
+
+    font-family:Arial,sans-serif;
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+/* MESSAGE */
+
+.contact-success-message {
+
+    margin-top:24px;
+
+    font-family:'Inder',sans-serif;
+    font-size:16px;
+    line-height:1.7;
+
+    color:#00500D;
+}
+
+
+
+
 @media (max-width:1100px) {
 
     /* Stack Name + Email */
@@ -3080,12 +3196,14 @@ body {
 
     .contact-form-section {
     padding:32px 16px 64px 16px;
+    background: rgba(255,255,255,0.7);
     }
     
     .contact-form-container {
         flex-direction:column;
         row-gap:32px;
         column-gap:0;
+        background: none;
     }
 
     /* Contact section full width */
@@ -3111,7 +3229,6 @@ body {
     }
 
 }
-
 
 
 
