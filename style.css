@@ -2818,6 +2818,15 @@ body {
 /* CONTACT FORM SECTION */
 /* ============================= */
 
+
+.contact-form-section {
+    width:100%;
+    position:relative;
+    overflow: visible !important;
+    background: rgba(255,255,255,0.7);
+}
+
+
 .contact-form-container {
 
     width:100%;
@@ -2830,16 +2839,9 @@ body {
     display:flex;
     justify-content:center;
     align-items:flex-start;
-    background: rgba(255,255,255,0.7);
     padding:100px 32px;
 
     gap: clamp(32px, 11vw, 164px);
-}
-
-.contact-form-section {
-    width:100%;
-    position:relative;
-    overflow: visible !important;
 }
 
 .contact-content h2 {
