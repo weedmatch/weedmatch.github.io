@@ -1605,14 +1605,24 @@ body {
 .intro-section {
     width: 100%;
     background: rgba(0, 80, 13, 0.9);
+    padding-top: 80px;
 }
 
+
+/* Main title */
+.main-title {
+    font-family: 'Overlock', sans-serif;
+    font-weight: 700;
+    color: #F6FEFF;
+    font-size: 24px;
+    text-align: center;
+}
 
 .intro-container {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 100px 32px;
+    padding: 64px 32px 100px 32px;
 
     display: grid;
 
@@ -1621,8 +1631,6 @@ body {
     gap: 40px;
 }
 
-
-
 /* Column 1 */
 
 .intro-content {
@@ -1630,7 +1638,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: start;
 }
 
 
@@ -1647,7 +1655,7 @@ body {
     font-family: 'Overlock', sans-serif;
     font-weight: 700;
     color: #F6FEFF;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 
@@ -1857,6 +1865,11 @@ body {
     padding:0 16px;
 }
 
+/* Main title */
+.main-title {
+    font-size: 22px;
+}
+
 .intro-title-row h2 {
     font-size: 22px;
 }
@@ -1898,7 +1911,111 @@ body {
 }
 
 
+/* WEEKLY FEED */
 
+.weekly-feed-container {
+
+    width: 100%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+    padding: 100px 32px;
+
+    display: grid;
+    grid-template-columns: minmax(0, 500px) minmax(0, 200px);
+
+    align-items: center;
+    justify-content: center;
+
+    column-gap: 64px;
+}
+
+
+/* CONTENT */
+
+.weekly-feed-content {
+
+    width: 100%;
+    text-align: left;
+}
+
+.weekly-feed-content h2 {
+
+    font-family: 'Overlock', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    color: #F6FEFF;
+    text-align: center;
+
+    margin-bottom: 32px;
+
+}
+
+.weekly-feed-content p {
+
+    font-family: 'Inder', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: #F6FEFF;
+
+    margin: 0 auto;
+    max-width: 500px;
+
+}
+
+
+/* VIDEO */
+
+.weekly-feed-video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.weekly-feed-video video {
+
+    display: block;
+
+    width: 200px;
+    height: auto;
+
+    border: 1px solid #000;
+    border-radius: 26px;
+    overflow: hidden;
+
+    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.4));
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .weekly-feed-container {
+
+        grid-template-columns: 1fr;
+
+        row-gap: 64px;
+
+        padding: 64px 32px;
+
+    }
+
+    .weekly-feed-content {
+
+        order: 1;
+
+    }
+
+    .weekly-feed-video {
+
+        order: 2;
+
+    }
+
+}
 
 
 
