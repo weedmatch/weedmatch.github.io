@@ -676,7 +676,7 @@ body {
     height: auto;
     object-fit: contain;
 
-    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.2));
 }
 
 
@@ -739,7 +739,7 @@ body {
 .ios-icon {
     width: 64px;
     height: auto;
-    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.2));
 }
 
 .swipe-decoration img {
@@ -780,7 +780,7 @@ body {
     border: 6px solid #000000;
     border-radius: clamp(20px, 3vw, 36px);
     overflow: hidden;
-    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.2));
 }
 
 
@@ -1009,7 +1009,7 @@ body {
     border-radius: 26px;
 
     overflow: hidden;
-    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.2));
 }
 
 
@@ -1064,7 +1064,7 @@ body {
     flex-direction: column;
     gap: 14px;
 
-    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.2));
 }
 
 
@@ -1139,7 +1139,7 @@ body {
 
     text-align: center;
 
-    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.2));
 
     transition:
         background 0.3s ease,
@@ -1724,7 +1724,7 @@ body {
     border-radius: 26px;
     overflow: hidden;
 
-    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.2));
 
 }
 
@@ -1976,7 +1976,7 @@ body {
     border-radius: 26px;
     overflow: hidden;
 
-    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.2));
 }
 
 
@@ -2261,7 +2261,7 @@ body {
     height: auto;
     object-fit: contain;
 
-    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.2));
 }
 
 
@@ -2387,7 +2387,7 @@ body {
     height: auto;
     margin-top: 0;
 
-    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.2));
 
 }
 
@@ -2545,7 +2545,7 @@ body {
 
     gap:16px;
     color:#00500D;
-    filter:drop-shadow(0 16px 16px rgba(0,0,0,0.4));
+    filter:drop-shadow(0 8px 8px rgba(0,0,0,0.2));
 
 }
 
@@ -2787,7 +2787,7 @@ body {
 .subscription-desktop img,
 .subscription-slide-image img {
 
-    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.2));
 
 }
 
@@ -3012,7 +3012,7 @@ body {
     -webkit-backdrop-filter:blur(1px);
 
     border-radius:8px;
-    filter: drop-shadow(0 10px 25px rgba(0,0,0,0.3));
+    filter: drop-shadow(0 8px 8px rgba(0,0,0,0.2));
 }
 
 
@@ -3165,7 +3165,7 @@ body {
     border:1px solid #00500D;
     border-radius:8px;
 
-    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    filter: drop-shadow(0 8px 8px rgba(0,0,0,0.2));
 
     font-family:'Overlock',sans-serif;
     font-size:16px;
@@ -3208,7 +3208,7 @@ body {
     background:rgba(0,80,13,0.9);
     color:#F6FEFF;
 
-    box-shadow:0 10px 25px rgba(0,0,0,0.4);
+    filter: drop-shadow(0 8px 8px rgba(0,0,0,0.2));
 
     font-family:'Overlock',sans-serif;
     font-size:16px;
@@ -3269,7 +3269,7 @@ body {
     text-align:center;
     color:#00500D;
 
-    box-shadow:0 16px 40px rgba(0,0,0,0.35);
+    filter: drop-shadow(0 8px 8px rgba(0,0,0,0.3));
 }
 
 
@@ -3485,7 +3485,7 @@ body {
 
     border: 1px solid #F6FEFF;
     overflow: hidden;
-    filter: drop-shadow(0 10px 25px rgba(0,0,0,0.4));
+    filter: drop-shadow(0 8px 8px rgba(0,0,0,0.2));
 
 }
 
@@ -4111,7 +4111,7 @@ body {
     background: rgba(246,254,255,0.8);
     border-radius: 16px;
     border: 1px solid #568360;
-    filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.3));
 }
 
 .legal-page h1 {
