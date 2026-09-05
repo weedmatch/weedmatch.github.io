@@ -88,12 +88,14 @@ const languageOption = document.querySelector(".language-option");
 
 
 
+
+
+
 // Language Dropdown
 
 if (languageSelector && languageWrapper) {
 
     languageSelector.addEventListener("click", () => {
-        console.log("language clicked");
         languageWrapper.classList.toggle("open");
     });
 
@@ -104,19 +106,76 @@ if (languageOption && languageWrapper) {
 
     languageOption.addEventListener("click", () => {
 
-        const isGermanPage = window.location.pathname.includes("/de/");
+        const path = window.location.pathname;
+        const isGermanPage = path.includes("/de/");
+
+        const englishToGerman = {
+            "privacy.html": "datenschutz.html",
+            "terms.html": "nutzungsregeln.html",
+            "accessibility.html": "barrierefreiheit.html"
+        };
+
+        const germanToEnglish = {
+            "datenschutz.html": "privacy.html",
+            "nutzungsregeln.html": "terms.html",
+            "barrierefreiheit.html": "accessibility.html"
+        };
+
+        const currentPage = path.split("/").pop();
+
+
+        // =========================
+        // GERMAN → ENGLISH
+        // =========================
 
         if (isGermanPage) {
-            // German → English
-            window.location.href = "../index.html";
-        } else {
-            // English → German
-            window.location.href = "de/index.html";
+
+            // German legal page → English legal page
+            if (germanToEnglish[currentPage]) {
+
+                window.location.href =
+                    "../../pages/" + germanToEnglish[currentPage];
+
+            } 
+            
+            // German homepage → English homepage
+            else {
+
+                window.location.href = "../index.html";
+
+            }
+
+        }
+
+
+        // =========================
+        // ENGLISH → GERMAN
+        // =========================
+
+        else {
+
+            // English legal page → German legal page
+            if (englishToGerman[currentPage]) {
+
+                window.location.href =
+                    "../de/pages/" + englishToGerman[currentPage];
+
+            } 
+            
+            // English homepage → German homepage
+            else {
+
+                window.location.href = "de/index.html";
+
+            }
+
         }
 
     });
 
 }
+
+
 
 
 
