@@ -123,10 +123,7 @@ if (languageOption && languageWrapper) {
 
         const currentPage = path.split("/").pop();
 
-
-        // =========================
-        // GERMAN → ENGLISH
-        // =========================
+        
 
         if (isGermanPage) {
 
@@ -147,10 +144,6 @@ if (languageOption && languageWrapper) {
 
         }
 
-
-        // =========================
-        // ENGLISH → GERMAN
-        // =========================
 
         else {
 
