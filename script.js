@@ -93,34 +93,32 @@ const languageOption = document.querySelector(".language-option");
 if (languageSelector && languageWrapper) {
 
     languageSelector.addEventListener("click", () => {
-    console.log("language clicked");
-    languageWrapper.classList.toggle("open");
-});
+        console.log("language clicked");
+        languageWrapper.classList.toggle("open");
+    });
 
 }
 
 
-if (languageOption && selectedLanguage && languageWrapper) {
+if (languageOption && languageWrapper) {
 
     languageOption.addEventListener("click", () => {
 
-        if (selectedLanguage.textContent.trim() === "English") {
+        const isGermanPage = window.location.pathname.includes("/de/");
 
-            selectedLanguage.textContent = "Deutsch";
-            languageOption.textContent = "English";
-
+        if (isGermanPage) {
+            // German → English
+            window.location.href = "../index.html";
         } else {
-
-            selectedLanguage.textContent = "English";
-            languageOption.textContent = "Deutsch";
-
+            // English → German
+            window.location.href = "de/index.html";
         }
-
-        languageWrapper.classList.remove("open");
 
     });
 
 }
+
+
 
 
 
