@@ -405,6 +405,35 @@ updateSubscriptionSlider();
 
 
 
+// =============================
+// SUBSCRIPTION Images
+// =============================
+
+const path = window.location.pathname;
+const isGermanPage = path.includes("/de/");
+
+if (isGermanPage) {
+    document.querySelectorAll('img[src*="free-match.png"]').forEach(img => {
+        img.src = img.src.replace("free-match.png", "free-match-de.png");
+    });
+
+    document.querySelectorAll('img[src*="most-popular.png"]').forEach(img => {
+        img.src = img.src.replace("most-popular.png", "most-popular-de.png");
+    });
+
+    document.querySelectorAll('img[src*="sesh.png"]').forEach(img => {
+        img.src = img.src.replace("sesh.png", "sesh-de.png");
+    });
+}
+
+
+
+
+
+
+
+
+
 
 
 
