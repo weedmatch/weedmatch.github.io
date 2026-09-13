@@ -786,7 +786,7 @@ body {
 .phone-mockup {
     position: relative;
     width: clamp(180px, 18vw, 240px);
-    border: 6px solid #000000;
+    border: 2px solid #000000;
     border-radius: clamp(20px, 3vw, 36px);
     overflow: hidden;
     filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.2));
@@ -1014,7 +1014,7 @@ body {
     width: 160px;
     flex-shrink: 0;
 
-    border: 3px solid #000000;
+    border: 2px solid #000000;
     border-radius: 26px;
 
     overflow: hidden;
@@ -1132,7 +1132,7 @@ body {
 
     background: #00500D;
 
-    border: 1px solid #F6FEFF;
+    border: 2px solid #F6FEFF;
     border-radius: 16px;
 
     display: grid;
@@ -1729,7 +1729,7 @@ body {
 .intro-video-frame {
 
     width: 200px;
-    border: 1px solid #000;
+    border: 2px solid #000;
     border-radius: 26px;
     overflow: hidden;
 
@@ -1981,7 +1981,7 @@ body {
     width: 200px;
     height: auto;
 
-    border: 1px solid #000;
+    border: 2px solid #000;
     border-radius: 26px;
     overflow: hidden;
 
@@ -2791,6 +2791,7 @@ body {
     width: 200px;
     height: auto;
     object-fit: contain;
+
 }
 
 .subscription-desktop img,
