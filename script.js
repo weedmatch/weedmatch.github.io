@@ -313,6 +313,20 @@ faqItems.forEach(item => {
 
 
 
+// =============================
+// SUBSCRIPTION SETUP
+// =============================
+
+const isGermanPage = window.location.pathname.includes("/de/");
+const imgPath = isGermanPage ? "../assets/images/" : "assets/images/";
+const langSuffix = isGermanPage ? "-de" : "";
+
+const subscriptionPlans = [
+    `${imgPath}free-match${langSuffix}.png`,
+    `${imgPath}most-popular${langSuffix}.png`,
+    `${imgPath}sesh${langSuffix}.png`
+];
+
 
 // =============================
 // SUBSCRIPTION SLIDER
@@ -323,15 +337,6 @@ const leftArrow = document.querySelector(".left-arrow");
 const rightArrow = document.querySelector(".right-arrow");
 const subscriptionDots = document.querySelectorAll(".subscription-dot");
 
-
-const subscriptionPlans = [
-
-    "assets/images/free-match.png",
-    "assets/images/most-popular.png",
-    "assets/images/sesh.png"
-
-];
-
 let currentSubscription = 1;
 
 function updateSubscriptionSlider() {
@@ -339,97 +344,55 @@ function updateSubscriptionSlider() {
     subscriptionImage.style.opacity = "0";
     subscriptionImage.style.transform = "translateX(30px)";
 
-
     setTimeout(() => {
-
         subscriptionImage.src = subscriptionPlans[currentSubscription];
-
         subscriptionImage.style.transform = "translateX(0)";
         subscriptionImage.style.opacity = "1";
-
     }, 300);
 
-
-    subscriptionDots.forEach((dot, index)=>{
-        dot.classList.toggle(
-            "active",
-            index === currentSubscription
-        );
+    subscriptionDots.forEach((dot, index) => {
+        dot.classList.toggle("active", index === currentSubscription);
     });
 
-
     // Hide arrows at ends
-
-    if(currentSubscription === 0){
-
+    if (currentSubscription === 0) {
         leftArrow.style.visibility = "hidden";
         rightArrow.style.visibility = "visible";
-
-    }
-
-    else if(currentSubscription === subscriptionPlans.length - 1){
-
+    } else if (currentSubscription === subscriptionPlans.length - 1) {
         rightArrow.style.visibility = "hidden";
         leftArrow.style.visibility = "visible";
-    }
-
-    else {
-
+    } else {
         leftArrow.style.visibility = "visible";
         rightArrow.style.visibility = "visible";
     }
-
 }
 
-
-rightArrow.addEventListener("click", ()=>{
-
-    if(currentSubscription < subscriptionPlans.length - 1){
+rightArrow.addEventListener("click", () => {
+    if (currentSubscription < subscriptionPlans.length - 1) {
         currentSubscription++;
         updateSubscriptionSlider();
     }
-
 });
 
-
-leftArrow.addEventListener("click", ()=>{
-    if(currentSubscription > 0){
-
+leftArrow.addEventListener("click", () => {
+    if (currentSubscription > 0) {
         currentSubscription--;
         updateSubscriptionSlider();
     }
-
 });
 
 updateSubscriptionSlider();
 
 
-
 // =============================
-// SUBSCRIPTION Images
+// GERMAN DESKTOP CARDS
 // =============================
-
-const path = window.location.pathname;
-const isGermanPage = path.includes("/de/");
 
 if (isGermanPage) {
-    document.querySelectorAll('img[src*="free-match.png"]').forEach(img => {
-        img.src = img.src.replace("free-match.png", "free-match-de.png");
-    });
-
-    document.querySelectorAll('img[src*="most-popular.png"]').forEach(img => {
-        img.src = img.src.replace("most-popular.png", "most-popular-de.png");
-    });
-
-    document.querySelectorAll('img[src*="sesh.png"]').forEach(img => {
-        img.src = img.src.replace("sesh.png", "sesh-de.png");
+    document.querySelectorAll(".subscription-desktop img").forEach(img => {
+        img.src = img.src.replace(/\.png$/, "-de.png");
     });
 }
-
-
-
-
-
 
 
 
