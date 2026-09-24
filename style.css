@@ -539,6 +539,12 @@ body {
 }
 
 
+/* Hide Facebook social icons */
+.icon-frame:has(img[src*="icon-facebook"]) {
+    display: none;
+}
+
+
 /* Header Buttons Wrapper */
 
 .header-buttons {
