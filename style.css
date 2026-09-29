@@ -1828,16 +1828,19 @@ body {
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:40px;
+    padding: 60px 16px;
 }
 
 /* INTRO TOP */
 .intro-content{
     grid-column:1 / -1;
     width:100%;
+    max-width: none;
+    align-items: flex-start;
 }
 
 .intro-title-row{
-    justify-content:center;
+    justify-content:flex-start;
 }
 
 .intro-description{
@@ -1888,6 +1891,7 @@ body {
     
 .intro-content{
     width:100%;
+    max-width: none;
     align-items: flex-start;
 }
 
@@ -3871,7 +3875,7 @@ body {
 
         width:100%;
         background:rgba(0,80,13,0.9);
-        padding:32px 32px;
+        padding:16px;
         box-sizing:border-box;
         color:#F6FEFF;
 
