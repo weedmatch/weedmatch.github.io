@@ -1640,8 +1640,7 @@ body {
     padding: 64px 32px 100px 32px;
 
     display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     align-items: center;
     gap: 40px;
 }
@@ -1650,6 +1649,8 @@ body {
 
 .intro-content {
     width: 100%;
+    max-width: 380px;
+    justify-self: start;   /* hugs the left */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1726,11 +1727,11 @@ body {
 /* Video */
 
 .intro-video-container {
-
     display: flex;
     justify-content: center;
-    justify-self: end;
+    justify-self: center;  /* was: end */
 }
+
 
 .intro-video-frame {
 
@@ -1755,12 +1756,12 @@ body {
 /* Right Column */
 
 .intro-right {
-
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-self: end;
+    justify-self: end;     /* hugs the right */
+    max-width: 380px;
 }
 
 .intro-weed-image {
@@ -1868,7 +1869,8 @@ body {
 .intro-container{
     display:flex;
     flex-direction:column;
-    padding:0 16px;
+    box-sizing: border-box;
+    padding: 0 16px;
 }
 
 /* Main title */
@@ -1886,11 +1888,12 @@ body {
     
 .intro-content{
     width:100%;
+    align-items: flex-start;
 }
 
-.intro-title-row{
+.intro-title-row {
     margin-top: 64px;
-    justify-content:center;
+    justify-content: flex-start;
 }
 
 .intro-description{
